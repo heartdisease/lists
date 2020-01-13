@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/heartdisease/lists/issues"
   },
-  "homepage": "https://github.com/heartdisease/lists#readme"
+  "homepage": "https://github.com/heartdisease/lists#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
 }
