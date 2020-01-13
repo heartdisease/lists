@@ -1,0 +1,27 @@
+{
+  "name": "lists",
+  "version": "1.0.0",
+  "description": "A random collection of lists about stuff.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartdisease/lists.git"
+  },
+  "keywords": [
+    "list",
+    "word",
+    "language",
+    "random",
+    "arbitrary",
+    "collection"
+  ],
+  "author": "Christoph Matscheko",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/heartdisease/lists/issues"
+  },
+  "homepage": "https://github.com/heartdisease/lists#readme"
+}
