@@ -1,2 +1,3 @@
-# lists
-Lists with things.
+# Eine Sammlung willkürlicher Listen
+
+kT
