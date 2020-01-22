@@ -1,6 +1,7 @@
 # Bildungssprache
 
-Eine Liste mit deutschen Wörtern deren Verwendung einen klüger erscheinen lässt als man ist.
+Eine Liste mit deutschen Wörtern deren Verwendung einen klüger erscheinen lässt
+als man ist.
 
 | Wort/Ausdruck             | Bedeutung |
 | ------------------------- | --------- |
@@ -44,13 +45,14 @@ Eine Liste mit deutschen Wörtern deren Verwendung einen klüger erscheinen läs
 | despektierlich            | ???       |
 | dezisionistisch           | ???       |
 | Dichotomie, die           | ???       |
-| dirimieren                | ???       |
 | disparat                  | ???       |
+| dirimieren                | ???       |
 | dräuen                    | ???       |
 | Duktus, der               | ???       |
 | düpieren                  | ???       |
-| emphatisch                | ???       |
+| eingedenk                 | ???       |
 | Enquete, die              | ???       |
+| emphatisch                | ???       |
 | epistemisch               | ???       |
 | evozieren                 | ???       |
 | exkulpieren               | ???       |
@@ -58,38 +60,40 @@ Eine Liste mit deutschen Wörtern deren Verwendung einen klüger erscheinen läs
 | fingiert                  | ???       |
 | frivol                    | ???       |
 | Gaudium, das              | ???       |
-| Gemengelage, die          | ???       |
 | Genese, die               | ???       |
+| Gemengelage, die          | ???       |
 | gerieren                  | ???       |
 | grosso modo               | ???       |
 | gut anstehen              | ???       |
 | Hermeneutik, die          | ???       |
 | Hybris, die               | ???       |
-| Impetus, der              | ???       |
 | in dubio pro reo          | ???       |
 | inkoherent                | ???       |
 | inkommensurabel           | ???       |
 | insinuieren               | ???       |
 | Insurgenz, die            | ???       |
+| Intimus, der              | ???       |
 | Invektive, die            | ???       |
+| Impetus, der              | ???       |
 | jovial                    | ???       |
 | junktim                   | ???       |
 | Junktimierung, die        | ???       |
 | Kakofonie, die            | ???       |
 | kalmieren                 | ???       |
-| Kaustik, die              | ???       |
 | kaustisch                 | ???       |
+| Kaustik, die              | ???       |
 | kohärent                  | ???       |
 | Kohäsion, die             | ???       |
 | kokettieren               | ???       |
+| kolportieren              | ???       |
 | Kolportage, die           | ???       |
-| kolportieren              | ???       |
-| kolportieren              | ???       |
 | Kongruenz, die            | ???       |
 | Konkordat, das            | ???       |
 | Konsonanz, die            | ???       |
 | konstatieren              | ???       |
 | kontingent                | ???       |
+| Konvolut, das             | ???       |
+| kolportieren              | ???       |
 | Kuratel, das              | ???       |
 | Kybernetik, die           | ???       |
 | lakonisch                 | ???       |
@@ -99,40 +103,43 @@ Eine Liste mit deutschen Wörtern deren Verwendung einen klüger erscheinen läs
 | Liaision, die             | ???       |
 | Libertinage, die          | ???       |
 | mäandern                  | ???       |
-| Machination, die          | ???       |
-| Magnat, der               | ???       |
-| magnum opus               | ???       |
-| Makulatur, die            | ???       |
 | mändern                   | ???       |
+| Machination, die          | ???       |
+| magnum opus               | ???       |
+| Magnat, der               | ???       |
+| Makulatur, die            | ???       |
 | Menetekel, das            | ???       |
 | mondän                    | ???       |
 | Moratorium, das           | ???       |
 | Nimbus, der               | ???       |
 | notabene                  | ???       |
-| oktroyieren               | ???       |
-| Ombudsmann, der           | ???       |
 | opportun                  | ???       |
+| Ombudsmann, der           | ???       |
+| oktroyieren               | ???       |
 | oratorisch                | ???       |
 | Orkus, der                | ???       |
 | ostentativ                | ???       |
 | paritätisch               | ???       |
 | pars pro toto             | ???       |
 | perfide                   | ???       |
+| Pharisäertum, das         | ???       |
 | Platitüde, die            | ???       |
 | Plebiszit, das            | ???       |
 | pontifizieren             | ???       |
 | postulieren               | ???       |
-| Prämisse, die             | ???       |
 | präsumtiv                 | ???       |
+| Prämisse, die             | ???       |
 | pro bono                  | ???       |
+| probat                    | ???       |
+| Prämisse, die             | ???       |
 | punzieren                 | ???       |
 | Räson, die                | ???       |
 | regredieren               | ???       |
 | Regress, der              | ???       |
 | Rekonvaleszenz, die       | ???       |
 | Resprise, die             | ???       |
-| restringieren             | ???       |
 | Reuse, die                | ???       |
+| restringieren             | ???       |
 | rezipieren                | ???       |
 | Scharade, die             | ???       |
 | Scholastik, die           | ???       |
@@ -141,8 +148,8 @@ Eine Liste mit deutschen Wörtern deren Verwendung einen klüger erscheinen läs
 | sintemal                  | ???       |
 | Sophisma, das             | ???       |
 | stringent                 | ???       |
-| subkutan                  | ???       |
 | sublimieren               | ???       |
+| subkutan                  | ???       |
 | Subsidiarität, die        | ???       |
 | subsumieren               | ???       |
 | subversiv                 | ???       |
