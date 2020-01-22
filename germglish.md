@@ -1,6 +1,7 @@
 # Germglish - German English
 
-Eine Liste mit deutschen Wörtern die direkt in den englischen Sprachgebrauch übergegangen sind.
+Eine Liste mit deutschen Wörtern die direkt in den englischen Sprachgebrauch
+übergegangen sind.
 
 - abseiling
 - angst
@@ -26,6 +27,7 @@ Eine Liste mit deutschen Wörtern die direkt in den englischen Sprachgebrauch ü
 - rucksack
 - schadenfreude
 - schmaltz
+- schnaps
 - schnitzel
 - sonder
 - spiel
