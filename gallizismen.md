@@ -1,6 +1,7 @@
 # Gallizismen
 
-Eine Liste mit Wörtern die offensichtlich aus dem Französischen stammen, aber im Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sind.
+Eine Liste mit Wörtern die offensichtlich aus dem Französischen stammen, aber im
+Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sind.
 
 | Wort/Begriff             | Bedeutung |
 | ------------------------ | --------- |
