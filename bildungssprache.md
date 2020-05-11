@@ -7,17 +7,27 @@ als man ist.
 | ------------------------- | --------- |
 | abhold                    | ???       |
 | Abolitionismus, der       | ???       |
+| absentieren               | ???       |
 | ad hominem                | ???       |
 | ädiquat                   | ???       |
 | affichieren               | ???       |
 | Ägide, die                | ???       |
+| Alegorie, die             | ???       |
 | aliquot                   | ???       |
+| allenthalben              | ???       |
 | alterieren                | ???       |
+| Amalgam, das              | ???       |
+| ambivalent                | ???       |
+| amikal                    | ???       |
 | amorph                    | ???       |
 | Anachronismus, der        | ???       |
 | Anamnese, die             | ???       |
+| Animosität, die           | ???       |
 | Anthropozän, das          | ???       |
+| antipodisch               | ???       |
+| aphoristisch              | ???       |
 | apodiktisch               | ???       |
+| Apo­kryph, das            | ???       |
 | Apotheose, die            | ???       |
 | arriviert                 | ???       |
 | Atavismus, der            | ???       |
@@ -29,44 +39,59 @@ als man ist.
 | bellizistisch             | ???       |
 | Biwak, das                | ???       |
 | Bonmot, das               | ???       |
-| Bonmot, das               | ???       |
 | Bonvivant, der            | ???       |
 | Brosamen, die             | ???       |
 | Causa prima, die          | ???       |
 | Chuzpe, die               | ???       |
 | Citoyen, der              | ???       |
 | Contenance, die           | ???       |
+| Credo, das                | ???       |
 | cum grano salis           | ???       |
+| Deduktion, die            | ???       |
 | Defätismus, der           | ???       |
 | degoutant                 | ???       |
+| dekretieren               | ???       |
 | delektieren               | ???       |
 | den Rubikon überschreiten | ???       |
 | desavouieren              | ???       |
 | despektierlich            | ???       |
 | dezisionistisch           | ???       |
 | Dichotomie, die           | ???       |
-| disparat                  | ???       |
+| Diktion, die              | ???       |
 | dirimieren                | ???       |
+| disparat                  | ???       |
 | dräuen                    | ???       |
 | Duktus, der               | ???       |
 | düpieren                  | ???       |
 | eingedenk                 | ???       |
-| Enquete, die              | ???       |
+| eklektizistisch           | ???       |
+| emergent                  | ???       |
 | emphatisch                | ???       |
+| Enquete, die              | ???       |
+| epigonal                  | ???       |
 | epistemisch               | ???       |
+| Erkenntnistheorie, die    | ???       |
+| Etat, das                 | ???       |
 | evozieren                 | ???       |
 | exkulpieren               | ???       |
+| externalisieren           | ???       |
 | Fak­si­mi­le, das         | ???       |
 | fingiert                  | ???       |
 | frivol                    | ???       |
 | Gaudium, das              | ???       |
-| Genese, die               | ???       |
 | Gemengelage, die          | ???       |
+| Genese, die               | ???       |
 | gerieren                  | ???       |
+| Gestus, der               | ???       |
+| Glosse, die               | ???       |
 | grosso modo               | ???       |
 | gut anstehen              | ???       |
+| habhaft machen            | ???       |
+| Hegemonie, die            | ???       |
 | Hermeneutik, die          | ???       |
 | Hybris, die               | ???       |
+| hypokondrisch             | ???       |
+| Impetus, der              | ???       |
 | in dubio pro reo          | ???       |
 | inkoherent                | ???       |
 | inkommensurabel           | ???       |
@@ -74,94 +99,130 @@ als man ist.
 | Insurgenz, die            | ???       |
 | Intimus, der              | ???       |
 | Invektive, die            | ???       |
-| Impetus, der              | ???       |
 | jovial                    | ???       |
 | junktim                   | ???       |
 | Junktimierung, die        | ???       |
 | Kakofonie, die            | ???       |
 | kalmieren                 | ???       |
-| kaustisch                 | ???       |
+| kategorial                | ???       |
 | Kaustik, die              | ???       |
+| kaustisch                 | ???       |
+| Kautelen, die             | ???       |
+| Klüngel, die              | ???       |
 | kohärent                  | ???       |
 | Kohäsion, die             | ???       |
 | kokettieren               | ???       |
-| kolportieren              | ???       |
+| Kolloquien, die           | ???       |
 | Kolportage, die           | ???       |
+| kolportieren              | ???       |
+| Kombüse, die              | ???       |
 | Kongruenz, die            | ???       |
 | Konkordat, das            | ???       |
 | Konsonanz, die            | ???       |
 | konstatieren              | ???       |
+| konstitutiv               | ???       |
 | kontingent                | ???       |
 | Konvolut, das             | ???       |
-| kolportieren              | ???       |
 | Kuratel, das              | ???       |
+| kursorisch                | ???       |
 | Kybernetik, die           | ???       |
 | lakonisch                 | ???       |
+| Lamento, das              | ???       |
 | Lar­mo­yanz, die          | ???       |
+| Läsion, die               | ???       |
 | Lateralisierung, die      | ???       |
 | Leit­fos­sil, das         | ???       |
 | Liaision, die             | ???       |
 | Libertinage, die          | ???       |
 | mäandern                  | ???       |
-| mändern                   | ???       |
 | Machination, die          | ???       |
-| magnum opus               | ???       |
 | Magnat, der               | ???       |
+| magnum opus               | ???       |
 | Makulatur, die            | ???       |
 | Menetekel, das            | ???       |
+| Mikrobiom, das            | ???       |
 | mondän                    | ???       |
 | Moratorium, das           | ???       |
+| Neologismus, der          | ???       |
+| neuralgischer Punkt, der  | ???       |
 | Nimbus, der               | ???       |
+| nolens volens             | ???       |
+| nosokomial                | ???       |
 | notabene                  | ???       |
-| opportun                  | ???       |
-| Ombudsmann, der           | ???       |
 | oktroyieren               | ???       |
+| Ombudsmann, der           | ???       |
+| opportun                  | ???       |
 | oratorisch                | ???       |
 | Orkus, der                | ???       |
+| Orthographie, die         | ???       |
 | ostentativ                | ???       |
+| Pa­li­sa­de, die          | ???       |
 | paritätisch               | ???       |
+| parlieren                 | ???       |
 | pars pro toto             | ???       |
+| paternalistisch           | ???       |
+| perdu                     | ???       |
 | perfide                   | ???       |
+| Petitesse, die            | ???       |
 | Pharisäertum, das         | ???       |
 | Platitüde, die            | ???       |
 | Plebiszit, das            | ???       |
 | pontifizieren             | ???       |
+| Popanz, die               | ???       |
 | postulieren               | ???       |
-| präsumtiv                 | ???       |
 | Prämisse, die             | ???       |
+| präsumtiv                 | ???       |
+| Prävalenz, die            | ???       |
+| Priapismus, der           | ???       |
+| Primat, der               | ???       |
 | pro bono                  | ???       |
 | probat                    | ???       |
-| Prämisse, die             | ???       |
+| Proklamation, die         | ???       |
 | punzieren                 | ???       |
 | Räson, die                | ???       |
+| Ratifizierung, die        | ???       |
+| Reaktanz, die             | ???       |
 | regredieren               | ???       |
 | Regress, der              | ???       |
+| Reigen, der               | ???       |
 | Rekonvaleszenz, die       | ???       |
 | Resprise, die             | ???       |
-| Reuse, die                | ???       |
 | restringieren             | ???       |
+| Reuse, die                | ???       |
+| reüssieren                | ???       |
 | rezipieren                | ???       |
+| satisfaktionsfähig        | ???       |
 | Scharade, die             | ???       |
 | Scholastik, die           | ???       |
+| sekundieren               | ???       |
 | Semiotik, die             | ???       |
+| serologisch               | ???       |
 | Sezession, die            | ???       |
 | sintemal                  | ???       |
+| Solidität, die            | ???       |
 | Sophisma, das             | ???       |
+| Souverän, der             | ???       |
+| Stratifizierung, die      | ???       |
 | stringent                 | ???       |
-| sublimieren               | ???       |
 | subkutan                  | ???       |
+| sublimieren               | ???       |
 | Subsidiarität, die        | ???       |
 | subsumieren               | ???       |
 | subversiv                 | ???       |
 | sykophant                 | ???       |
+| Sykophantentum, das       | ???       |
+| Synopse, die              | ???       |
 | Talaren, die              | ???       |
 | Tautologie, die           | ???       |
+| Topos, der                | ???       |
 | Triumvirat, das           | ???       |
 | Ultima Ratio, die         | ???       |
 | unbotmäßig                | ???       |
 | unikal                    | ???       |
 | urgieren                  | ???       |
 | Usance, die               | ???       |
+| Valorisierung             | ???       |
 | veritabel                 | ???       |
+| verlustig gehen           | ???       |
 | Volte, die                | ???       |
 | vox populi                | ???       |
