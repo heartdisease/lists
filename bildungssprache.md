@@ -20,6 +20,7 @@ als man ist.
 | ambivalent                | ???       |
 | amikal                    | ???       |
 | amorph                    | ???       |
+| Amplifikator, der | ???       |
 | Anachronismus, der        | ???       |
 | Anamnese, die             | ???       |
 | Animosität, die           | ???       |
@@ -37,11 +38,13 @@ als man ist.
 | avisieren                 | ???       |
 | basal                     | ???       |
 | bellizistisch             | ???       |
+| Bellizismus, der | ???       |
 | Biwak, das                | ???       |
 | Bonmot, das               | ???       |
 | Bonvivant, der            | ???       |
 | Brosamen, die             | ???       |
 | Causa prima, die          | ???       |
+| Charité, die | ???       |
 | Chuzpe, die               | ???       |
 | Citoyen, der              | ???       |
 | Contenance, die           | ???       |
@@ -56,6 +59,7 @@ als man ist.
 | desavouieren              | ???       |
 | despektierlich            | ???       |
 | dezisionistisch           | ???       |
+| dialektisch | ???       |
 | Dichotomie, die           | ???       |
 | Diktion, die              | ???       |
 | dirimieren                | ???       |
@@ -67,16 +71,21 @@ als man ist.
 | eklektizistisch           | ???       |
 | emergent                  | ???       |
 | emphatisch                | ???       |
+| Empirie, die | ???       |
 | Enquete, die              | ???       |
 | epigonal                  | ???       |
 | epistemisch               | ???       |
+| Epistemologie, die | ???       |
 | Erkenntnistheorie, die    | ???       |
 | Etat, das                 | ???       |
+| Ethos, der | ???       |
 | evozieren                 | ???       |
+| Exegese, die | ???       |
 | exkulpieren               | ???       |
 | externalisieren           | ???       |
 | Fak­si­mi­le, das         | ???       |
 | fingiert                  | ???       |
+| flankieren | ???       |
 | frivol                    | ???       |
 | Gaudium, das              | ???       |
 | Gemengelage, die          | ???       |
@@ -93,17 +102,22 @@ als man ist.
 | hypokondrisch             | ???       |
 | Impetus, der              | ???       |
 | in dubio pro reo          | ???       |
+| infam | ???       |
+| Inferenz, die | ???       |
 | inkoherent                | ???       |
 | inkommensurabel           | ???       |
 | insinuieren               | ???       |
 | Insurgenz, die            | ???       |
+| intangibel | ???       |
 | Intimus, der              | ???       |
 | Invektive, die            | ???       |
 | jovial                    | ???       |
 | junktim                   | ???       |
 | Junktimierung, die        | ???       |
+| kakanisch | ???       |
 | Kakofonie, die            | ???       |
 | kalmieren                 | ???       |
+| karikieren | ???       |
 | kategorial                | ???       |
 | Kaustik, die              | ???       |
 | kaustisch                 | ???       |
@@ -115,14 +129,18 @@ als man ist.
 | Kolloquien, die           | ???       |
 | Kolportage, die           | ???       |
 | kolportieren              | ???       |
+| Kolumne, die | ???       |
 | Kombüse, die              | ???       |
+| kommensurabel | ???       |
 | Kongruenz, die            | ???       |
 | Konkordat, das            | ???       |
 | Konsonanz, die            | ???       |
 | konstatieren              | ???       |
 | konstitutiv               | ???       |
+| konstituieren | ???       |
 | kontingent                | ???       |
 | Konvolut, das             | ???       |
+| Konvergenz, die | ???       |
 | Kuratel, das              | ???       |
 | kursorisch                | ???       |
 | Kybernetik, die           | ???       |
@@ -139,18 +157,24 @@ als man ist.
 | Magnat, der               | ???       |
 | magnum opus               | ???       |
 | Makulatur, die            | ???       |
+| Maxime, die | ???       |
 | Menetekel, das            | ???       |
+| metaphysisch | ???       |
 | Mikrobiom, das            | ???       |
+| Modus Vivendi, der | ???       |
 | mondän                    | ???       |
 | Moratorium, das           | ???       |
+| multilateral | ???       |
 | Neologismus, der          | ???       |
 | neuralgischer Punkt, der  | ???       |
 | Nimbus, der               | ???       |
 | nolens volens             | ???       |
 | nosokomial                | ???       |
 | notabene                  | ???       |
+| Novum, das | ???       |
 | oktroyieren               | ???       |
 | Ombudsmann, der           | ???       |
+| Ontologie, die | ???       |
 | opportun                  | ???       |
 | oratorisch                | ???       |
 | Orkus, der                | ???       |
@@ -166,10 +190,12 @@ als man ist.
 | Petitesse, die            | ???       |
 | Pharisäertum, das         | ???       |
 | Platitüde, die            | ???       |
+| Phänotyp, der | ???       |
 | Plebiszit, das            | ???       |
 | pontifizieren             | ???       |
 | Popanz, die               | ???       |
 | postulieren               | ???       |
+| positivistisch | ???       |
 | Prämisse, die             | ???       |
 | präsumtiv                 | ???       |
 | Prävalenz, die            | ???       |
@@ -179,6 +205,7 @@ als man ist.
 | probat                    | ???       |
 | Proklamation, die         | ???       |
 | punzieren                 | ???       |
+| Quadratur des Kreises, die | ???       |
 | Räson, die                | ???       |
 | Ratifizierung, die        | ???       |
 | Reaktanz, die             | ???       |
@@ -186,6 +213,7 @@ als man ist.
 | Regress, der              | ???       |
 | Reigen, der               | ???       |
 | Rekonvaleszenz, die       | ???       |
+| replizieren | ???       |
 | Resprise, die             | ???       |
 | restringieren             | ???       |
 | Reuse, die                | ???       |
@@ -202,6 +230,7 @@ als man ist.
 | Solidität, die            | ???       |
 | Sophisma, das             | ???       |
 | Souverän, der             | ???       |
+| Stochastik, die | ???       |
 | Stratifizierung, die      | ???       |
 | stringent                 | ???       |
 | subkutan                  | ???       |
@@ -212,17 +241,24 @@ als man ist.
 | sykophant                 | ???       |
 | Sykophantentum, das       | ???       |
 | Synopse, die              | ???       |
+| Synkope, die | ???       |
 | Talaren, die              | ???       |
 | Tautologie, die           | ???       |
+| Taxonomie, die | ???       |
 | Topos, der                | ???       |
 | Triumvirat, das           | ???       |
 | Ultima Ratio, die         | ???       |
 | unbotmäßig                | ???       |
 | unikal                    | ???       |
+| unilateral | ???       |
 | urgieren                  | ???       |
 | Usance, die               | ???       |
-| Valorisierung             | ???       |
+| Valorisierung, die             | ???       |
+| vaskulär | ???       |
+| Verazität, die | ???       |
 | veritabel                 | ???       |
 | verlustig gehen           | ???       |
+| Vestibül, das | ???       |
+| Viskosität, die | ???       |
 | Volte, die                | ???       |
 | vox populi                | ???       |
