@@ -12,13 +12,14 @@ Sprachgebrauch vorkommen.
 | advocatus diaboli           | ???       |
 | alea iacta est              | ???       |
 | cogito ergo sum             | ???       |
+| contradictio in adjecto     | ???       |
 | cui bono?                   | ???       |
 | cuius regio, eius religio   | ???       |
 | cum hoc ergo propter hoc    | ???       |
 | de mortuis nihil nisi bonum | ???       |
 | et al                       | ???       |
-| ex falso quodlibet          | ???       |
 | ex cathedra                 | ???       |
+| ex falso quodlibet          | ???       |
 | in dubio pro reo            | ???       |
 | in situ                     | ???       |
 | ip­so fac­to                | ???       |
@@ -32,4 +33,3 @@ Sprachgebrauch vorkommen.
 | sine ira et studio          | ???       |
 | vita                        | ???       |
 | vulgo                       | ???       |
-| contradictio in adjecto     | ???       |
