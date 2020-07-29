@@ -8,11 +8,16 @@ als man ist.
 | abhold                     | ???       |
 | Abolitionismus, der        | ???       |
 | absentieren                | ???       |
+| Adept, der                 | ???       |
 | ad hominem                 | ???       |
+| adhärent                   | ???       |
 | ädiquat                    | ???       |
+| Adoleszenz, die            | ???       |
 | affichieren                | ???       |
+| affektiert                 | ???       |
 | Ägide, die                 | ???       |
 | Alegorie, die              | ???       |
+| Alliteration, die          | ???       |
 | aliquot                    | ???       |
 | allenthalben               | ???       |
 | alterieren                 | ???       |
@@ -24,6 +29,7 @@ als man ist.
 | Anachronismus, der         | ???       |
 | Anamnese, die              | ???       |
 | Animosität, die            | ???       |
+| Antipode, die              | ???       |
 | Anthropozän, das           | ???       |
 | antipodisch                | ???       |
 | aphoristisch               | ???       |
@@ -35,6 +41,7 @@ als man ist.
 | Atout, das                 | ???       |
 | attrahieren                | ???       |
 | autochthon                 | ???       |
+| Autologie, die             | ???       |
 | avisieren                  | ???       |
 | basal                      | ???       |
 | bellizistisch              | ???       |
@@ -51,10 +58,13 @@ als man ist.
 | Credo, das                 | ???       |
 | cum grano salis            | ???       |
 | Deduktion, die             | ???       |
+| deduzieren                 | ???       |
 | Defätismus, der            | ???       |
 | degoutant                  | ???       |
+| dekonstruktiv              | ???       |
 | dekretieren                | ???       |
 | delektieren                | ???       |
+| Delinquent, der            | ???       |
 | den Rubikon überschreiten  | ???       |
 | desavouieren               | ???       |
 | despektierlich             | ???       |
@@ -64,9 +74,12 @@ als man ist.
 | Diktion, die               | ???       |
 | dirimieren                 | ???       |
 | disparat                   | ???       |
+| disjunkt                   | ???       |
+| Dissidenz, die             | ???       |
 | dräuen                     | ???       |
 | Duktus, der                | ???       |
 | düpieren                   | ???       |
+| ehrenrührig                | ???       |
 | eingedenk                  | ???       |
 | eklektizistisch            | ???       |
 | emergent                   | ???       |
@@ -77,9 +90,11 @@ als man ist.
 | epistemisch                | ???       |
 | Epistemologie, die         | ???       |
 | Erkenntnistheorie, die     | ???       |
+| Es­sen­ti­a­lis­mus, der   | ???       |
 | Etat, das                  | ???       |
 | Ethos, der                 | ???       |
 | evozieren                  | ???       |
+| ex­al­tie­ren              | ???       |
 | Exegese, die               | ???       |
 | exkulpieren                | ???       |
 | externalisieren            | ???       |
@@ -87,19 +102,23 @@ als man ist.
 | fingiert                   | ???       |
 | flankieren                 | ???       |
 | frivol                     | ???       |
+| frugal                     | ???       |
 | Gaudium, das               | ???       |
 | Gemengelage, die           | ???       |
 | Genese, die                | ???       |
-| gerieren                   | ???       |
+| gerieren, sich             | ???       |
 | Gestus, der                | ???       |
 | Glosse, die                | ???       |
+| Glo­ri­o­le, die           | ???       |
 | grosso modo                | ???       |
 | gut anstehen               | ???       |
 | habhaft machen             | ???       |
 | Hegemonie, die             | ???       |
+| hermeneutisch              | ???       |
 | Hermeneutik, die           | ???       |
 | Hybris, die                | ???       |
 | hypokondrisch              | ???       |
+| idiosynkratisch            | ???       |
 | Impetus, der               | ???       |
 | in dubio pro reo           | ???       |
 | infam                      | ???       |
@@ -107,13 +126,17 @@ als man ist.
 | inkoherent                 | ???       |
 | inkommensurabel            | ???       |
 | insinuieren                | ???       |
+| in­s­tan­tan               | ???       |
+| instruktiv                 | ???       |
 | Insurgenz, die             | ???       |
 | intangibel                 | ???       |
+| intendieren                | ???       |
 | Intimus, der               | ???       |
 | Invektive, die             | ???       |
 | jovial                     | ???       |
 | junktim                    | ???       |
 | Junktimierung, die         | ???       |
+| Kandare, die               | ???       |
 | kakanisch                  | ???       |
 | Kakofonie, die             | ???       |
 | kalmieren                  | ???       |
@@ -133,17 +156,24 @@ als man ist.
 | Kombüse, die               | ???       |
 | kommensurabel              | ???       |
 | Kongruenz, die             | ???       |
+| konfligieren               | ???       |
 | Konkordat, das             | ???       |
 | Konsonanz, die             | ???       |
 | konstatieren               | ???       |
 | konstitutiv                | ???       |
 | konstituieren              | ???       |
 | kontingent                 | ???       |
+| Kontingenz, die            | ???       |
+| kontextualisieren          | ???       |
+| Konvent, der               | ???       |
 | Konvolut, das              | ???       |
 | Konvergenz, die            | ???       |
+| konzentrisch               | ???       |
 | Kuratel, das               | ???       |
 | kursorisch                 | ???       |
+| konstruktivistisch         | ???       |
 | Kybernetik, die            | ???       |
+| Lackmustest, der           | ???       |
 | lakonisch                  | ???       |
 | Lamento, das               | ???       |
 | Lar­mo­yanz, die           | ???       |
@@ -152,6 +182,7 @@ als man ist.
 | Leit­fos­sil, das          | ???       |
 | Liaision, die              | ???       |
 | Libertinage, die           | ???       |
+| li­zi­tie­ren              | ???       |
 | mäandern                   | ???       |
 | Machination, die           | ???       |
 | Magnat, der                | ???       |
@@ -162,6 +193,7 @@ als man ist.
 | metaphysisch               | ???       |
 | Mikrobiom, das             | ???       |
 | Modus Vivendi, der         | ???       |
+| Monade, die                | ???       |
 | mondän                     | ???       |
 | Moratorium, das            | ???       |
 | multilateral               | ???       |
@@ -172,6 +204,7 @@ als man ist.
 | nosokomial                 | ???       |
 | notabene                   | ???       |
 | Novum, das                 | ???       |
+| Nullhypothese, die         | ???       |
 | oktroyieren                | ???       |
 | Ombudsmann, der            | ???       |
 | Ontologie, die             | ???       |
@@ -187,7 +220,10 @@ als man ist.
 | paternalistisch            | ???       |
 | perdu                      | ???       |
 | perfide                    | ???       |
+| pe­ri­pa­te­tisch          | ???       |
+| perlustrieren              | ???       |
 | Petitesse, die             | ???       |
+| Phan­tas­ma, das           | ???       |
 | Pharisäertum, das          | ???       |
 | Platitüde, die             | ???       |
 | Phänotyp, der              | ???       |
@@ -198,6 +234,7 @@ als man ist.
 | positivistisch             | ???       |
 | Prämisse, die              | ???       |
 | präsumtiv                  | ???       |
+| präskriptiv                | ???       |
 | Prävalenz, die             | ???       |
 | Priapismus, der            | ???       |
 | Primat, der                | ???       |
@@ -209,16 +246,23 @@ als man ist.
 | Räson, die                 | ???       |
 | Ratifizierung, die         | ???       |
 | Reaktanz, die              | ???       |
+| reaktant                   | ???       |
 | regredieren                | ???       |
 | Regress, der               | ???       |
 | Reigen, der                | ???       |
 | Rekonvaleszenz, die        | ???       |
+| renitent                   | ???       |
+| Replik, die                | ???       |
 | replizieren                | ???       |
 | Resprise, die              | ???       |
+| Resorption, die            | ???       |
 | restringieren              | ???       |
 | Reuse, die                 | ???       |
+| Retorsion, die             | ???       |
 | reüssieren                 | ???       |
 | rezipieren                 | ???       |
+| Re­zi­p­ro­zi­tät, die     | ???       |
+| Riposte, die               | ???       |
 | satisfaktionsfähig         | ???       |
 | Scharade, die              | ???       |
 | Scholastik, die            | ???       |
@@ -226,6 +270,7 @@ als man ist.
 | Semiotik, die              | ???       |
 | serologisch                | ???       |
 | Sezession, die             | ???       |
+| Simulakrum, das            | ???       |
 | sintemal                   | ???       |
 | Solidität, die             | ???       |
 | Sophisma, das              | ???       |
@@ -236,16 +281,20 @@ als man ist.
 | subkutan                   | ???       |
 | sublimieren                | ???       |
 | Subsidiarität, die         | ???       |
+| Sub­s­ti­tu­ie­rung, die        | ???       |
 | subsumieren                | ???       |
 | subversiv                  | ???       |
 | sykophant                  | ???       |
 | Sykophantentum, das        | ???       |
+| Symposium, das             | ???       |
 | Synopse, die               | ???       |
 | Synkope, die               | ???       |
 | Talaren, die               | ???       |
 | Tautologie, die            | ???       |
+| taxativ                    | ???       |
 | Taxonomie, die             | ???       |
 | Topos, der                 | ???       |
+| Traktat, das               | ???       |
 | Triumvirat, das            | ???       |
 | Ultima Ratio, die          | ???       |
 | unbotmäßig                 | ???       |
@@ -262,3 +311,4 @@ als man ist.
 | Viskosität, die            | ???       |
 | Volte, die                 | ???       |
 | vox populi                 | ???       |
+| vulgo                      | ???       |
