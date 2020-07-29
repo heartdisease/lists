@@ -187,8 +187,8 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Kollage                  | ???       |
 | Kolporteur               | ???       |
 | Komfort                  | ???       |
-| Kompagnon                | ???       |
 | Kommuniqué               | ???       |
+| Kompagnon                | ???       |
 | Kontrolleur              | ???       |
 | Kotelette                | ???       |
 | Laissez-faire            | ???       |
@@ -267,8 +267,8 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Renaissance              | ???       |
 | Rendezvous               | ???       |
 | Rendite                  | ???       |
-| Rentiers                 | ???       |
 | Renommee                 | ???       |
+| Rentiers                 | ???       |
 | Reportage                | ???       |
 | Resavoire                | ???       |
 | Reserve                  | ???       |
