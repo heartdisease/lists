@@ -8,18 +8,18 @@ als man ist.
 | abhold                     | ???       |
 | Abolitionismus, der        | ???       |
 | absentieren                | ???       |
-| Adept, der                 | ???       |
 | ad hominem                 | ???       |
+| Adept, der                 | ???       |
 | adhärent                   | ???       |
 | ädiquat                    | ???       |
 | Adoleszenz, die            | ???       |
-| affichieren                | ???       |
 | affektiert                 | ???       |
+| affichieren                | ???       |
 | Ägide, die                 | ???       |
 | Alegorie, die              | ???       |
-| Alliteration, die          | ???       |
 | aliquot                    | ???       |
 | allenthalben               | ???       |
+| Alliteration, die          | ???       |
 | alterieren                 | ???       |
 | Amalgam, das               | ???       |
 | ambivalent                 | ???       |
@@ -29,8 +29,8 @@ als man ist.
 | Anachronismus, der         | ???       |
 | Anamnese, die              | ???       |
 | Animosität, die            | ???       |
-| Antipode, die              | ???       |
 | Anthropozän, das           | ???       |
+| Antipode, die              | ???       |
 | antipodisch                | ???       |
 | aphoristisch               | ???       |
 | apodiktisch                | ???       |
@@ -44,8 +44,8 @@ als man ist.
 | Autologie, die             | ???       |
 | avisieren                  | ???       |
 | basal                      | ???       |
-| bellizistisch              | ???       |
 | Bellizismus, der           | ???       |
+| bellizistisch              | ???       |
 | Biwak, das                 | ???       |
 | Bonmot, das                | ???       |
 | Bonvivant, der             | ???       |
@@ -73,8 +73,8 @@ als man ist.
 | Dichotomie, die            | ???       |
 | Diktion, die               | ???       |
 | dirimieren                 | ???       |
-| disparat                   | ???       |
 | disjunkt                   | ???       |
+| disparat                   | ???       |
 | Dissidenz, die             | ???       |
 | dräuen                     | ???       |
 | Duktus, der                | ???       |
@@ -108,14 +108,14 @@ als man ist.
 | Genese, die                | ???       |
 | gerieren, sich             | ???       |
 | Gestus, der                | ???       |
-| Glosse, die                | ???       |
 | Glo­ri­o­le, die           | ???       |
+| Glosse, die                | ???       |
 | grosso modo                | ???       |
 | gut anstehen               | ???       |
 | habhaft machen             | ???       |
 | Hegemonie, die             | ???       |
-| hermeneutisch              | ???       |
 | Hermeneutik, die           | ???       |
+| hermeneutisch              | ???       |
 | Hybris, die                | ???       |
 | hypokondrisch              | ???       |
 | idiosynkratisch            | ???       |
@@ -136,10 +136,10 @@ als man ist.
 | jovial                     | ???       |
 | junktim                    | ???       |
 | Junktimierung, die         | ???       |
-| Kandare, die               | ???       |
 | kakanisch                  | ???       |
 | Kakofonie, die             | ???       |
 | kalmieren                  | ???       |
+| Kandare, die               | ???       |
 | karikieren                 | ???       |
 | kategorial                 | ???       |
 | Kaustik, die               | ???       |
@@ -155,23 +155,23 @@ als man ist.
 | Kolumne, die               | ???       |
 | Kombüse, die               | ???       |
 | kommensurabel              | ???       |
-| Kongruenz, die             | ???       |
 | konfligieren               | ???       |
+| Kongruenz, die             | ???       |
 | Konkordat, das             | ???       |
 | Konsonanz, die             | ???       |
 | konstatieren               | ???       |
-| konstitutiv                | ???       |
 | konstituieren              | ???       |
+| konstitutiv                | ???       |
+| konstruktivistisch         | ???       |
+| kontextualisieren          | ???       |
 | kontingent                 | ???       |
 | Kontingenz, die            | ???       |
-| kontextualisieren          | ???       |
 | Konvent, der               | ???       |
-| Konvolut, das              | ???       |
 | Konvergenz, die            | ???       |
+| Konvolut, das              | ???       |
 | konzentrisch               | ???       |
 | Kuratel, das               | ???       |
 | kursorisch                 | ???       |
-| konstruktivistisch         | ???       |
 | Kybernetik, die            | ???       |
 | Lackmustest, der           | ???       |
 | lakonisch                  | ???       |
@@ -223,18 +223,18 @@ als man ist.
 | pe­ri­pa­te­tisch          | ???       |
 | perlustrieren              | ???       |
 | Petitesse, die             | ???       |
+| Phänotyp, der              | ???       |
 | Phan­tas­ma, das           | ???       |
 | Pharisäertum, das          | ???       |
 | Platitüde, die             | ???       |
-| Phänotyp, der              | ???       |
 | Plebiszit, das             | ???       |
 | pontifizieren              | ???       |
 | Popanz, die                | ???       |
-| postulieren                | ???       |
 | positivistisch             | ???       |
+| postulieren                | ???       |
 | Prämisse, die              | ???       |
-| präsumtiv                  | ???       |
 | präskriptiv                | ???       |
+| präsumtiv                  | ???       |
 | Prävalenz, die             | ???       |
 | Priapismus, der            | ???       |
 | Primat, der                | ???       |
@@ -245,8 +245,8 @@ als man ist.
 | Quadratur des Kreises, die | ???       |
 | Räson, die                 | ???       |
 | Ratifizierung, die         | ???       |
-| Reaktanz, die              | ???       |
 | reaktant                   | ???       |
+| Reaktanz, die              | ???       |
 | regredieren                | ???       |
 | Regress, der               | ???       |
 | Reigen, der                | ???       |
@@ -254,11 +254,11 @@ als man ist.
 | renitent                   | ???       |
 | Replik, die                | ???       |
 | replizieren                | ???       |
-| Resprise, die              | ???       |
 | Resorption, die            | ???       |
+| Resprise, die              | ???       |
 | restringieren              | ???       |
-| Reuse, die                 | ???       |
 | Retorsion, die             | ???       |
+| Reuse, die                 | ???       |
 | reüssieren                 | ???       |
 | rezipieren                 | ???       |
 | Re­zi­p­ro­zi­tät, die     | ???       |
@@ -281,14 +281,14 @@ als man ist.
 | subkutan                   | ???       |
 | sublimieren                | ???       |
 | Subsidiarität, die         | ???       |
-| Sub­s­ti­tu­ie­rung, die        | ???       |
+| Sub­s­ti­tu­ie­rung, die   | ???       |
 | subsumieren                | ???       |
 | subversiv                  | ???       |
 | sykophant                  | ???       |
 | Sykophantentum, das        | ???       |
 | Symposium, das             | ???       |
-| Synopse, die               | ???       |
 | Synkope, die               | ???       |
+| Synopse, die               | ???       |
 | Talaren, die               | ???       |
 | Tautologie, die            | ???       |
 | taxativ                    | ???       |
