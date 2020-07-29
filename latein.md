@@ -8,7 +8,9 @@ Sprachgebrauch vorkommen.
 | a priori                    | ???       |
 | ad acta                     | ???       |
 | ad hominem                  | ???       |
+| ad nauseum                  | ???       |
 | advocatus diaboli           | ???       |
+| alea iacta est              | ???       |
 | cogito ergo sum             | ???       |
 | cui bono?                   | ???       |
 | cuius regio, eius religio   | ???       |
@@ -16,14 +18,18 @@ Sprachgebrauch vorkommen.
 | de mortuis nihil nisi bonum | ???       |
 | et al                       | ???       |
 | ex falso quodlibet          | ???       |
+| ex cathedra                 | ???       |
 | in dubio pro reo            | ???       |
 | in situ                     | ???       |
 | ip­so fac­to                | ???       |
 | opus magnum                 | ???       |
 | pars pro toto               | ???       |
+| post hoc ergo propter hoc   | ???       |
 | quid pro quo                | ???       |
 | quo vadis                   | ???       |
 | quod erat demonstrandum     | ???       |
 | sapere aude                 | ???       |
 | sine ira et studio          | ???       |
 | vita                        | ???       |
+| vulgo                       | ???       |
+| contradictio in adjecto     | ???       |
