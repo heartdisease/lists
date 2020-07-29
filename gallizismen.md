@@ -24,10 +24,11 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Arrangement              | ???       |
 | Atelier                  | ???       |
 | Atout                    | ???       |
-| Attachée                 | ???       |
+| Attaché                  | ???       |
 | Au de Toilette           | ???       |
 | Au Pair                  | ???       |
 | Avance                   | ???       |
+| Avancieren               | ???       |
 | Avantgarde               | ???       |
 | Bagage                   | ???       |
 | Bagatelle                | ???       |
@@ -59,6 +60,7 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Boutonnière              | ???       |
 | Branche                  | ???       |
 | Bravour                  | ???       |
+| Bredouille               | ???       |
 | Budget                   | ???       |
 | Buffet                   | ???       |
 | Bureau                   | ???       |
@@ -105,6 +107,7 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Depot                    | ???       |
 | desavouieren (désavouer) | ???       |
 | Dessert                  | ???       |
+| Dompteur                 | ???       |
 | Dossiers                 | ???       |
 | Double                   | ???       |
 | Drainage                 | ???       |
@@ -115,8 +118,9 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | en passant               | ???       |
 | en vogue                 | ???       |
 | Engagement               | ???       |
-| Enquete                  | ???       |
+| En­quête                 | ???       |
 | Ensemble                 | ???       |
+| Entourage                | ???       |
 | Entrée                   | ???       |
 | Entrepreneur             | ???       |
 | Esprit                   | ???       |
@@ -183,6 +187,7 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Kollage                  | ???       |
 | Kolporteur               | ???       |
 | Komfort                  | ???       |
+| Kompagnon                | ???       |
 | Kommuniqué               | ???       |
 | Kontrolleur              | ???       |
 | Kotelette                | ???       |
@@ -232,6 +237,7 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Patè                     | ???       |
 | Patisserie               | ???       |
 | Patronage                | ???       |
+| Pavillon                 | ???       |
 | Pendant                  | ???       |
 | Persiflage               | ???       |
 | peu à peu                | ???       |
@@ -261,6 +267,7 @@ Duden stehen und im deutschen Sprachgebrauch zumindest einigermaßen üblich sin
 | Renaissance              | ???       |
 | Rendezvous               | ???       |
 | Rendite                  | ???       |
+| Rentiers                 | ???       |
 | Renommee                 | ???       |
 | Reportage                | ???       |
 | Resavoire                | ???       |
