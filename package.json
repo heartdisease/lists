@@ -26,5 +26,9 @@
   "homepage": "https://github.com/heartdisease/lists#readme",
   "devDependencies": {
     "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
   }
 }
