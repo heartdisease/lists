@@ -1,65 +1,93 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
-const jsdom = require("jsdom");
+const fs = require('fs');
+const fetch = require('node-fetch');
+const jsdom = require('jsdom');
+const { CACHE } = require('./lookup.cache');
 
 const { JSDOM } = jsdom;
 
-function extractMeanings(articleNode) {
-  let meaningContainer = article.querySelector("#bedeutung");
+function extractMeanings(article) {
+  let meaningContainer = article.querySelector('#bedeutung');
 
   if (!meaningContainer) {
-    meaningContainer = articleNode.querySelector("#bedeutungen");
+    meaningContainer = article.querySelector('#bedeutungen');
   }
   if (!meaningContainer) {
-    throw new Error(`Article does not contain definitions.`);
+    throw new Error('Article does not contain definitions.');
   }
+
+  const meanings = Array.prototype.map.call(
+    meaningContainer.querySelectorAll('p'),
+    (pNode) => pNode.textContent.trim()
+  );
+  const examples = Array.prototype.map.call(
+    meaningContainer.querySelectorAll('dl.note ul.note__list > li'),
+    (liNode) => liNode.textContent.trim()
+  );
+  const synonyms = Array.prototype.map.call(
+    meaningContainer.querySelectorAll('#synonyme > ul a'),
+    (aNode) => aNode.textContent.trim()
+  );
+
+  return { meanings, examples, synonyms };
+}
+
+function parseTranslationFromArticle(article) {
+  const lemmaContainer = article.querySelector('div.lemma');
+
+  if (!lemmaContainer) {
+    throw new Error(`Lookup failed.`);
+  }
+
+  // strips undesireable sillable separators and excess spaces
+  const lemma = lemmaContainer.textContent.replace(/[^\S ]+/gu, '').trim();
+  const wordClass = article
+    .querySelector('dl.tuple > dd.tuple__val')
+    .textContent.trim();
+
+  return { lemma, wordClass, ...extractMeanings(article) };
 }
 
 async function fetchTranslation(term) {
-  console.log(
-    `https://www.duden.de/rechtschreibung/${encodeURIComponent(term)}`
+  // strips undesireable sillable separators and excess spaces
+  const normalizedTerm = term.replace(/[^\S ]+/gu, '').trim();
+
+  console.log(`Look up term "${normalizedTerm}"...`);
+
+  const cachedTranslation = CACHE.find(
+    (entry) => entry.lemma === normalizedTerm
   );
 
+  if (cachedTranslation) {
+    console.log(`Cached translation found for "${normalizedTerm}".`);
+    return cachedTranslation;
+  }
+
   try {
-    const response = await fetch(
-      `https://www.duden.de/rechtschreibung/${encodeURIComponent(term)}`
+    const searchTerm = normalizedTerm.replace(
+      /^([\wÄÖÜäöüß -]+)(?:, (?:der|die|das))?$/u,
+      '$1'
     );
+    const lookupUrl = `https://www.duden.de/rechtschreibung/${encodeURIComponent(
+      searchTerm
+    )}`;
+
+    console.log(`Fetching translation from ${lookupUrl} ...`);
+
+    const response = await fetch(lookupUrl);
     const responseText = await response.text();
     const dom = new JSDOM(responseText); // see https://openbase.io/js/jsdom
-    const article = dom.window.document.querySelector("main > article");
-    const lemmaContainer = article.querySelector("div.lemma");
 
-    if (!lemmaContainer) {
-      throw new Error(`Lookup failed for term "${term}".`);
-    }
-
-    const lemma = lemmaContainer.textContent.trim();
-    const wordType = article
-      .querySelector("dl.tuple > dd.tuple__val")
-      .textContent.trim();
-    const meaningContainer = article.querySelector("#bedeutung");
-    const meanings = Array.prototype.map.call(
-      meaningContainer.querySelectorAll("p"),
-      (pNode) => pNode.textContent.trim()
+    return parseTranslationFromArticle(
+      dom.window.document.querySelector('main > article')
     );
-    const examples = Array.prototype.map.call(
-      meaningContainer.querySelectorAll("dl.note ul.note__list > li"),
-      (liNode) => liNode.textContent.trim()
-    );
-    const synonyms = Array.prototype.map.call(
-      meaningContainer.querySelectorAll("#synonyme > ul a"),
-      (aNode) => aNode.textContent.trim()
-    );
-
-    return { term, lemma, wordType, meanings, examples, synonyms };
   } catch (e) {
     throw e;
   }
 }
 
-async function loadWordList(filePath) {
+async function loadTermList(filePath) {
   return new Promise((resolve, reject) => {
-    fs.readFile(filePath, "UTF-8", (err, data) => {
+    fs.readFile(filePath, 'UTF-8', (err, data) => {
       if (err) {
         reject(err);
         return;
@@ -70,12 +98,12 @@ async function loadWordList(filePath) {
 
       for (const line of data.split(/\r?\n/)) {
         if (wordTableReached) {
-          const extractedTerm = line.replace(/^\|?([^\|]+)\|?.*$/, "$1").trim();
+          const extractedTerm = line.replace(/^\|?([^\|]+)\|?.*$/, '$1').trim();
 
           if (extractedTerm.length > 0) {
             words.push(extractedTerm.trim());
           }
-        } else if (line.startsWith("| ---")) {
+        } else if (line.startsWith('| ---')) {
           wordTableReached = true;
         }
       }
@@ -87,17 +115,10 @@ async function loadWordList(filePath) {
 
 async function createList() {
   try {
-    const words = await loadWordList("./bildungssprache.md");
+    const terms = await loadTermList('./bildungssprache.md');
 
-    for (const word of words.slice(0, 3)) {
-      const normalizedWord = word.replace(
-        /^([\wÄÖÜäöüß -]+)(?:, (?:der|die|das))?$/u,
-        "$1"
-      );
-
-      console.log(`Look up term "${normalizedWord}"...`);
-
-      const info = await fetchTranslation(normalizedWord);
+    for (const term of terms.slice(0, 3)) {
+      const info = await fetchTranslation(term);
 
       console.log(info);
     }
