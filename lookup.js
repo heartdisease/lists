@@ -5,6 +5,17 @@ const { CACHE } = require('./lookup.cache');
 
 const { JSDOM } = jsdom;
 
+function stripSoftHyphens(str) {
+  return str.replace(/\u00ad+/gu, '');
+}
+
+async function loadDomFromUrl(url) {
+  const response = await fetch(url);
+  const responseText = await response.text();
+
+  return new JSDOM(responseText); // see https://openbase.io/js/jsdom
+}
+
 function extractMeanings(article) {
   let meaningContainer = article.querySelector('#bedeutung');
 
@@ -39,7 +50,7 @@ function parseTranslationFromArticle(article) {
   }
 
   // strips undesireable sillable separators and excess spaces
-  const lemma = lemmaContainer.textContent.replace(/[^\S ]+/gu, '').trim();
+  const lemma = stripSoftHyphens(lemmaContainer.textContent.trim());
   const wordClass = article
     .querySelector('dl.tuple > dd.tuple__val')
     .textContent.trim();
@@ -49,7 +60,7 @@ function parseTranslationFromArticle(article) {
 
 async function fetchTranslation(term) {
   // strips undesireable sillable separators and excess spaces
-  const normalizedTerm = term.replace(/[^\S ]+/gu, '').trim();
+  const normalizedTerm = stripSoftHyphens(term.trim());
 
   console.log(`Look up term "${normalizedTerm}"...`);
 
@@ -67,19 +78,27 @@ async function fetchTranslation(term) {
       /^([\wÄÖÜäöüß -]+)(?:, (?:der|die|das))?$/u,
       '$1'
     );
-    const lookupUrl = `https://www.duden.de/rechtschreibung/${encodeURIComponent(
+    const encodedSearchTerm = encodeURIComponent(
       searchTerm
-    )}`;
+        .replace(/[Ä]/g, 'Ae')
+        .replace(/[ä]/g, 'ae')
+        .replace(/[Ö]/g, 'Oe')
+        .replace(/[ö]/g, 'oe')
+        .replace(/[Ü]/g, 'Ue')
+        .replace(/[ü]/g, 'ue')
+        .replace(/[ß]/g, 'sz')
+    );
+    const lookupUrl = `https://www.duden.de/rechtschreibung/${encodedSearchTerm}`;
 
     console.log(`Fetching translation from ${lookupUrl} ...`);
 
-    const response = await fetch(lookupUrl);
-    const responseText = await response.text();
-    const dom = new JSDOM(responseText); // see https://openbase.io/js/jsdom
+    const dom = await loadDomFromUrl(lookupUrl);
+    const articleElement = dom.window.document.querySelector('main > article');
+    const translation = parseTranslationFromArticle(articleElement);
 
-    return parseTranslationFromArticle(
-      dom.window.document.querySelector('main > article')
-    );
+    CACHE.push(translation);
+
+    return translation;
   } catch (e) {
     throw e;
   }
@@ -117,11 +136,18 @@ async function createList() {
   try {
     const terms = await loadTermList('./bildungssprache.md');
 
-    for (const term of terms.slice(0, 3)) {
-      const info = await fetchTranslation(term);
+    for (const term of terms.slice(0, 10)) {
+      try {
+        const info = await fetchTranslation(term);
 
-      console.log(info);
+        console.log(info);
+      } catch (e) {
+        console.error('\n', e, '\n'); // log error but move on
+      }
     }
+
+    console.log('\n+++ CACHE +++\n');
+    console.log(JSON.stringify(CACHE, undefined, 2));
   } catch (e) {
     throw e;
   }
