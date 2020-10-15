@@ -17,7 +17,7 @@ als man ist.
 | affektiv                   | ???       |
 | affichieren                | ???       |
 | Ägide, die                 | ???       |
-| Alegorie, die              | ???       |
+| Al­le­go­rie, die          | ???       |
 | aliquot                    | ???       |
 | allenthalben               | ???       |
 | Alliteration, die          | ???       |
