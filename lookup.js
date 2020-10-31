@@ -5,6 +5,23 @@ const { CACHE } = require('./lookup.cache');
 
 const { JSDOM } = jsdom;
 
+async function updateCache() {
+  const source = `const CACHE = ${JSON.stringify(CACHE, undefined, 2)};
+
+module.exports = { CACHE };
+`;
+
+  return new Promise((resolve, reject) => {
+    fs.writeFile('./lookup.cache.js', source, 'utf8', (error) => {
+      if (error) {
+        reject(error);
+      }
+
+      resolve();
+    });
+  });
+}
+
 function stripSoftHyphens(str) {
   return str.replace(/\u00ad+/gu, '');
 }
@@ -134,6 +151,7 @@ async function loadTermList(filePath) {
 
 async function createList() {
   try {
+    const cachedTermCount = CACHE.length;
     const terms = await loadTermList('./bildungssprache.md');
 
     for (const term of terms.slice(0, 10)) {
@@ -146,8 +164,10 @@ async function createList() {
       }
     }
 
-    console.log('\n+++ CACHE +++\n');
-    console.log(JSON.stringify(CACHE, undefined, 2));
+    if (cachedTermCount < CACHE.length) {
+      console.log('Updating cache file...');
+      await updateCache();
+    }
   } catch (e) {
     throw e;
   }
