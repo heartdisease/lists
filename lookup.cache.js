@@ -1,5 +1,5 @@
-const CACHE = [
-  {
+const CACHE = {
+  "Abolitionismus, der": {
     "lemma": "Abolitionismus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -11,7 +11,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Adept, der": {
     "lemma": "Adept, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -29,7 +29,7 @@ const CACHE = [
       "Schülerin"
     ]
   },
-  {
+  "Adoleszenz, die": {
     "lemma": "Adoleszenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Medizin",
@@ -42,7 +42,7 @@ const CACHE = [
       "Reifezeit"
     ]
   },
-  {
+  "Alliteration, die": {
     "lemma": "Alliteration, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Verslehre",
@@ -52,7 +52,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Allegorie, die": {
     "lemma": "Allegorie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildende Kunst, Literaturwissenschaft",
@@ -69,7 +69,7 @@ const CACHE = [
       "Verkörperung"
     ]
   },
-  {
+  "Amalgam, das": {
     "lemma": "Amalgam, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "Chemie",
@@ -81,7 +81,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Anachronismus, der": {
     "lemma": "Anachronismus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "bildungssprachlich",
@@ -94,7 +94,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Anamnese, die": {
     "lemma": "Anamnese, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Medizin",
@@ -106,7 +106,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Animosität, die": {
     "lemma": "Animosität, die",
     "wordClass": "Substantiv, feminin",
     "usage": "gehoben",
@@ -125,7 +125,7 @@ const CACHE = [
       "Feindschaft"
     ]
   },
-  {
+  "Anthropozän, das": {
     "lemma": "Anthropozän, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "Geologie",
@@ -137,7 +137,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Apotheose, die": {
     "lemma": "Apotheose, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -151,7 +151,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Apokryph, das": {
     "lemma": "Apokryph, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "Religion",
@@ -161,7 +161,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Archetyp, der": {
     "lemma": "Archetyp, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -182,7 +182,7 @@ const CACHE = [
       "Urtyp"
     ]
   },
-  {
+  "Atavismus, der": {
     "lemma": "Atavismus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "Fachsprache",
@@ -193,7 +193,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Atout, das oder der": {
     "lemma": "Atout, das oder der",
     "wordClass": "Substantiv, Neutrum, oder Substantiv, maskulin",
     "usage": "",
@@ -206,7 +206,7 @@ const CACHE = [
       "Trumpf"
     ]
   },
-  {
+  "Avers, der": {
     "lemma": "Avers, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "Münzkunde",
@@ -216,7 +216,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Bellizismus, der": {
     "lemma": "Bellizismus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -226,7 +226,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Biwak, das": {
     "lemma": "Biwak, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "besonders Militär, Bergsteigen",
@@ -239,7 +239,7 @@ const CACHE = [
       "Zeltlager"
     ]
   },
-  {
+  "Bonmot, das": {
     "lemma": "Bonmot, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
@@ -254,7 +254,7 @@ const CACHE = [
       "Aperçu"
     ]
   },
-  {
+  "Bonvivant, der": {
     "lemma": "Bonvivant, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -269,7 +269,7 @@ const CACHE = [
       "Playboy"
     ]
   },
-  {
+  "Chuzpe, die": {
     "lemma": "Chuzpe, die",
     "wordClass": "Substantiv, feminin",
     "usage": "salopp abwertend",
@@ -286,7 +286,7 @@ const CACHE = [
       "Unverschämtheit"
     ]
   },
-  {
+  "Citoyen, der": {
     "lemma": "Citoyen, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -296,7 +296,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Contenance, die": {
     "lemma": "Contenance, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -314,7 +314,7 @@ const CACHE = [
       "Haltung"
     ]
   },
-  {
+  "Credo, Kredo, das": {
     "lemma": "Credo, Kredo, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
@@ -330,7 +330,7 @@ const CACHE = [
       "Satz"
     ]
   },
-  {
+  "Deduktion, die": {
     "lemma": "Deduktion, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -346,7 +346,7 @@ const CACHE = [
       "Schluss"
     ]
   },
-  {
+  "Defätismus, schweizerisch auch Defaitismus, der": {
     "lemma": "Defätismus, schweizerisch auch Defaitismus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "bildungssprachlich abwertend",
@@ -363,7 +363,7 @@ const CACHE = [
       "Weltschmerz"
     ]
   },
-  {
+  "Delinquent, der": {
     "lemma": "Delinquent, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "bildungssprachlich",
@@ -380,7 +380,7 @@ const CACHE = [
       "Kriminelle"
     ]
   },
-  {
+  "Demoskop, der": {
     "lemma": "Demoskop, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -390,7 +390,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Dermatologie, die": {
     "lemma": "Dermatologie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Medizin",
@@ -400,7 +400,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Dialektik, die": {
     "lemma": "Dialektik, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -419,7 +419,7 @@ const CACHE = [
       "Dualismus"
     ]
   },
-  {
+  "Dichotomie, die": {
     "lemma": "Dichotomie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -432,7 +432,7 @@ const CACHE = [
       "Gabelung"
     ]
   },
-  {
+  "Diktion, die": {
     "lemma": "Diktion, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -449,7 +449,7 @@ const CACHE = [
       "Sprechweise"
     ]
   },
-  {
+  "Dissidenz, die": {
     "lemma": "Dissidenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -464,7 +464,7 @@ const CACHE = [
       "Gegenströmung"
     ]
   },
-  {
+  "Dossier, das": {
     "lemma": "Dossier, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
@@ -482,7 +482,7 @@ const CACHE = [
       "Akte"
     ]
   },
-  {
+  "Duktus, der": {
     "lemma": "Duktus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "gehoben",
@@ -501,7 +501,7 @@ const CACHE = [
       "Manier"
     ]
   },
-  {
+  "Empirie, die": {
     "lemma": "Empirie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -512,7 +512,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Entität, die": {
     "lemma": "Entität, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -528,7 +528,7 @@ const CACHE = [
       "Welt"
     ]
   },
-  {
+  "Entourage, die": {
     "lemma": "Entourage, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -542,7 +542,7 @@ const CACHE = [
       "Tross"
     ]
   },
-  {
+  "Epistemologie, die": {
     "lemma": "Epistemologie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Philosophie",
@@ -552,7 +552,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Erkenntnistheorie, die": {
     "lemma": "Erkenntnistheorie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Philosophie",
@@ -563,7 +563,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Etat, der": {
     "lemma": "Etat, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -586,7 +586,7 @@ const CACHE = [
       "Voranschlag"
     ]
   },
-  {
+  "Ethos, das": {
     "lemma": "Ethos, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "bildungssprachlich",
@@ -603,7 +603,7 @@ const CACHE = [
       "Pflichttreue"
     ]
   },
-  {
+  "Evokation, die": {
     "lemma": "Evokation, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -614,7 +614,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Exegese, die": {
     "lemma": "Exegese, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich, Fachsprache",
@@ -631,7 +631,7 @@ const CACHE = [
       "Hermeneutik"
     ]
   },
-  {
+  "Faksimile, das": {
     "lemma": "Faksimile, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "Fachsprache",
@@ -646,7 +646,7 @@ const CACHE = [
       "Wiedergabe"
     ]
   },
-  {
+  "Gaudium, das": {
     "lemma": "Gaudium, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "bildungssprachlich veraltet",
@@ -665,7 +665,7 @@ const CACHE = [
       "Spaß"
     ]
   },
-  {
+  "Gemengelage, die": {
     "lemma": "Gemengelage, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -683,7 +683,7 @@ const CACHE = [
       "Verflechtung"
     ]
   },
-  {
+  "Genese, die": {
     "lemma": "Genese, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich, Fachsprache",
@@ -700,7 +700,7 @@ const CACHE = [
       "Beginn"
     ]
   },
-  {
+  "Gestus, der": {
     "lemma": "Gestus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -713,7 +713,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Genealogie, die": {
     "lemma": "Genealogie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -729,7 +729,7 @@ const CACHE = [
       "Sippenforschung"
     ]
   },
-  {
+  "Glosse, die": {
     "lemma": "Glosse, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -752,7 +752,7 @@ const CACHE = [
       "Kommentar"
     ]
   },
-  {
+  "Gloriole, die": {
     "lemma": "Gloriole, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -769,7 +769,7 @@ const CACHE = [
       "Aureole"
     ]
   },
-  {
+  "Hegemonie, die": {
     "lemma": "Hegemonie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -787,7 +787,7 @@ const CACHE = [
       "Vorherrschaft"
     ]
   },
-  {
+  "Hermeneutik, die": {
     "lemma": "Hermeneutik, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -800,7 +800,7 @@ const CACHE = [
       "Exegese"
     ]
   },
-  {
+  "Hybris, die": {
     "lemma": "Hybris, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -815,7 +815,7 @@ const CACHE = [
       "Einbildung"
     ]
   },
-  {
+  "Idiom, das": {
     "lemma": "Idiom, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "Sprachwissenschaft",
@@ -834,7 +834,7 @@ const CACHE = [
       "Fachsprache"
     ]
   },
-  {
+  "Ikonografie, Ikonographie, die": {
     "lemma": "Ikonografie, Ikonographie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Kunstwissenschaft",
@@ -847,7 +847,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Impetus, der": {
     "lemma": "Impetus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "bildungssprachlich",
@@ -867,7 +867,7 @@ const CACHE = [
       "Triebkraft"
     ]
   },
-  {
+  "Inferenz, die": {
     "lemma": "Inferenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -877,7 +877,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Intimus, der": {
     "lemma": "Intimus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "gehoben, oft scherzhaft",
@@ -891,7 +891,7 @@ const CACHE = [
       "Sozius"
     ]
   },
-  {
+  "Invektive, die": {
     "lemma": "Invektive, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -907,7 +907,7 @@ const CACHE = [
       "Schmähung"
     ]
   },
-  {
+  "Jurisprudenz, die": {
     "lemma": "Jurisprudenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "bildungssprachlich",
@@ -922,7 +922,7 @@ const CACHE = [
       "Rechtswissenschaft"
     ]
   },
-  {
+  "Kakofonie, Kakophonie, die": {
     "lemma": "Kakofonie, Kakophonie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -939,7 +939,7 @@ const CACHE = [
       "Missklang"
     ]
   },
-  {
+  "Kandare, die": {
     "lemma": "Kandare, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -954,7 +954,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Katharsis, die": {
     "lemma": "Katharsis, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -965,7 +965,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Kaustik, die": {
     "lemma": "Kaustik, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -976,7 +976,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Klüngel, der": {
     "lemma": "Klüngel, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -995,7 +995,7 @@ const CACHE = [
       "Clique"
     ]
   },
-  {
+  "Kohäsion, die": {
     "lemma": "Kohäsion, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1011,7 +1011,7 @@ const CACHE = [
       "Zusammenhalt"
     ]
   },
-  {
+  "Kolportage, die": {
     "lemma": "Kolportage, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1025,7 +1025,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Kolumne, die": {
     "lemma": "Kolumne, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1041,7 +1041,7 @@ const CACHE = [
       "Beitrag"
     ]
   },
-  {
+  "Kombüse, die": {
     "lemma": "Kombüse, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Seemannssprache",
@@ -1051,7 +1051,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Kongruenz, die": {
     "lemma": "Kongruenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1068,7 +1068,7 @@ const CACHE = [
       "Symmetrie"
     ]
   },
-  {
+  "Konkordanz, die": {
     "lemma": "Konkordanz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1086,7 +1086,7 @@ const CACHE = [
       "Verzeichnis"
     ]
   },
-  {
+  "Konkordat, das": {
     "lemma": "Konkordat, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
@@ -1098,7 +1098,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Konsonanz, die": {
     "lemma": "Konsonanz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1109,7 +1109,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Kontingenz, die": {
     "lemma": "Kontingenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1120,7 +1120,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Konvektion, die": {
     "lemma": "Konvektion, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1133,7 +1133,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Konvent, der": {
     "lemma": "Konvent, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -1150,7 +1150,7 @@ const CACHE = [
       "Klostergemeinschaft"
     ]
   },
-  {
+  "Konvergenz, die": {
     "lemma": "Konvergenz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1174,7 +1174,7 @@ const CACHE = [
       "Übereinstimmung"
     ]
   },
-  {
+  "Konvolut, das": {
     "lemma": "Konvolut, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
@@ -1189,7 +1189,7 @@ const CACHE = [
       "Sammlung"
     ]
   },
-  {
+  "Kuratel, die": {
     "lemma": "Kuratel, die",
     "wordClass": "Substantiv, feminin",
     "usage": "österreichische Rechtssprache, sonst veraltend",
@@ -1203,7 +1203,7 @@ const CACHE = [
     ],
     "synonyms": []
   },
-  {
+  "Kurator, der": {
     "lemma": "Kurator, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -1216,7 +1216,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Kybernetik, die": {
     "lemma": "Kybernetik, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1227,7 +1227,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Lackmustest, der": {
     "lemma": "Lackmustest, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "",
@@ -1238,7 +1238,7 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   },
-  {
+  "Lamento, das": {
     "lemma": "Lamento, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
@@ -1256,7 +1256,7 @@ const CACHE = [
       "Jammer"
     ]
   },
-  {
+  "Larmoyanz, die": {
     "lemma": "Larmoyanz, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
@@ -1272,7 +1272,7 @@ const CACHE = [
       "Sentimentalität"
     ]
   },
-  {
+  "Leitfossil, das": {
     "lemma": "Leitfossil, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "Geologie",
@@ -1282,6 +1282,6 @@ const CACHE = [
     "examples": [],
     "synonyms": []
   }
-];
+};
 
 module.exports = { CACHE };

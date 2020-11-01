@@ -1,26 +1,46 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
-const jsdom = require('jsdom');
-const { CACHE } = require('./lookup.cache');
+const { JSDOM } = require('jsdom');
 
-const { JSDOM } = jsdom;
+const Cache = (() => {
+  const { CACHE } = require('./lookup.cache');
+  let dirtyFlag = false;
 
-async function updateCache() {
-  const source = `const CACHE = ${JSON.stringify(CACHE, undefined, 2)};
+  return Object.freeze({
+    lookup: (term) => {
+      const cacheEntry = CACHE[term];
+
+      if (cacheEntry) {
+        return Object.isFrozen(cacheEntry)
+          ? cacheEntry
+          : Object.freeze(cacheEntry);
+      }
+
+      return null;
+    },
+    update: (translation) => {
+      CACHE[translation.lemma] = Object.freeze({ ...translation }); // Caution: causes side effects!
+      dirtyFlag = true;
+    },
+    isDirty: () => dirtyFlag,
+    persist: async () => {
+      const source = `const CACHE = ${JSON.stringify(CACHE, undefined, 2)};
 
 module.exports = { CACHE };
 `;
 
-  return new Promise((resolve, reject) => {
-    fs.writeFile('./lookup.cache.js', source, 'utf8', (error) => {
-      if (error) {
-        reject(error);
-      }
+      return new Promise((resolve, reject) => {
+        fs.writeFile('./lookup.cache.js', source, 'utf8', (error) => {
+          if (error) {
+            reject(error);
+          }
 
-      resolve();
-    });
+          resolve();
+        });
+      });
+    },
   });
-}
+})();
 
 function stripSoftHyphens(str) {
   return str.replace(/\u00ad+/gu, '');
@@ -33,16 +53,7 @@ async function loadDomFromUrl(url) {
   return new JSDOM(responseText); // see https://openbase.io/js/jsdom
 }
 
-function extractMeanings(article) {
-  let meaningContainer = article.querySelector('#bedeutung');
-
-  if (!meaningContainer) {
-    meaningContainer = article.querySelector('#bedeutungen');
-  }
-  if (!meaningContainer) {
-    throw new Error('Article does not contain definitions.');
-  }
-
+function extractSingleMeaning(meaningContainer) {
   const meanings = Array.prototype.map.call(
     meaningContainer.querySelectorAll('p'),
     (pNode) => pNode.textContent.trim()
@@ -51,12 +62,62 @@ function extractMeanings(article) {
     meaningContainer.querySelectorAll('dl.note ul.note__list > li'),
     (liNode) => liNode.textContent.trim()
   );
-  const synonyms = Array.prototype.map.call(
-    meaningContainer.querySelectorAll('#synonyme > ul a'),
-    (aNode) => aNode.textContent.trim()
+
+  return { meanings, examples };
+}
+
+function extractMultipleMeanings(meaningsContainer) {
+  const meanings = Array.prototype.map.call(
+    meaningsContainer.querySelectorAll('ol.enumeration > li.enumeration__item'),
+    (liNode) => {
+      const meaning = liNode
+        .querySelector('div.enumeration__text')
+        .textContent.trim();
+      const contextContainer = liNode.querySelector('dl.tuple');
+
+      if (contextContainer) {
+        const tupleKey = contextContainer
+          .querySelector('dt.tuple__key')
+          .textContent.trim();
+        const tupleValue = contextContainer
+          .querySelector('dd.tuple__val')
+          .textContent.trim();
+
+        return `${meaning} (${tupleKey}: ${tupleValue})`;
+      }
+
+      return meaning;
+    }
+  );
+  const examples = Array.prototype.map.call(
+    meaningsContainer.querySelectorAll('dl.note ul.note__list > li'),
+    (liNode) => liNode.textContent.trim()
   );
 
-  return { meanings, examples, synonyms };
+  return { meanings, examples };
+}
+
+function extractMeanings(article) {
+  const meaning = article.querySelector('#bedeutung');
+  const synonymsContainer = article.querySelector('#synonyme');
+  const synonyms = synonymsContainer
+    ? Array.prototype.map.call(
+        synonymsContainer.querySelectorAll('ul a'),
+        (aNode) => aNode.textContent.trim()
+      )
+    : [];
+
+  if (meaning) {
+    return { ...extractSingleMeaning(meaning), synonyms };
+  }
+
+  const meanings = article.querySelector('#bedeutungen');
+
+  if (!meanings) {
+    throw new Error('Article does not contain definitions.');
+  }
+
+  return { ...extractMultipleMeanings(meanings), synonyms };
 }
 
 function parseTranslationFromArticle(article) {
@@ -68,11 +129,17 @@ function parseTranslationFromArticle(article) {
 
   // strips undesireable sillable separators and excess spaces
   const lemma = stripSoftHyphens(lemmaContainer.textContent.trim());
-  const wordClass = article
-    .querySelector('dl.tuple > dd.tuple__val')
-    .textContent.trim();
+  const infos = Array.prototype.map.call(
+    article.querySelectorAll('dl.tuple dd.tuple__val'),
+    (ddNode) => ddNode.firstChild.textContent.trim()
+  );
 
-  return { lemma, wordClass, ...extractMeanings(article) };
+  return {
+    lemma,
+    wordClass: infos[0],
+    usage: infos[1],
+    ...extractMeanings(article),
+  };
 }
 
 async function fetchTranslation(term) {
@@ -81,9 +148,7 @@ async function fetchTranslation(term) {
 
   console.log(`Look up term "${normalizedTerm}"...`);
 
-  const cachedTranslation = CACHE.find(
-    (entry) => entry.lemma === normalizedTerm
-  );
+  const cachedTranslation = Cache.lookup(normalizedTerm);
 
   if (cachedTranslation) {
     console.log(`Cached translation found for "${normalizedTerm}".`);
@@ -113,7 +178,8 @@ async function fetchTranslation(term) {
     const articleElement = dom.window.document.querySelector('main > article');
     const translation = parseTranslationFromArticle(articleElement);
 
-    CACHE.push(translation);
+    console.log(`Add new entry to cache: ${translation.lemma}`);
+    Cache.update(translation);
 
     return translation;
   } catch (e) {
@@ -151,22 +217,19 @@ async function loadTermList(filePath) {
 
 async function createList() {
   try {
-    const cachedTermCount = CACHE.length;
     const terms = await loadTermList('./bildungssprache.md');
 
     for (const term of terms.slice(0, 10)) {
       try {
-        const info = await fetchTranslation(term);
-
-        console.log(info);
+        await fetchTranslation(term);
       } catch (e) {
         console.error('\n', e, '\n'); // log error but move on
       }
     }
 
-    if (cachedTermCount < CACHE.length) {
+    if (Cache.isDirty()) {
       console.log('Updating cache file...');
-      await updateCache();
+      await Cache.persist();
     }
   } catch (e) {
     throw e;
