@@ -1281,6 +1281,1210 @@ const CACHE = {
     ],
     "examples": [],
     "synonyms": []
+  },
+  "Lemma, das": {
+    "lemma": "Lemma, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "",
+    "meanings": [
+      "Stichwort in einem Nachschlagewerk (besonders Wörterbuch oder Lexikon) (Gebrauch: Fachsprache)",
+      "Hilfssatz (bei einer Beweisführung) (Gebrauch: Mathematik, Logik)"
+    ],
+    "examples": [
+      "ein Lemma suchen"
+    ],
+    "synonyms": [
+      "Stichwort"
+    ]
+  },
+  "Lex, die": {
+    "lemma": "Lex, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Parlamentssprache",
+    "meanings": [
+      "Gesetz, das − unter Anspielung auf die altrömische Gesetzgebung mit dem Namen des Antragstellers oder der betreffenden Sache versehen − aus bestimmtem Anlass erlassen wird"
+    ],
+    "examples": [
+      "die Lex Heinze"
+    ],
+    "synonyms": []
+  },
+  "Libertinage, die": {
+    "lemma": "Libertinage, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "moralische Freizügigkeit; Zügellosigkeit"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Exzess",
+      "Freizügigkeit",
+      "Orgie"
+    ]
+  },
+  "Läsion, die": {
+    "lemma": "Läsion, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Medizin",
+    "meanings": [
+      "Verletzung oder Störung der Funktion eines Organs oder Körperglieds (Gebrauch: Medizin)",
+      "Laesio enormis"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Verletzung",
+      "Wunde"
+    ]
+  },
+  "Machination, die": {
+    "lemma": "Machination, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "listiger Anschlag, Kniff (Gebrauch: veraltet)",
+      "Ränke, Machenschaften, Winkelzüge (Gebrauch: gehoben)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Dreh",
+      "Effekt",
+      "Intrige",
+      "Kabale"
+    ]
+  },
+  "Magnat, der": {
+    "lemma": "Magnat, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Inhaber [branchenbeherrschender] wirtschaftlicher Macht (Herkunft: spätlateinisch magnatus = Oberhaupt, zu lateinisch magnus = groß)",
+      "hoher Adliger (besonders in Polen und Ungarn) (Herkunft: polnisch magnat, ungarisch mágnás < mittellateinisch magnatus = (hoher) Adliger)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Großindustrieller",
+      "Großindustrielle",
+      "Großkapitalist",
+      "Großkapitalistin"
+    ]
+  },
+  "Makulatur, die": {
+    "lemma": "Makulatur, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "beim Druck schadhaft gewordene oder fehlerhafte Bogen (Gebrauch: Druckwesen)",
+      "Altpapier, das aus wertlos gewordenem bedrucktem Papier (z. B. Zeitungen, alte Akten o. Ä.) besteht",
+      "Gemisch aus Kleister und fein zerrissenem Papier, das vor dem Tapezieren auf eine Wand aufgetragen wird"
+    ],
+    "examples": [
+      "eine ganze Buchauflage als Makulatur einstampfen",
+      "〈in übertragener Bedeutung:〉 die ganzen Ideen von damals sind Makulatur (haben keine Gültigkeit mehr)",
+      "Makulatur reden (umgangssprachlich veraltet abwertend:  Unsinn reden)"
+    ],
+    "synonyms": []
+  },
+  "Maxime, die": {
+    "lemma": "Maxime, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Leitsatz"
+    ],
+    "examples": [
+      "eine politische Maxime",
+      "einer Maxime folgen"
+    ],
+    "synonyms": [
+      "Devise",
+      "Grundprinzip",
+      "Grundsatz",
+      "Leitgedanke"
+    ]
+  },
+  "Menetekel, das": {
+    "lemma": "Menetekel, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "gehoben",
+    "meanings": [
+      "geheimnisvolles Anzeichen eines drohenden Unheils; Warnung"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Warnung",
+      "Warnzeichen"
+    ]
+  },
+  "Mikrobiom, das": {
+    "lemma": "Mikrobiom, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "Biologie",
+    "meanings": [
+      "als komplexe Lebensgemeinschaft verstandene Gesamtheit der Mikroorganismen, die ein Lebewesen besiedeln"
+    ],
+    "examples": [
+      "das spezifische Mikrobiom eines Menschen",
+      "Mikrobiome von Weibchen und Männchen einer Art untersuchen, vergleichen"
+    ],
+    "synonyms": []
+  },
+  "Modalität, die": {
+    "lemma": "Modalität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Art und Weise, näherer Umstand, Bedingung, Einzelheit der Durchführung, Ausführung, des Geschehens o. Ä. (Gebrauch: bildungssprachlich)",
+      "das Wie (Wirklichkeit, Möglichkeit oder Notwendigkeit) des Seins, Geschehens, Werdens o. Ä. (Gebrauch: Philosophie)",
+      "(in unterschiedlicher sprachlicher Form ausdrückbares) Verhältnis des bzw. der Sprechenden zur Aussage bzw. der Aussage zur Realität oder Realisierung (Gebrauch: Sprachwissenschaft)"
+    ],
+    "examples": [
+      "alle Modalitäten in Betracht ziehen"
+    ],
+    "synonyms": [
+      "Bedingung",
+      "Grundlage",
+      "Umstand"
+    ]
+  },
+  "Monade, die": {
+    "lemma": "Monade, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Philosophie",
+    "meanings": [
+      "das Einfache, nicht Zusammengesetzte, Unteilbare (Grammatik: ohne Plural)",
+      "(bei Leibniz) letzte, in sich geschlossene, vollendete, nicht mehr auflösbare Ureinheit"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Moratorium, das": {
+    "lemma": "Moratorium, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "Fachsprache",
+    "meanings": [
+      "vertraglich vereinbarter oder gesetzlich angeordneter Aufschub"
+    ],
+    "examples": [
+      "jemandem ein Moratorium [für die Tilgung seiner Schulden] gewähren",
+      "ein Moratorium für Kernkraftwerke, für Embryonenforschung fordern"
+    ],
+    "synonyms": [
+      "Aufhaltung",
+      "Aufschub",
+      "Frist",
+      "Fristung"
+    ]
+  },
+  "Neologismus, der": {
+    "lemma": "Neologismus, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "in den allgemeinen Gebrauch übergegangene sprachliche Neuprägung (2) (Neuwort oder Neubedeutung) (Gebrauch: Sprachwissenschaft)",
+      "Neuerungssucht (besonders auf religiösem oder sprachlichem Gebiet) (Grammatik: ohne Plural)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Nimbus, der": {
+    "lemma": "Nimbus, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "besonderes Ansehen, glanzvoller Ruhm (Gebrauch: bildungssprachlich)",
+      "Heiligenschein, Gloriole (Gebrauch: besonders bildende Kunst)"
+    ],
+    "examples": [
+      "sein Nimbus als großer Dichter"
+    ],
+    "synonyms": [
+      "Glorienschein",
+      "Heiligenschein",
+      "Strahlenkranz",
+      "Aureole"
+    ]
+  },
+  "Novum, das": {
+    "lemma": "Novum, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "etwas Neues, noch nicht Dagewesenes"
+    ],
+    "examples": [
+      "ein Novum darstellen"
+    ],
+    "synonyms": [
+      "Neuheit",
+      "Novität",
+      "Nouveauté",
+      "Neuigkeit"
+    ]
+  },
+  "Nullhypothese, die": {
+    "lemma": "Nullhypothese, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Statistik",
+    "meanings": [
+      "Hypothese, die im Gegensatz zur Alternativhypothese davon ausgeht, dass bei einem Prüfverfahren festgestellte Abweichungen von einem Sollwert zufälliger Natur sind"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Ombudsmann, der": {
+    "lemma": "Ombudsmann, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Mann, der die Rechte der Bürgerinnen und Bürger gegenüber den Behörden wahrnimmt"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Omniszienz, die": {
+    "lemma": "Omniszienz, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Allwissenheit (Gottes)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Ontologie, die": {
+    "lemma": "Ontologie, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Lehre vom Sein, vom Seienden (Gebrauch: Philosophie)",
+      "System (6a) von Informationen mit logischen Relationen (Gebrauch: Informatik)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Palisade, die": {
+    "lemma": "Palisade, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "langer, oben zugespitzter Pfahl, der mit anderen zusammen zur Befestigung in dichter Reihe in den Boden gerammt wird",
+      "Befestigungsanlage, Wand aus Palisaden (1)"
+    ],
+    "examples": [
+      "die Palisaden niederreißen"
+    ],
+    "synonyms": [
+      "Befestigung",
+      "Befestigungsanlage",
+      "Pfahl"
+    ]
+  },
+  "Petitesse, die": {
+    "lemma": "Petitesse, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Geringfügigkeit, nebensächliche, unwichtige Sache, Kleinigkeit"
+    ],
+    "examples": [
+      "mit solchen Petitessen können wir uns jetzt nicht aufhalten"
+    ],
+    "synonyms": [
+      "Kleinigkeit",
+      "Bagatelle",
+      "Belanglosigkeit",
+      "Geringfügigkeit"
+    ]
+  },
+  "Phantasma, das": {
+    "lemma": "Phantasma, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "Psychologie",
+    "meanings": [
+      "Sinnestäuschung, Trugbild"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Halluzination",
+      "Hirngespinst",
+      "Phantom",
+      "Sinnestäuschung"
+    ]
+  },
+  "Pharisäertum, das": {
+    "lemma": "Pharisäertum, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "gehoben abwertend",
+    "meanings": [
+      "geistige Haltung eines Pharisäers (2)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Heuchelei",
+      "Scheinheiligkeit",
+      "Unaufrichtigkeit",
+      "Verstellung"
+    ]
+  },
+  "Phänotyp, der": {
+    "lemma": "Phänotyp, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "Genetik",
+    "meanings": [
+      "(durch Erbanlagen und Umwelteinflüsse geprägtes) Erscheinungsbild eines Organismus"
+    ],
+    "examples": [
+      "zwischen Erscheinungsbild (Phänotyp) und genetischer Grundlage (Genotyp) unterscheiden"
+    ],
+    "synonyms": []
+  },
+  "Platitüde, die": {
+    "lemma": "Platitüde, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Pla|ti|tü|de",
+    "meanings": [
+      "frühere Schreibung für Plattitüde"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Plebiszit, das": {
+    "lemma": "Plebiszit, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "Politik",
+    "meanings": [
+      "Volksbeschluss, Volksabstimmung; Volksbefragung"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Referendum",
+      "Volksabstimmung"
+    ]
+  },
+  "Plenarsitzung, die": {
+    "lemma": "Plenarsitzung, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Sitzung, an der alle Mitglieder teilnehmen können"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Plenum, das": {
+    "lemma": "Plenum, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "",
+    "meanings": [
+      "Vollversammlung einer Körperschaft, besonders der Mitglieder eines Parlaments"
+    ],
+    "examples": [],
+    "synonyms": [
+      "alle",
+      "Gesamtheit",
+      "Vollversammlung"
+    ]
+  },
+  "Popanz, der": {
+    "lemma": "Popanz, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "künstlich hergestellte [Schreck]gestalt, besonders ausgestopfte Gestalt, Puppe (Gebrauch: veraltet)",
+      "jemand, der sich willenlos gebrauchen, alles mit sich machen lässt (Gebrauch: abwertend)"
+    ],
+    "examples": [
+      "einen Popanz errichten",
+      "etwas zum Popanz machen"
+    ],
+    "synonyms": [
+      "Schreckgespenst",
+      "Alb[traum]",
+      "Butzemann"
+    ]
+  },
+  "Priapismus, der": {
+    "lemma": "Priapismus, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "Medizin",
+    "meanings": [
+      "krankhaft anhaltende, schmerzhafte Erektion des Penis"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Erektion",
+      "Ständer"
+    ]
+  },
+  "Proklamation, die": {
+    "lemma": "Proklamation, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "öffentliche [amtliche] Erklärung; feierliche Verkündigung"
+    ],
+    "examples": [
+      "die Proklamation der Menschenrechte"
+    ],
+    "synonyms": [
+      "Ankündigung",
+      "Ausrufung",
+      "Bekanntmachung",
+      "Erklärung"
+    ]
+  },
+  "Provenienz, die": {
+    "lemma": "Provenienz, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Bereich, aus dem jemand, etwas stammt; Herkunft[sland]"
+    ],
+    "examples": [
+      "Flüchtlinge afrikanischer Provenienz",
+      "Teppiche bester Provenienz",
+      "die unklare Provenienz (die ungeklärten früheren Besitzverhältnisse) eines Kunstwerks"
+    ],
+    "synonyms": [
+      "Abstammung",
+      "Geblüt",
+      "Geburt",
+      "Herkunft"
+    ]
+  },
+  "Prämisse, die": {
+    "lemma": "Prämisse, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "erster Satz eines logischen Schlusses (Gebrauch: Philosophie)",
+      "das, was einem bestimmten Projekt, Plan o. Ä., einem bestimmten Vorhaben o. Ä. gedanklich zugrunde liegt; Voraussetzung (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [
+      "theoretische Prämissen",
+      "die Prämissen der Planung überprüfen",
+      "unter den alten Prämissen Politik machen"
+    ],
+    "synonyms": [
+      "Bedingung",
+      "Grundlage",
+      "Voraussetzung",
+      "Vorbedingung"
+    ]
+  },
+  "Präsidium, das": {
+    "lemma": "Präsidium, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "",
+    "meanings": [
+      "leitendes Gremium einer Versammlung, einer Organisation o. Ä.",
+      "Amtsgebäude eines [Polizei]präsidenten, einer [Polizei]präsidentin"
+    ],
+    "examples": [
+      "ein neues Präsidium wählen",
+      "im Präsidium sitzen",
+      "das Präsidium übernehmen, führen"
+    ],
+    "synonyms": [
+      "Chefetage",
+      "Direktion",
+      "Direktorium",
+      "Führerschaft"
+    ]
+  },
+  "Prävalenz, die": {
+    "lemma": "Prävalenz, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Überlegenheit; das Vorherrschen (Gebrauch: bildungssprachlich veraltend)",
+      "Rate der zu einem bestimmten Zeitpunkt oder in einem bestimmten Zeitabschnitt an einer bestimmten Krankheit Erkrankten (im Vergleich zur Zahl der Untersuchten) (Gebrauch: Medizin)"
+    ],
+    "examples": [
+      "die Prävalenz bei Schlaganfällen"
+    ],
+    "synonyms": [
+      "Dominanz",
+      "Übergewicht",
+      "Überlegenheit",
+      "Vormachtstellung"
+    ]
+  },
+  "Ratifizierung, die": {
+    "lemma": "Ratifizierung, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Völkerrecht",
+    "meanings": [
+      "das Ratifizieren; das Ratifiziertwerden"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Bestätigung",
+      "Sanktion",
+      "Unterzeichnung"
+    ]
+  },
+  "Reaktanz, die": {
+    "lemma": "Reaktanz, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Elektrotechnik",
+    "meanings": [
+      "Widerstand des Wechselstroms, der nur durch induktiven und kapazitativen Widerstand bewirkt wird"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Regress, der": {
+    "lemma": "Regress, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Inanspruchnahme des Hauptschuldners (b), Rückgriff auf den Hauptschuldner durch einen ersatzweise haftenden Schuldner (Gebrauch: Rechtssprache)",
+      "das Zurückgehen von der Wirkung zur Ursache, vom Bedingten zur Bedingung (Gebrauch: Philosophie)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Reigen, der": {
+    "lemma": "Reigen, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "früher",
+    "meanings": [
+      "von Gesang begleiteter [Rund]tanz, bei dem eine größere Zahl von Tänzerinnen und Tänzern [paarweise] einem Vortänzer und Vorsänger schreitend oder hüpfend folgt"
+    ],
+    "examples": [
+      "einen Reigen tanzen, aufführen",
+      "das Brautpaar eröffnete den Reigen, führte den Reigen an",
+      "〈in übertragener Bedeutung:〉 ein bunter Reigen (eine bunte Folge) von Melodien",
+      "den Reigen eröffnen (den Anfang mit etwas machen)",
+      "den Reigen beschließen (bei etwas der/die Letzte sein)"
+    ],
+    "synonyms": []
+  },
+  "Rekonvaleszenz, die": {
+    "lemma": "Rekonvaleszenz, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Medizin",
+    "meanings": [
+      "Genesung",
+      "Genesungszeit"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Besserung",
+      "Heilung",
+      "Heilungsprozess",
+      "Wiederherstellung"
+    ]
+  },
+  "Replik, die": {
+    "lemma": "Replik, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Erwiderung auf Äußerungen, Thesen o. Ä. eines anderen (Gebrauch: bildungssprachlich)",
+      "Nachbildung eines Originals [die der Künstler selbst angefertigt hat] (Gebrauch: Kunstwissenschaft)"
+    ],
+    "examples": [
+      "eine glänzende, geharnischte Replik schreiben, vortragen"
+    ],
+    "synonyms": [
+      "Abguss",
+      "Abklatsch",
+      "Antwort",
+      "Entgegnung"
+    ]
+  },
+  "Reprise, die": {
+    "lemma": "Reprise, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Wiederaufnahme eines Theaterstücks in der alten Inszenierung oder eines lange nicht gespielten Films in den Spielplan (Gebrauch: Theater)",
+      "Wiederholung eines bestimmten Teils innerhalb einer Komposition (Gebrauch: Musik)",
+      "bei Keuchhusten im Wechsel mit Stakkatohusten auftretende tiefe, laut hörbare Einatmung (Gebrauch: Medizin)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Resorption, die": {
+    "lemma": "Resorption, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Biologie, Medizin",
+    "meanings": [
+      "das Resorbieren; das Resorbiertwerden"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Aufnahme",
+      "Absorption"
+    ]
+  },
+  "Retorsion, die": {
+    "lemma": "Retorsion, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Rechtssprache",
+    "meanings": [
+      "Erwiderung eines unfreundlichen Aktes durch eine entsprechende Gegenmaßnahme; Vergeltung"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Reziprozität, die": {
+    "lemma": "Reziprozität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Fachsprache",
+    "meanings": [
+      "Gegen-, Wechselseitigkeit, Wechselbezüglichkeit"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Gegenseitigkeit"
+    ]
+  },
+  "Riposte, die": {
+    "lemma": "Riposte, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Fechten",
+    "meanings": [
+      "unmittelbarer Gegenangriff nach einer parierten Parade"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Räson, die": {
+    "lemma": "Räson, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [],
+    "examples": [
+      "zur Räson kommen/(veraltend:) Räson annehmen (dazu übergehen, sich so zu verhalten, wie es von einem erwartet, gefordert wird; einsichtig, vernünftig werden [und sich fügen])",
+      "jemanden zur Räson bringen (durch geeignete Maßnahmen erreichen, dass jemand zur Einsicht, Vernunft kommt)"
+    ],
+    "synonyms": []
+  },
+  "Scharade, die": {
+    "lemma": "Scharade, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Rätsel, Ratespiel, bei dem ein Wort, das zu erraten ist, meist in seine Silben oder willkürlich in Teile zerlegt, pantomimisch dargestellt wird"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Denkspiel",
+      "Rätsel"
+    ]
+  },
+  "Scholastik, die": {
+    "lemma": "Scholastik, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "auf die antike Philosophie gestützte, christliche Dogmen verarbeitende Philosophie und Theologie des Mittelalters (etwa 9.–14. Jahrhundert)",
+      "engstirnige, dogmatische Schulweisheit (Gebrauch: abwertend)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Semiotik, die": {
+    "lemma": "Semiotik, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Semiologie (1) (Gebrauch: Philosophie, Sprachwissenschaft)",
+      "Symptomatologie (Gebrauch: Medizin)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Sezession, die": {
+    "lemma": "Sezession, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Absonderung; Verselbstständigung von Staatsteilen",
+      "Absonderung einer Künstlergruppe von einer älteren Künstlervereinigung (Grammatik: ohne Plural)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Jugendstil",
+      "Art nouveau"
+    ]
+  },
+  "Solidität, die": {
+    "lemma": "Solidität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "solide (1,  2) Beschaffenheit",
+      "solide (3) Lebensweise"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Sophisma, das": {
+    "lemma": "Sophisma, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "bildungssprachlich, seltener",
+    "meanings": [
+      "Sophismus"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Sophisterei, die": {
+    "lemma": "Sophisterei, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich abwertend",
+    "meanings": [
+      "sophistisches Spiel mit Worten und Begriffen, sophistische Argumentation; Haarspalterei"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Haarspalterei",
+      "Spitzfindigkeit",
+      "Wortklauberei"
+    ]
+  },
+  "Souverän, der": {
+    "lemma": "Souverän, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "Sou|ve|rän",
+    "meanings": [
+      "unumschränkter Herrscher, Fürst eines Landes (Gebrauch: veraltend)",
+      "Gesamtheit der [eidgenössischen, kantonalen oder kommunalen] Stimmbürger (Gebrauch: schweizerisch)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Alleinherrscher",
+      "Fürst",
+      "Herrscher",
+      "Hoheit"
+    ]
+  },
+  "Staffage, die": {
+    "lemma": "Staffage, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "[schmückendes] Beiwerk; Ausstattung, Aufmachung, die dem schöneren Schein dient, etwas vortäuscht",
+      "(besonders in der Malerei des Barock) zur Belebung von Landschafts- und Architekturbildern eingefügtes Beiwerk aus Figuren von Menschen oder Tieren (Gebrauch: bildende Kunst)"
+    ],
+    "examples": [
+      "die Studiogäste dienten nur als Staffage",
+      "alles nur Staffage!"
+    ],
+    "synonyms": [
+      "Aufmachung",
+      "Ausschmückung",
+      "Ausstattung",
+      "Beigabe"
+    ]
+  },
+  "Stochastik, die": {
+    "lemma": "Stochastik, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Mathematik",
+    "meanings": [
+      "Teilgebiet der Mathematik, das die Wahrscheinlichkeitstheorie und die Statistik (1) umfasst"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Subsidiarität, die": {
+    "lemma": "Subsidiarität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "gesellschaftspolitisches Prinzip, nach dem übergeordnete gesellschaftliche Einheiten (besonders der Staat) nur solche Aufgaben an sich ziehen dürfen, zu deren Wahrnehmung untergeordnete Einheiten (besonders die Familie) nicht in der Lage sind (Gebrauch: Politik, Soziologie)",
+      "die Nachrangigkeit einer subsidiären (b) Rechtsnorm gegenüber einer anderen, auf den Einzelfall genauer zutreffenden Norm (Gebrauch: Rechtssprache)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Substituierung, die": {
+    "lemma": "Substituierung, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich; Fachsprache",
+    "meanings": [
+      "das Substituieren"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Symposium, das": {
+    "lemma": "Symposium, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "",
+    "meanings": [
+      "lateinische Form von Symposion"
+    ],
+    "examples": [
+      "die Akademie veranstaltete ein Symposium über Sprachwandel"
+    ],
+    "synonyms": [
+      "Beratung",
+      "Kolloquium",
+      "Konferenz",
+      "Kongress"
+    ]
+  },
+  "Synkope, die": {
+    "lemma": "Synkope, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "rhythmische Verschiebung durch Bindung eines unbetonten Wertes an den folgenden betonten (Aussprache: [zʏnˈkoːpə])",
+      "Ausfall eines unbetonten Vokals zwischen zwei Konsonanten im Wortinnern (Aussprache: [ˈzʏnkope])",
+      "plötzliche, kurzzeitige Ohnmacht infolge einer Störung der Gehirndurchblutung (Aussprache: [ˈzʏnkope])"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Ausfall",
+      "Ohnmacht"
+    ]
+  },
+  "Synopse, die": {
+    "lemma": "Synopse, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "vergleichende Gegenüberstellung von Texten (Gebrauch: Fachsprache)",
+      "Zusammenschau (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [
+      "das Werk ist eine großartige Synopsis dieser Fachrichtung"
+    ],
+    "synonyms": [
+      "Überblick",
+      "Zusammenschau"
+    ]
+  },
+  "Synästhesie, die": {
+    "lemma": "Synästhesie, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Reizempfindung eines Sinnesorgans bei Reizung eines andern (wie etwa das Auftreten von Farbempfindungen beim Hören bestimmter Töne) (Gebrauch: Medizin)",
+      "(besonders in der Dichtung der Romantik und des Symbolismus) sprachlich ausgedrückte Verschmelzung mehrerer Sinneseindrücke (z. B. schreiendes Rot) (Gebrauch: Literaturwissenschaft)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Tautologie, die": {
+    "lemma": "Tautologie, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Rhetorik, Stilkunde",
+    "meanings": [
+      "Fügung, die einen Sachverhalt doppelt wiedergibt (z. B. nackt und bloß)",
+      "Pleonasmus (Gebrauch: seltener)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Taxonomie, die": {
+    "lemma": "Taxonomie, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Zweig der Systematik, der sich mit der Einordnung der Lebewesen in systematische Kategorien befasst (Gebrauch: Botanik, Zoologie)",
+      "Teilgebiet der Linguistik, auf dem man durch Segmentierung und Klassifikation sprachlicher Einheiten den Aufbau eines Sprachsystems beschreiben will (Gebrauch: Sprachwissenschaft)",
+      "Einordnung in ein bestimmtes System"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Topos, der": {
+    "lemma": "Topos, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "Literaturwissenschaft",
+    "meanings": [
+      "festes Schema, feste Formel, feststehendes Bild o. Ä."
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Traktat, das oder der": {
+    "lemma": "Traktat, das oder der",
+    "wordClass": "Substantiv, Neutrum, oder Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Abhandlung (Gebrauch: bildungssprachlich veraltend)",
+      "(Staats)vertrag (Gebrauch: veraltet)"
+    ],
+    "examples": [
+      "theologische, wissenschaftliche, politische Traktate"
+    ],
+    "synonyms": [
+      "Abhandlung",
+      "Arbeit",
+      "Artikel",
+      "Aufsatz"
+    ]
+  },
+  "Triumvirat, das": {
+    "lemma": "Triumvirat, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "",
+    "meanings": [
+      "(in der römischen Antike) Bund (1a) dreier Männer (als eine Art Kommission zur Erledigung bestimmter Staatsgeschäfte)"
+    ],
+    "examples": [
+      "ein Triumvirat schließen, einsetzen"
+    ],
+    "synonyms": []
+  },
+  "Usance, die": {
+    "lemma": "Usance, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "bildungssprachlich, Kaufmannssprache",
+    "meanings": [
+      "Brauch, Gepflogenheit [im geschäftlichen Verkehr]"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Brauch",
+      "Einrichtung",
+      "Gepflogenheit",
+      "Regel"
+    ]
+  },
+  "Valorisierung, die": {
+    "lemma": "Valorisierung, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Valorisation"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Verazität, die": {
+    "lemma": "Verazität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "veraltet",
+    "meanings": [
+      "Wahrhaftigkeit"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Vestibül, das": {
+    "lemma": "Vestibül, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Vorhalle, Eingangshalle (z. B. in einem Theater, Hotel)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Foyer",
+      "Halle",
+      "Lobby"
+    ]
+  },
+  "Viskosität, die": {
+    "lemma": "Viskosität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Chemie, Technik",
+    "meanings": [
+      "Zähflüssigkeit; Zähigkeit von Flüssigkeiten und Gasen"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Volontär, der": {
+    "lemma": "Volontär, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "männliche Person, die zur Vorbereitung auf ihre künftige berufliche (besonders journalistische oder kaufmännische) Tätigkeit [gegen geringe Bezahlung] in einer Redaktion, in einem kaufmännischen Betrieb o. Ä. arbeitet"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Auszubildende",
+      "Auszubildender",
+      "Azubi",
+      "Azubi"
+    ]
+  },
+  "Volte, die": {
+    "lemma": "Volte, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Kunstgriff beim Kartenspiel, durch den beim Mischen eine Karte an die gewünschte Stelle gelangt (Gebrauch: bildungssprachlich)",
+      "das Reiten eines Kreises von kleinem Durchmesser (Gebrauch: Reiten)",
+      "seitliches Ausweichen (Gebrauch: Fechten)"
+    ],
+    "examples": [
+      "die, eine Volte schlagen",
+      "die/eine Volte schlagen (einen geschickten Schachzug, Kniff anwenden)",
+      "eine Volte reiten"
+    ],
+    "synonyms": [
+      "Kniff",
+      "Schachzug",
+      "Winkelzug"
+    ]
+  },
+  "Zäsur, die": {
+    "lemma": "Zäsur, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "metrischer Einschnitt innerhalb eines Verses (Gebrauch: Verslehre)",
+      "durch eine Pause oder ein anderes Mittel markierter Einschnitt im Verlauf eines Musikstücks (Gebrauch: Musik)",
+      "Einschnitt (besonders in einer geschichtlichen Entwicklung); markanter Punkt (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [
+      "eine markante, deutlich sichtbare Zäsur",
+      "eine Zäsur setzen",
+      "dieses Werk bildet eine Zäsur in ihrem Schaffen"
+    ],
+    "synonyms": [
+      "Bruch",
+      "Einschnitt",
+      "Unterbrechung"
+    ]
+  },
+  "abhold": {
+    "lemma": "abhold",
+    "wordClass": "Adjektiv",
+    "usage": "gehoben veraltet",
+    "meanings": [],
+    "examples": [
+      "jemandem, einer Sache abhold sein (gehoben:  jemandem, einer Sache abgeneigt sein: großen Worten abhold sein; er war dem Alkohol nicht abhold; 〈auch attributiv:〉 ein allen Phrasen abholder Politiker)"
+    ],
+    "synonyms": []
+  },
+  "absentieren": {
+    "lemma": "absentieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "sich entfernen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "davongehen",
+      "sich davonmachen",
+      "entschwinden"
+    ]
+  },
+  "adhärent": {
+    "lemma": "adhärent",
+    "wordClass": "Adjektiv",
+    "usage": "besonders Fachsprache",
+    "meanings": [
+      "anhaftend, anhängend",
+      "(von Geweben, Pflanzenteilen) angewachsen, verwachsen"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "affektiert": {
+    "lemma": "affektiert",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "gekünstelt, geziert"
+    ],
+    "examples": [
+      "ein affektiertes Benehmen"
+    ],
+    "synonyms": [
+      "gekünstelt",
+      "geziert",
+      "gezwungen",
+      "unecht"
+    ]
+  },
+  "affektiv": {
+    "lemma": "affektiv",
+    "wordClass": "Adjektiv",
+    "usage": "Psychologie",
+    "meanings": [
+      "gefühlsbetont, durch Affekte gekennzeichnet",
+      "auf einen Affekt (a) bezogen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "emotional",
+      "gefühlsbetont",
+      "irrational",
+      "leidenschaftlich"
+    ]
+  },
+  "affichieren": {
+    "lemma": "affichieren",
+    "wordClass": "schwaches Verb",
+    "usage": "österreichisch, schweizerisch, sonst veraltet",
+    "meanings": [
+      "(Plakate) ankleben, befestigen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "ankleben",
+      "anschlagen",
+      "aushängen",
+      "festkleben"
+    ]
+  },
+  "aliquot": {
+    "lemma": "aliquot",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "ohne Rest teilend (Gebrauch: Mathematik veraltet)",
+      "anteilmäßig (Gebrauch: österreichisch)"
+    ],
+    "examples": [
+      "fünf ist ein aliquoter Teil von zehn",
+      "etwas aliquot zurückzahlen"
+    ],
+    "synonyms": []
+  },
+  "allenthalben": {
+    "lemma": "allenthalben",
+    "wordClass": "Adverb",
+    "usage": "",
+    "meanings": [
+      "überall (a)",
+      "bei jeder Gelegenheit, sich in kurzen zeitlichen Abständen wiederholend (Gebrauch: besonders süddeutsch)"
+    ],
+    "examples": [
+      "das Lied ist jetzt allenthalben zu hören",
+      "die drei Musiker wechselten während des Konzerts allenthalben ihre Instrumente"
+    ],
+    "synonyms": [
+      "allerseits",
+      "allerwärts",
+      "allgemein",
+      "allseits"
+    ]
+  },
+  "Enquete, die": {
+    "lemma": "Enquete, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "besonders sozial- oder wirtschaftspolitische Verhältnisse betreffende, groß angelegte Untersuchung, Erhebung, Umfrage (Gebrauch: Amtssprache)",
+      "Gebrauch: Parlamentssprache; Kurzform für: Enquetekommission",
+      "Arbeitstagung (Gebrauch: österreichisch)"
+    ],
+    "examples": [
+      "eine Enquete über die wirtschaftliche Lage veröffentlichen",
+      "die Mitglieder der Enquete tagen gerade"
+    ],
+    "synonyms": [
+      "Demoskopie",
+      "Erhebung",
+      "Meinungsforschung",
+      "Umfrage"
+    ]
   }
 };
 

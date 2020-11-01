@@ -70,12 +70,32 @@ function extractMultipleMeanings(meaningsContainer) {
   const meanings = Array.prototype.map.call(
     meaningsContainer.querySelectorAll('ol.enumeration > li.enumeration__item'),
     (liNode) => {
-      const meaning = liNode
-        .querySelector('div.enumeration__text')
-        .textContent.trim();
+      const enumerationTextContainer = liNode.querySelector(
+        'div.enumeration__text'
+      );
+      const meaning = enumerationTextContainer
+        ? enumerationTextContainer.textContent.trim()
+        : null;
       const contextContainer = liNode.querySelector('dl.tuple');
 
       if (contextContainer) {
+        if (!meaning) {
+          return Array.prototype.reduce.call(
+            liNode.querySelectorAll('dl.tuple'),
+            (acc, tuple) => {
+              const key = tuple
+                .querySelector('dt.tuple__key')
+                .textContent.trim();
+              const value = tuple
+                .querySelector('dd.tuple__val')
+                .textContent.trim();
+
+              return acc ? `${acc}; ${key}: ${value}` : `${key}: ${value}`;
+            },
+            ''
+          );
+        }
+
         const tupleKey = contextContainer
           .querySelector('dt.tuple__key')
           .textContent.trim();
@@ -124,7 +144,7 @@ function parseTranslationFromArticle(article) {
   const lemmaContainer = article.querySelector('div.lemma');
 
   if (!lemmaContainer) {
-    throw new Error(`Lookup failed.`);
+    throw new Error('No translation found');
   }
 
   // strips undesireable sillable separators and excess spaces
@@ -146,12 +166,12 @@ async function fetchTranslation(term) {
   // strips undesireable sillable separators and excess spaces
   const normalizedTerm = stripSoftHyphens(term.trim());
 
-  console.log(`Look up term "${normalizedTerm}"...`);
+  //console.log(`Look up term "${normalizedTerm}"...`);
 
   const cachedTranslation = Cache.lookup(normalizedTerm);
 
-  if (cachedTranslation) {
-    console.log(`Cached translation found for "${normalizedTerm}".`);
+  if (cachedTranslation !== null) {
+    //console.log(`Cached translation found for "${normalizedTerm}".`);
     return cachedTranslation;
   }
 
@@ -172,7 +192,7 @@ async function fetchTranslation(term) {
     );
     const lookupUrl = `https://www.duden.de/rechtschreibung/${encodedSearchTerm}`;
 
-    console.log(`Fetching translation from ${lookupUrl} ...`);
+    //console.log(`Fetching translation from ${lookupUrl} ...`);
 
     const dom = await loadDomFromUrl(lookupUrl);
     const articleElement = dom.window.document.querySelector('main > article');
@@ -183,7 +203,7 @@ async function fetchTranslation(term) {
 
     return translation;
   } catch (e) {
-    throw e;
+    throw new Error(`${e.message}: ${normalizedTerm}`);
   }
 }
 
@@ -217,13 +237,14 @@ async function loadTermList(filePath) {
 
 async function createList() {
   try {
-    const terms = await loadTermList('./bildungssprache.md');
+    //const terms = await loadTermList('./bildungssprache.md');
+    const terms = ['Enquete, die'];
 
-    for (const term of terms.slice(0, 10)) {
+    for (const term of terms.slice(0, 1)) {
       try {
         await fetchTranslation(term);
       } catch (e) {
-        console.error('\n', e, '\n'); // log error but move on
+        console.error(e.message, e);
       }
     }
 
