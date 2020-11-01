@@ -2485,6 +2485,2207 @@ const CACHE = {
       "Meinungsforschung",
       "Umfrage"
     ]
+  },
+  "Reuse, die": {
+    "lemma": "Reuse, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Kurzform für: Fischreuse",
+      "Kurzform für: Vogelreuse"
+    ],
+    "examples": [
+      "Reusen stellen",
+      "Aale in Reusen fangen"
+    ],
+    "synonyms": []
+  },
+  "alterieren": {
+    "lemma": "alterieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "sich aufregen, sich erregen, sich ärgern (Gebrauch: landschaftlich, sonst veraltend)",
+      "einen oder mehrere Töne eines Akkords (1) chromatisch verändern (Gebrauch: Musik)"
+    ],
+    "examples": [
+      "alterierte Akkorde"
+    ],
+    "synonyms": [
+      "aufregen",
+      "erhitzen",
+      "erregen",
+      "erzürnen"
+    ]
+  },
+  "ambivalent": {
+    "lemma": "ambivalent",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich, Fachsprache",
+    "meanings": [
+      "in sich widersprüchlich; zwiespältig"
+    ],
+    "examples": [
+      "ambivalente Gefühle, Beziehungen",
+      "seine Haltung in dieser Frage ist höchst ambivalent"
+    ],
+    "synonyms": [
+      "doppeldeutig",
+      "doppelsinnig",
+      "gespalten",
+      "schillernd"
+    ]
+  },
+  "amikal": {
+    "lemma": "amikal",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "freundschaftlich"
+    ],
+    "examples": [],
+    "synonyms": [
+      "freundschaftlich",
+      "vertraulich"
+    ]
+  },
+  "amorph": {
+    "lemma": "amorph",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "ungeformt, gestaltlos (Gebrauch: bildungssprachlich)",
+      "glasartig, nicht kristallin (Gebrauch: Physik)"
+    ],
+    "examples": [
+      "eine amorphe Masse",
+      "amorphe Stoffe",
+      "amorphe Protozoen"
+    ],
+    "synonyms": [
+      "formlos",
+      "gestaltlos",
+      "strukturlos",
+      "unförmig"
+    ]
+  },
+  "anachronistisch": {
+    "lemma": "anachronistisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "zeitlich falsch eingeordnet",
+      "nicht in eine bestimmte Zeit, Epoche passend und daher überholt; zeitwidrig"
+    ],
+    "examples": [
+      "das erscheint anachronistisch",
+      "ein für die Demokratie anachronistisches Amt, Verfahren"
+    ],
+    "synonyms": [
+      "altmodisch",
+      "antiquiert",
+      "gestrig",
+      "obsolet"
+    ]
+  },
+  "anheimfallen": {
+    "lemma": "anheimfallen",
+    "wordClass": "starkes Verb",
+    "usage": "gehoben",
+    "meanings": [
+      "als Eigentum zufallen",
+      "einer Sache zum Opfer fallen"
+    ],
+    "examples": [
+      "die Güter der Flüchtlinge fielen dem Staat anheim",
+      "der Vergessenheit anheimfallen",
+      "der Zerstörung, einem Betrug anheimfallen"
+    ],
+    "synonyms": [
+      "fallen",
+      "verfallen",
+      "zufallen"
+    ]
+  },
+  "anheimstellen": {
+    "lemma": "anheimstellen",
+    "wordClass": "schwaches Verb",
+    "usage": "gehoben",
+    "meanings": [
+      "jemandem etwas überlassen (3); etwas in jemandes Ermessen stellen"
+    ],
+    "examples": [
+      "ich stelle das Ihnen, Ihrem Belieben anheim"
+    ],
+    "synonyms": []
+  },
+  "aphoristisch": {
+    "lemma": "aphoristisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "in der Art eines Aphorismus; kurz und treffend, prägnant-geistreich [formuliert]"
+    ],
+    "examples": [
+      "ein aphoristischer Stil",
+      "über etwas aphoristisch (andeutungsweise) berichten, sprechen",
+      "ein Thema nur aphoristisch (kurz) behandeln"
+    ],
+    "synonyms": [
+      "geistreich",
+      "prägnant"
+    ]
+  },
+  "apodiktisch": {
+    "lemma": "apodiktisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "unwiderleglich, unumstößlich; unbedingt sicher; unmittelbar evident (Gebrauch: Philosophie)",
+      "keinen Widerspruch duldend (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [
+      "apodiktische Beweise, Urteile",
+      "etwas in apodiktischer Form, Weise, mit apodiktischer Bestimmtheit behaupten",
+      "etwas apodiktisch erklären"
+    ],
+    "synonyms": [
+      "bestimmt",
+      "eindeutig",
+      "entschieden",
+      "fest"
+    ]
+  },
+  "arkan": {
+    "lemma": "arkan",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "geheim; nicht zugänglich"
+    ],
+    "examples": [],
+    "synonyms": [
+      "diskret",
+      "geheim",
+      "verschwiegen",
+      "vertraulich"
+    ]
+  },
+  "arriviert": {
+    "lemma": "arriviert",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "beruflich oder gesellschaftlich emporgekommen, Ansehen erlangt habend, erfolgreich"
+    ],
+    "examples": [
+      "eine arrivierte Künstlerin",
+      "in diesem Lokal treffen sich die arrivierten Bürger",
+      "das Publikum ist sehr arriviert",
+      "〈substantiviert:〉 er gehört inzwischen zu den Arrivierten"
+    ],
+    "synonyms": [
+      "erfolgreich",
+      "gemacht",
+      "siegreich"
+    ]
+  },
+  "autochthon": {
+    "lemma": "autochthon",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "(von Völkern oder Stämmen) eingeboren, einheimisch, indigen (Gebrauch: Völkerkunde)",
+      "(von Tieren, Pflanzen, Gesteinen) am Fundort vorkommend (Gebrauch: Biologie, Geologie)"
+    ],
+    "examples": [
+      "die Slowenen bilden in Österreich eine autochthone Volksgruppe",
+      "autochthone Rebsorten, Bienenrassen"
+    ],
+    "synonyms": [
+      "bodenständig",
+      "eingesessen",
+      "einheimisch",
+      "heimisch"
+    ]
+  },
+  "avisieren": {
+    "lemma": "avisieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "das Bevorstehen von etwas, die Ankunft, das Eintreffen von jemandem oder etwas schriftlich o. ä. ankündigen (Gebrauch: bildungssprachlich)",
+      "benachrichtigen (Gebrauch: schweizerisch)"
+    ],
+    "examples": [
+      "eine Warenlieferung avisieren"
+    ],
+    "synonyms": [
+      "ankündigen",
+      "anmelden",
+      "ansagen",
+      "ausrufen"
+    ]
+  },
+  "basal": {
+    "lemma": "basal",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "die Basis bildend, fundamental, grundlegend, elementar",
+      "unten; an der Grundfläche gelegen (Gebrauch: besonders Geologie, Medizin)"
+    ],
+    "examples": [
+      "das Lesen ist eine basale Kulturtechnik",
+      "die basalen Bedürfnisse erfüllen"
+    ],
+    "synonyms": []
+  },
+  "bellizistisch": {
+    "lemma": "bellizistisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "militärische Mittel zur Durchsetzung politischer Ziele befürwortend; kriegstreiberisch"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "deduzieren": {
+    "lemma": "deduzieren",
+    "wordClass": "schwaches Verb",
+    "usage": "besonders Philosophie",
+    "meanings": [
+      "ableiten; das Besondere, Einzelne aus dem Allgemeinen herleiten"
+    ],
+    "examples": [
+      "eine Schlussfolgerung logisch deduzieren"
+    ],
+    "synonyms": [
+      "ableiten",
+      "folgern",
+      "herleiten",
+      "konstruieren"
+    ]
+  },
+  "degoutant": {
+    "lemma": "degoutant",
+    "wordClass": "Adjektiv",
+    "usage": "gehoben",
+    "meanings": [
+      "ekelerregend, widerlich, abstoßend"
+    ],
+    "examples": [
+      "ein degoutanter Witz",
+      "wie er sich aufführte, war degoutant"
+    ],
+    "synonyms": [
+      "abscheulich",
+      "abstoßend",
+      "ekelhaft",
+      "fies"
+    ]
+  },
+  "dekretieren": {
+    "lemma": "dekretieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "ver-, anordnen, bestimmen"
+    ],
+    "examples": [
+      "Maßnahmen, ein Gesetz dekretieren"
+    ],
+    "synonyms": [
+      "aufstellen",
+      "bestimmen",
+      "festlegen",
+      "regeln"
+    ]
+  },
+  "delektieren": {
+    "lemma": "delektieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "erfreuen, ergötzen",
+      "sich an etwas ergötzen, laben, gütlich tun (Grammatik: sich delektieren)"
+    ],
+    "examples": [
+      "er delektierte seine Gäste mit hübschen Anekdoten",
+      "man delektierte sich an den aufgetragenen Speisen"
+    ],
+    "synonyms": [
+      "erfreuen",
+      "erheitern",
+      "genießen"
+    ]
+  },
+  "demoskopisch": {
+    "lemma": "demoskopisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "durch Meinungsumfrage ermittelt",
+      "Meinungsumfragen betreffend, auf sie bezüglich"
+    ],
+    "examples": [
+      "demoskopische Zahlen",
+      "eine demoskopische Untersuchung"
+    ],
+    "synonyms": []
+  },
+  "derogativ": {
+    "lemma": "derogativ",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "aufhebend, beschränkend"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "desavouieren": {
+    "lemma": "desavouieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "in der Öffentlichkeit bloßstellen",
+      "nicht anerkennen, verleugnen, in Abrede stellen"
+    ],
+    "examples": [
+      "der Amtsrichter desavouierte die höchstrichterliche Grundsatzentscheidung"
+    ],
+    "synonyms": [
+      "blamieren",
+      "bloßstellen",
+      "kompromittieren"
+    ]
+  },
+  "despektierlich": {
+    "lemma": "despektierlich",
+    "wordClass": "Adjektiv",
+    "usage": "gehoben",
+    "meanings": [
+      "den erforderlichen Respekt vermissen lassend; abfällig, abschätzig, geringschätzig"
+    ],
+    "examples": [
+      "eine despektierliche Äußerung, Geste",
+      "despektierlich über jemanden reden"
+    ],
+    "synonyms": [
+      "abfällig",
+      "abschätzig",
+      "abwertend",
+      "ehrenrührig"
+    ]
+  },
+  "dialektisch": {
+    "lemma": "dialektisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "entsprechend der Methode der Dialektik; in Gegensätzen denkend (Herkunft: lateinisch dialecticus < griechisch dialektikós)",
+      "spitzfindig, haarspalterisch (Gebrauch: bildungssprachlich)",
+      "dialektal (Gebrauch: veraltet)"
+    ],
+    "examples": [
+      "die dialektische Methode",
+      "dialektisch denken",
+      "er argumentiert allzu dialektisch",
+      "eine dialektische Färbung, Wortform"
+    ],
+    "synonyms": [
+      "haarspalterisch",
+      "sophistisch",
+      "spitzfindig"
+    ]
+  },
+  "dirimieren": {
+    "lemma": "dirimieren",
+    "wordClass": "schwaches Verb",
+    "usage": "österreichisch",
+    "meanings": [
+      "(bei Stimmengleichheit) eine Entscheidung (zugunsten der einen oder der anderen Partei) treffen"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "disjunkt": {
+    "lemma": "disjunkt",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "getrennt, geschieden (von gegensätzlichen Begriffen, die zu einem Gattungsbegriff gehören)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "getrennt",
+      "auseinander",
+      "einzeln",
+      "extra"
+    ]
+  },
+  "disparat": {
+    "lemma": "disparat",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "ungleichartig; nicht zueinanderpassend"
+    ],
+    "examples": [
+      "Menschen disparater Herkunft",
+      "die beiden Konzepte sind völlig disparat"
+    ],
+    "synonyms": [
+      "entgegengesetzt",
+      "konträr",
+      "polar",
+      "ungleich"
+    ]
+  },
+  "dispensieren": {
+    "lemma": "dispensieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "[vorübergehend] freistellen, entbinden"
+    ],
+    "examples": [
+      "jemanden vom Dienst dispensieren"
+    ],
+    "synonyms": [
+      "befreien",
+      "beurlauben",
+      "entbinden",
+      "entheben"
+    ]
+  },
+  "distinguiert": {
+    "lemma": "distinguiert",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "sich durch Gewähltheit besonders in Kleidung, Formen des Umgangs u. Ä. von anderen abhebend, unterscheidend; betont vornehm"
+    ],
+    "examples": [
+      "ein distinguierter Herr",
+      "ein distinguiertes Ehepaar"
+    ],
+    "synonyms": [
+      "aristokratisch",
+      "hochkultiviert",
+      "hochvornehm",
+      "kultiviert"
+    ]
+  },
+  "dissoziieren": {
+    "lemma": "dissoziieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "trennen, auflösen (Gebrauch: bildungssprachlich)",
+      "in Ionen oder Atome aufspalten (Gebrauch: Chemie)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "auflösen",
+      "lösen"
+    ]
+  },
+  "dräuen": {
+    "lemma": "dräuen",
+    "wordClass": "schwaches Verb",
+    "usage": "dichterisch",
+    "meanings": [
+      "drohen (1–3)"
+    ],
+    "examples": [
+      "dräuendes Unglück, Unwetter",
+      "dräuende Gefahren"
+    ],
+    "synonyms": [
+      "blühen",
+      "drohen"
+    ]
+  },
+  "düpieren": {
+    "lemma": "düpieren",
+    "wordClass": "schwaches Verb",
+    "usage": "gehoben",
+    "meanings": [
+      "täuschen, überlisten, zum Narren halten",
+      "jemanden vor den Kopf stoßen, brüskieren"
+    ],
+    "examples": [
+      "der angebliche Vertreter hat mehrere Geschäftsleute düpiert",
+      "sich düpiert fühlen"
+    ],
+    "synonyms": [
+      "bemogeln",
+      "beschummeln",
+      "überlisten"
+    ]
+  },
+  "ehrenrührig": {
+    "lemma": "ehrenrührig",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "die Ehre antastend, verletzend"
+    ],
+    "examples": [
+      "ehrenrührige Behauptungen"
+    ],
+    "synonyms": [
+      "beleidigend",
+      "ehrrührig",
+      "erniedrigend",
+      "kränkend"
+    ]
+  },
+  "eklektizistisch": {
+    "lemma": "eklektizistisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "den Eklektizismus (1) betreffend, zum Eklektizismus gehörend",
+      "durch Eklektizismus (2a) gekennzeichnet (Gebrauch: bildungssprachlich abwertend)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "einfallslos",
+      "fantasielos",
+      "unschöpferisch"
+    ]
+  },
+  "emergent": {
+    "lemma": "emergent",
+    "wordClass": "Adjektiv",
+    "usage": "Fachsprache",
+    "meanings": [
+      "(in einem System) durch Zusammenwirken mehrerer Faktoren unerwartet neu auftretend, entstehend"
+    ],
+    "examples": [
+      "emergente Eigenschaften, Phänomene, Prozesse, Systeme, Effekte, Formen",
+      "mentale Gehirnfunktionen gelten als emergent"
+    ],
+    "synonyms": [
+      "unbeständig",
+      "veränderlich"
+    ]
+  },
+  "emotiv": {
+    "lemma": "emotiv",
+    "wordClass": "Adjektiv",
+    "usage": "Fachsprache",
+    "meanings": [
+      "Emotionen enthaltend"
+    ],
+    "examples": [
+      "emotive Reaktionen"
+    ],
+    "synonyms": []
+  },
+  "emphatisch": {
+    "lemma": "emphatisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "mit Nachdruck, eindringlich"
+    ],
+    "examples": [
+      "emphatische Worte"
+    ],
+    "synonyms": [
+      "ausdrucksstark",
+      "begeistert"
+    ]
+  },
+  "epigonal": {
+    "lemma": "epigonal",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "unschöpferisch, nachahmend"
+    ],
+    "examples": [
+      "epigonale Musik"
+    ],
+    "synonyms": []
+  },
+  "epistemisch": {
+    "lemma": "epistemisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "epistemologisch"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "erratisch": {
+    "lemma": "erratisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "im Schlingerkurs befindlich, abirrend, nicht stringent"
+    ],
+    "examples": [
+      "eine erratische Politik betreiben",
+      "Kritiker bemängeln, das IOC handele oft erratisch",
+      "ein erratischer Block (Geologie; vereinzelt liegender, großer Gesteinsblock in einem ehemals vergletscherten Gebiet, der während der Eiszeit dorthin gelangte)"
+    ],
+    "synonyms": [
+      "irrig"
+    ]
+  },
+  "evokativ": {
+    "lemma": "evokativ",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Evokation (1) betreffend, bewirkend"
+    ],
+    "examples": [
+      "eine evokative Wirkung",
+      "evokative Klänge"
+    ],
+    "synonyms": []
+  },
+  "evozieren": {
+    "lemma": "evozieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "durch Evokation (1) hervorrufen, bewirken (Gebrauch: bildungssprachlich)",
+      "durch Evokation (2) vorladen (Gebrauch: Rechtssprache)"
+    ],
+    "examples": [
+      "Vorstellungen, Erinnerungen evozieren"
+    ],
+    "synonyms": [
+      "aufrühren",
+      "auslösen",
+      "bewirken",
+      "entfesseln"
+    ]
+  },
+  "exkulpieren": {
+    "lemma": "exkulpieren",
+    "wordClass": "schwaches Verb",
+    "usage": "Rechtssprache, bildungssprachlich",
+    "meanings": [
+      "vom Vorwurf des Verschuldens entlasten, befreien; rechtfertigen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "entlasten",
+      "lossprechen",
+      "vergeben",
+      "verzeihen"
+    ]
+  },
+  "externalisieren": {
+    "lemma": "externalisieren",
+    "wordClass": "schwaches Verb",
+    "usage": "Psychologie",
+    "meanings": [
+      "nach außen verlagern"
+    ],
+    "examples": [
+      "Konflikte externalisieren"
+    ],
+    "synonyms": []
+  },
+  "exaltieren": {
+    "lemma": "exaltieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "sich [künstlich] aufregen, sich in einer dem Anlass unangemessenen, übertriebenen Weise (über etwas, jemanden) erregen, ereifern"
+    ],
+    "examples": [
+      "sich über jemanden [moralisch] exaltieren"
+    ],
+    "synonyms": [
+      "aufpumpen",
+      "sich echauffieren",
+      "sich empören"
+    ]
+  },
+  "flankieren": {
+    "lemma": "flankieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "zu beiden Seiten von etwas, jemandem stehen, gehen; [schützend] begleiten"
+    ],
+    "examples": [
+      "zwei Türme flankierten das Tor",
+      "flankiert von seinem Anwalt betrat er das Podium",
+      "〈in übertragener Bedeutung:〉 flankierende (zusätzliche, unterstützende) Maßnahmen"
+    ],
+    "synonyms": [
+      "begleiten",
+      "umgeben",
+      "umrahmen",
+      "umstehen"
+    ]
+  },
+  "frivol": {
+    "lemma": "frivol",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "leichtfertig, bedenkenlos",
+      "das sittliche Empfinden, die geltenden Moralbegriffe verletzend"
+    ],
+    "examples": [
+      "frivol mit seinem Leben spielen",
+      "ein frivoler (schlüpfriger) Witz"
+    ],
+    "synonyms": [
+      "bedenkenlos",
+      "draufgängerisch",
+      "dreist",
+      "gewagt"
+    ]
+  },
+  "frugal": {
+    "lemma": "frugal",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "(in Bezug auf die Lebensweise, besonders in Bezug auf Essen und Trinken) einfach, bescheiden; nicht üppig"
+    ],
+    "examples": [
+      "ein frugales (einfaches, aber gutes) Mahl",
+      "frugal leben, essen"
+    ],
+    "synonyms": [
+      "anspruchslos",
+      "ärmlich",
+      "armselig",
+      "bescheiden"
+    ]
+  },
+  "hermeneutisch": {
+    "lemma": "hermeneutisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "einen Text o. Ä. erklärend, auslegend",
+      "die Hermeneutik (2) betreffend"
+    ],
+    "examples": [
+      "hermeneutische Vorgehensweise",
+      "hermeneutischer Zirkel (Zirkelschluss, der darin besteht, dass jede Erkenntnis, die jemand zu gewinnen sucht, auf bereits vorhandener, aus eigener Erfahrung gewonnener Erkenntnis beruht)"
+    ],
+    "synonyms": []
+  },
+  "idiomatisch": {
+    "lemma": "idiomatisch",
+    "wordClass": "Adjektiv",
+    "usage": "Sprachwissenschaft",
+    "meanings": [
+      "zu einem Idiom (1) gehörend",
+      "die Idiomatik betreffend, in ihren Bereich gehörend"
+    ],
+    "examples": [
+      "eine idiomatische Wendung (Redewendung, deren Gesamtbedeutung nicht aus der Bedeutung der Einzelwörter erschlossen werden kann)",
+      "ein idiomatischer Ausdruck"
+    ],
+    "synonyms": []
+  },
+  "idiosynkratisch": {
+    "lemma": "idiosynkratisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "überempfindlich gegen bestimmte Stoffe und Reize (Gebrauch: Medizin)",
+      "von unüberwindlicher Abneigung erfüllt und entsprechend auf jemanden, etwas reagierend (Gebrauch: Psychologie)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "indolent": {
+    "lemma": "indolent",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "geistig träge und gleichgültig; keine Gemütsbewegung erkennen lassend (Gebrauch: bildungssprachlich)",
+      "schmerzunempfindlich; gleichgültig gegenüber Schmerzen (Herkunft: spätlateinisch indolens (Genitiv: indolentis), zu lateinisch in- = un-, nicht und dolere = (Schmerz) empfinden)"
+    ],
+    "examples": [
+      "ein völlig indolenter Mensch"
+    ],
+    "synonyms": [
+      "apathisch",
+      "denkfaul",
+      "desinteressiert",
+      "gleichgültig"
+    ]
+  },
+  "infam": {
+    "lemma": "infam",
+    "wordClass": "Adjektiv",
+    "usage": "abwertend",
+    "meanings": [
+      "bösartig und jemandem auf durchtriebene, schändliche Weise schadend",
+      "in beeinträchtigender, schädigender Weise stark (Gebrauch: umgangssprachlich)"
+    ],
+    "examples": [
+      "eine infame Verleumdung, Lüge",
+      "ein infamer Mensch",
+      "infame Schmerzen",
+      "es ist infam heiß draußen",
+      "er hat infam übertrieben"
+    ],
+    "synonyms": [
+      "abgefeimt",
+      "abscheulich",
+      "bösartig",
+      "böse"
+    ]
+  },
+  "inkommensurabel": {
+    "lemma": "inkommensurabel",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "nicht messbar, nicht vergleichbar; unwägbar"
+    ],
+    "examples": [
+      "(Mathematik) inkommensurable Größen (Größen, deren Verhältnis irrational ist)",
+      "ihre Leistungen sind inkommensurabel"
+    ],
+    "synonyms": [
+      "unvergleichlich",
+      "unvergleichbar",
+      "inkomparabel"
+    ]
+  },
+  "insinuieren": {
+    "lemma": "insinuieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "als Unterstellung, Verdächtigung äußern; unterstellen, durchblicken lassen"
+    ],
+    "examples": [
+      "ein Verschulden, einen Zusammenhang insinuieren",
+      "was hier insinuiert wird, dürfte kaum zu beweisen sein",
+      "ich wollte damit nicht insinuieren, dass es sich um eine Fälschung handelt"
+    ],
+    "synonyms": [
+      "hinterbringen",
+      "unterbreiten"
+    ]
+  },
+  "instruktiv": {
+    "lemma": "instruktiv",
+    "wordClass": "Adjektiv",
+    "usage": "in|struk|tiv",
+    "meanings": [
+      "aufschlussreiche, wissenswerte Informationen vermittelnd; lehrreich"
+    ],
+    "examples": [
+      "instruktive Erläuterungen, Beispiele",
+      "das Buch, das Bildmaterial ist sehr instruktiv",
+      "etwas instruktiv darstellen, vortragen, erläutern"
+    ],
+    "synonyms": [
+      "anschaulich",
+      "aufschlussreich",
+      "bedeutsam",
+      "bedeutungsvoll"
+    ]
+  },
+  "intendieren": {
+    "lemma": "intendieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "auf etwas hinzielen, hinarbeiten; beabsichtigen, anstreben"
+    ],
+    "examples": [
+      "diesen Effekt hatte ich [damit] gar nicht intendiert",
+      "die intendierte Wirkung erreichen"
+    ],
+    "synonyms": [
+      "abzielen",
+      "anlegen",
+      "anstreben",
+      "anvisieren"
+    ]
+  },
+  "instantan": {
+    "lemma": "instantan",
+    "wordClass": "Adjektiv",
+    "usage": "Fachsprache",
+    "meanings": [
+      "unverzüglich einsetzend, sich sofort auswirkend, augenblicklich"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "jovial": {
+    "lemma": "jovial",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "im Umgang mit niedriger Stehenden betont wohlwollend"
+    ],
+    "examples": [
+      "ihre Vorgesetzte ist ein sehr jovialer Mensch",
+      "jemandem jovial auf die Schulter klopfen"
+    ],
+    "synonyms": [
+      "gnädig",
+      "gönnerhaft",
+      "herablassend",
+      "leutselig"
+    ]
+  },
+  "kakanisch": {
+    "lemma": "kakanisch",
+    "wordClass": "Adjektiv",
+    "usage": "scherzhaft, ironisch",
+    "meanings": [
+      "Kakanien betreffend"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "kalmieren": {
+    "lemma": "kalmieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "beruhigen, besänftigen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "abwiegeln",
+      "begütigen",
+      "dämpfen"
+    ]
+  },
+  "karikieren": {
+    "lemma": "karikieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "als Karikatur zeichnen, darstellen"
+    ],
+    "examples": [
+      "Politiker werden häufig karikiert",
+      "etwas verzerrt und karikiert wiedergeben"
+    ],
+    "synonyms": [
+      "ironisieren",
+      "verhöhnen"
+    ]
+  },
+  "kategorial": {
+    "lemma": "kategorial",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Kategorien betreffend; in, nach Kategorien"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "kaustisch": {
+    "lemma": "kaustisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "scharf, ätzend (Gebrauch: Chemie)",
+      "sarkastisch, spöttisch (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [
+      "kaustische Alkalien",
+      "sein kaustischer Witz"
+    ],
+    "synonyms": [
+      "boshaft",
+      "höhnisch",
+      "mokant",
+      "sarkastisch"
+    ]
+  },
+  "kathartisch": {
+    "lemma": "kathartisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "die Katharsis betreffend"
+    ],
+    "examples": [
+      "eine kathartische Wirkung"
+    ],
+    "synonyms": []
+  },
+  "kohärent": {
+    "lemma": "kohärent",
+    "wordClass": "Adjektiv",
+    "usage": "Psychologie, Pädagogik",
+    "meanings": [
+      "zusammenhängend"
+    ],
+    "examples": [
+      "ein kohärenter Text",
+      "Grundlagen einer kohärenten Politik"
+    ],
+    "synonyms": []
+  },
+  "kokettieren": {
+    "lemma": "kokettieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "sich jemandem gegenüber kokett benehmen und erotisches Interesse zu erregen suchen",
+      "mit etwas nur spielen; sich nicht wirklich auf etwas einlassen",
+      "auf etwas im Zusammenhang mit der eigenen Person hinweisen, um sich damit interessant zu machen"
+    ],
+    "examples": [
+      "sie kokettierte mit ihm",
+      "er kokettiert mit seiner Rolle als Teenageridol",
+      "mit seinem Alter, seiner Unsportlichkeit kokettieren"
+    ],
+    "synonyms": [
+      "flirten",
+      "liebäugeln",
+      "schäkern"
+    ]
+  },
+  "kolportieren": {
+    "lemma": "kolportieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "eine ungesicherte, unzutreffende Information verbreiten"
+    ],
+    "examples": [
+      "ein Gerücht, eine Anekdote kolportieren"
+    ],
+    "synonyms": []
+  },
+  "kommensurabel": {
+    "lemma": "kommensurabel",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "mit gleichem Maß messbar; vergleichbar"
+    ],
+    "examples": [],
+    "synonyms": [
+      "analog",
+      "ähnlich",
+      "entsprechend",
+      "gleich[artig]"
+    ]
+  },
+  "konfligieren": {
+    "lemma": "konfligieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "mit etwas in Konflikt geraten"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "konstatieren": {
+    "lemma": "konstatieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "feststellen (1b)",
+      "feststellen (1c)"
+    ],
+    "examples": [
+      "der Arzt konstatiert den Tod des alten Mannes",
+      "ich muss leider konstatieren, dass an meinem Angebot kein Interesse zu bestehen scheint"
+    ],
+    "synonyms": [
+      "ausfindig machen",
+      "bemerken",
+      "entdecken",
+      "erkennen"
+    ]
+  },
+  "konsternieren": {
+    "lemma": "konsternieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "konsterniert machen"
+    ],
+    "examples": [
+      "jemanden konsternieren",
+      "diese Frage konsterniert mich"
+    ],
+    "synonyms": [
+      "entsetzen",
+      "erschrecken",
+      "erschüttern",
+      "schockieren"
+    ]
+  },
+  "konstituieren": {
+    "lemma": "konstituieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "gründen; ins Leben rufen",
+      "[zur Gründung zusammentreten und] die eigene Organisationsform, Geschäftsordnung o. Ä. festlegen; sich bilden, zusammenschließen und festen Bestand gewinnen (Grammatik: sich konstituieren)"
+    ],
+    "examples": [
+      "eine Republik, eine neue wissenschaftliche Disziplin konstituieren",
+      "eine konstituierende (die Organisationsform, Geschäftsordnung festlegende) Sitzung",
+      "die konstituierende (Politik; verfassunggebende) Versammlung",
+      "die Sprache konstituiert das Denken",
+      "konstituierende (konstitutive) Bedingungen, Grundsätze",
+      "sich als Körperschaft, Verein konstituieren"
+    ],
+    "synonyms": [
+      "aufbauen",
+      "begründen",
+      "bilden"
+    ]
+  },
+  "konstitutiv": {
+    "lemma": "konstitutiv",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "als wesentliche Bedingung den Bestand von etwas ermöglichend, das Bild der Gesamterscheinung bestimmend"
+    ],
+    "examples": [
+      "konstitutive Merkmale"
+    ],
+    "synonyms": [
+      "bestimmend",
+      "elementar",
+      "fundamental",
+      "grundlegend"
+    ]
+  },
+  "konstruktivistisch": {
+    "lemma": "konstruktivistisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "den Konstruktivismus vertretend, zu ihm gehörend, ihm eigentümlich"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "kontextualisieren": {
+    "lemma": "kontextualisieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "eine sprachliche Äußerung unter Berücksichtigung ihres [sprachlichen] Kontexts (1 a,  c) interpretieren (Gebrauch: Sprachwissenschaft)",
+      "etwas, jemanden durch Einbindung in einen [zeitlichen, politischen, ökonomischen, soziokulturellen usw.] Kontext (2) interpretieren (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "einordnen",
+      "interpretieren"
+    ]
+  },
+  "kontingent": {
+    "lemma": "kontingent",
+    "wordClass": "Adjektiv",
+    "usage": "Philosophie",
+    "meanings": [
+      "zufällig; wirklich oder möglich, aber nicht [wesens]notwendig; Kontingenz (1) aufweisend, beinhaltend"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "konzentrisch": {
+    "lemma": "konzentrisch",
+    "wordClass": "Adjektiv",
+    "usage": "Mathematik",
+    "meanings": [
+      "(von Kreisen, Kugeln) einen gemeinsamen Mittelpunkt habend"
+    ],
+    "examples": [
+      "konzentrische Kreise"
+    ],
+    "synonyms": []
+  },
+  "kursorisch": {
+    "lemma": "kursorisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "fortlaufend; von einem zum andern rasch fortschreitend, nicht auf Einzelheiten eingehend"
+    ],
+    "examples": [
+      "die kursorische Behandlung eines Themas",
+      "kursorische Lektüre",
+      "einen Aufsatz nur kursorisch (oberflächlich) lesen"
+    ],
+    "synonyms": [
+      "fortlaufend"
+    ]
+  },
+  "lakonisch": {
+    "lemma": "lakonisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "kurz, einfach und ohne Erläuterung"
+    ],
+    "examples": [
+      "eine lakonische Auskunft, Feststellung",
+      "eine Frage in lakonischer Kürze beantworten",
+      "lakonisch antworten"
+    ],
+    "synonyms": [
+      "einsilbig",
+      "knapp"
+    ]
+  },
+  "lizitieren": {
+    "lemma": "lizitieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "[bei einer Versteigerung] mitbieten (Gebrauch: österreichisch, sonst veraltend)",
+      "reizen (4) (Gebrauch: Kartenspiele)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "versteigern",
+      "anbieten",
+      "auktionieren",
+      "ausbieten"
+    ]
+  },
+  "manichäisch": {
+    "lemma": "manichäisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "die Lehre des Manichäismus vertretend, den Manichäismus betreffend"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "metaphysisch": {
+    "lemma": "metaphysisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "die Metaphysik (1a) betreffend; jede mögliche Erfahrung überschreitend",
+      "die Metaphysik (2) betreffend"
+    ],
+    "examples": [
+      "metaphysische Probleme, Deduktionen",
+      "eine metaphysische Sicht"
+    ],
+    "synonyms": [
+      "überempirisch",
+      "übernatürlich",
+      "übersinnlich",
+      "transzendent"
+    ]
+  },
+  "mondän": {
+    "lemma": "mondän",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "eine extravagante Eleganz zeigend, zur Schau tragend"
+    ],
+    "examples": [
+      "ein mondäner Badeort",
+      "ein mondänes Publikum"
+    ],
+    "synonyms": [
+      "elegant",
+      "extravagant",
+      "exklusiv"
+    ]
+  },
+  "multilateral": {
+    "lemma": "multilateral",
+    "wordClass": "Adjektiv",
+    "usage": "besonders Politik",
+    "meanings": [
+      "mehrere Seiten, mehr als zwei Vertragspartner betreffend; mehrseitig"
+    ],
+    "examples": [
+      "ein multilaterales Abkommen",
+      "multilaterale Gespräche"
+    ],
+    "synonyms": [
+      "mehrseitig"
+    ]
+  },
+  "mäandern": {
+    "lemma": "mäandern",
+    "wordClass": "schwaches Verb",
+    "usage": "Geografie",
+    "meanings": [
+      "(von Wasserläufen) in Mäandern (1) verlaufen"
+    ],
+    "examples": [
+      "ein mäanderndes Bachbett",
+      "〈in übertragener Bedeutung:〉 frei mäandernde Texte (Texte, die das Thema mit vielen Umwegen und Abschweifungen behandeln)"
+    ],
+    "synonyms": []
+  },
+  "müßig": {
+    "lemma": "müßig",
+    "wordClass": "Adjektiv",
+    "usage": "gehoben",
+    "meanings": [
+      "keiner [sinnvollen] Beschäftigung nachgehend; [auf gelangweilte Weise] untätig",
+      "überflüssig, unnütz, zwecklos"
+    ],
+    "examples": [
+      "ein müßiges Leben führen",
+      "er ist nie müßig",
+      "müßige Stunden",
+      "eine müßige Frage",
+      "es ist müßig, darüber zu reden"
+    ],
+    "synonyms": [
+      "arbeitsscheu",
+      "faul",
+      "faulenzerisch",
+      "inaktiv"
+    ]
+  },
+  "notabene": {
+    "lemma": "notabene",
+    "wordClass": "Adverb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "wohlgemerkt; übrigens"
+    ],
+    "examples": [],
+    "synonyms": [
+      "apropos",
+      "eigentlich",
+      "übrigens"
+    ]
+  },
+  "oktroyieren": {
+    "lemma": "oktroyieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "aufdrängen, aufzwingen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "aufdrängen",
+      "aufnötigen",
+      "aufzwingen",
+      "aufbürden"
+    ]
+  },
+  "opportun": {
+    "lemma": "opportun",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "in der gegebenen Situation angebracht, von Vorteil"
+    ],
+    "examples": [
+      "opportunes Verhalten",
+      "etwas scheint zurzeit nicht opportun",
+      "etwas für [nicht] opportun halten"
+    ],
+    "synonyms": [
+      "angebracht",
+      "angemessen",
+      "empfehlenswert"
+    ]
+  },
+  "oratorisch": {
+    "lemma": "oratorisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "jemandes Fähigkeiten als Redner zum Ausdruck bringend [ohne eine andere Funktion oder Bedeutung zu haben] (Gebrauch: bildungssprachlich)",
+      "in der Art eines Oratoriums (1)"
+    ],
+    "examples": [
+      "eine rein oratorische Leistung"
+    ],
+    "synonyms": []
+  },
+  "ostentativ": {
+    "lemma": "ostentativ",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "bewusst herausfordernd, zur Schau gestellt, betont; in herausfordernder, provozierender Weise"
+    ],
+    "examples": [
+      "er schwieg ostentativ, wandte sich ostentativ ab"
+    ],
+    "synonyms": [
+      "absichtsvoll",
+      "auffällig",
+      "ausdrücklich",
+      "bemüht"
+    ]
+  },
+  "paritätisch": {
+    "lemma": "paritätisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "gleichgestellt, gleichwertig, gleichberechtigt, [zahlenmäßig] gleich; mit gleichen, gleichmäßig verteilten Rechten [ausgestattet]"
+    ],
+    "examples": [
+      "die paritätische Mitbestimmung"
+    ],
+    "synonyms": [
+      "ausgewogen",
+      "gleichberechtigt",
+      "gleichrangig"
+    ]
+  },
+  "parlieren": {
+    "lemma": "parlieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "leicht, obenhin plaudern, Konversation machen (Gebrauch: veraltend)",
+      "eine fremde Sprache sprechen [können], sich in einer fremden Sprache unterhalten"
+    ],
+    "examples": [
+      "zusammensitzen und munter parlieren",
+      "Französisch parlieren"
+    ],
+    "synonyms": [
+      "babbeln",
+      "klönen",
+      "plaudern",
+      "reden"
+    ]
+  },
+  "paternalistisch": {
+    "lemma": "paternalistisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "den Paternalismus betreffend, für ihn charakteristisch; bevormundend"
+    ],
+    "examples": [
+      "ein paternalistisches Machtverständnis",
+      "das paternalistische Gehabe eines Großgrundbesitzers"
+    ],
+    "synonyms": [
+      "patriarchalisch",
+      "autoritär"
+    ]
+  },
+  "perdu": {
+    "lemma": "perdu",
+    "wordClass": "Adjektiv",
+    "usage": "veraltet",
+    "meanings": [
+      "verloren, weg"
+    ],
+    "examples": [],
+    "synonyms": [
+      "unauffindbar",
+      "vermisst",
+      "verschollen"
+    ]
+  },
+  "perfide": {
+    "lemma": "perfide",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "[verschlagen, hinterhältig und] niederträchtig, in besonders übler Weise gemein"
+    ],
+    "examples": [],
+    "synonyms": [
+      "bösartig",
+      "böse",
+      "boshaft",
+      "gemein"
+    ]
+  },
+  "perforieren": {
+    "lemma": "perforieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "[in gleichmäßigen Abständen] mit Löchern versehen, durchlöchern (Gebrauch: Fachsprache)",
+      "(besonders von Geschwüren) durchbrechen (Gebrauch: Medizin)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "durchlochen",
+      "durchlöchern",
+      "lochen"
+    ]
+  },
+  "perlustrieren": {
+    "lemma": "perlustrieren",
+    "wordClass": "schwaches Verb",
+    "usage": "österreichisch",
+    "meanings": [
+      "[zur Feststellung der Identität anhalten und] genau durchsuchen, untersuchen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "durchsuchen",
+      "absuchen",
+      "abtasten",
+      "durchforschen"
+    ]
+  },
+  "pejorativ": {
+    "lemma": "pejorativ",
+    "wordClass": "Adjektiv",
+    "usage": "besonders Sprachwissenschaft",
+    "meanings": [
+      "abwertend, eine negative Bedeutung besitzend"
+    ],
+    "examples": [],
+    "synonyms": [
+      "abfällig",
+      "abschätzig",
+      "abwertend",
+      "geringschätzig"
+    ]
+  },
+  "peripatetisch": {
+    "lemma": "peripatetisch",
+    "wordClass": "Adjektiv",
+    "usage": "Philosophie",
+    "meanings": [
+      "auf der Lehre des Aristoteles beruhend"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "positivistisch": {
+    "lemma": "positivistisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "den Positivismus betreffend, zu ihm gehörend, auf ihm beruhend",
+      "sich (z. B. bei einer wissenschaftlichen Arbeit) nur auf das Sammeln o. Ä. beschränkend [und keine eigene Gedankenarbeit aufweisend] (Gebrauch: oft abwertend)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "postulieren": {
+    "lemma": "postulieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "fordern, unbedingt verlangen, für notwendig, unabdingbar erklären (Gebrauch: bildungssprachlich)",
+      "etwas (mit dem Anspruch, es sei richtig, wahr) feststellen, behaupten; als wahr, gegeben hinstellen (Gebrauch: bildungssprachlich)",
+      "etwas zum Postulat (3) machen; etwas, ohne es beweisen zu können, vorläufig als wahr, gegeben annehmen (Gebrauch: Philosophie)"
+    ],
+    "examples": [
+      "die in der Verfassung postulierte Gleichberechtigung der Frau",
+      "die Unsterblichkeit der Seele postulieren"
+    ],
+    "synonyms": [
+      "beanspruchen",
+      "beharren",
+      "bestehen"
+    ]
+  },
+  "probat": {
+    "lemma": "probat",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "erprobt, bewährt",
+      "[aufgrund von Erfahrungen] richtig, geeignet, tauglich"
+    ],
+    "examples": [
+      "ein probates Mittel",
+      "wenig probate Maßnahmen"
+    ],
+    "synonyms": [
+      "altbewährt",
+      "alterprobt",
+      "bewährt",
+      "eingeführt"
+    ]
+  },
+  "präskriptiv": {
+    "lemma": "präskriptiv",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich; Fachsprache",
+    "meanings": [
+      "bestimmte Normen (1a) festlegend"
+    ],
+    "examples": [
+      "(Sprachwissenschaft) präskriptive Grammatik (Grammatik, die Normen setzt, indem sie Regeln zur Unterscheidung richtiger und falscher Formen vorschreibt)"
+    ],
+    "synonyms": []
+  },
+  "präsumtiv": {
+    "lemma": "präsumtiv",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich; Philosophie, Rechtssprache",
+    "meanings": [
+      "vermutlich; als wahrscheinlich angenommen"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "punzieren": {
+    "lemma": "punzieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "punzen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "eingravieren",
+      "gravieren"
+    ]
+  },
+  "regredieren": {
+    "lemma": "regredieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "auf Früheres zurückgehen, zurückgreifen (Gebrauch: Psychologie)",
+      "Regress (1) nehmen (Gebrauch: Rechtswissenschaft)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "renitent": {
+    "lemma": "renitent",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "sich dem Willen, den Wünschen, Weisungen anderer hartnäckig widersetzend, sich dagegen auflehnend; widersetzlich"
+    ],
+    "examples": [
+      "renitente Schüler",
+      "eine renitente Haltung einnehmen",
+      "sich renitent äußern"
+    ],
+    "synonyms": [
+      "bockig",
+      "eigensinnig",
+      "störrisch",
+      "unwillig"
+    ]
+  },
+  "replizieren": {
+    "lemma": "replizieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "eine Replik (1a) schreiben, vortragen (Gebrauch: bildungssprachlich)",
+      "eine Replik (2) anfertigen (Gebrauch: Kunstwissenschaft)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "antworten",
+      "dagegenhalten",
+      "entgegnen",
+      "erwidern"
+    ]
+  },
+  "restringieren": {
+    "lemma": "restringieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich selten",
+    "meanings": [
+      "einschränken, beschränken"
+    ],
+    "examples": [
+      "die Produktion von etwas restringieren"
+    ],
+    "synonyms": [
+      "beschränken",
+      "eingrenzen",
+      "einschränken",
+      "mäßigen"
+    ]
+  },
+  "rezent": {
+    "lemma": "rezent",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "gegenwärtig [noch] lebend, auftretend oder sich bildend (Gebrauch: besonders Biologie)",
+      "pikant, angenehm scharf, frisch und kräftig im Geschmack (Herkunft: aus der mittellateinischen Apothekersprache, eigentlich wohl = „erfrischend“)"
+    ],
+    "examples": [
+      "rezente Formationen, Tiere, Pflanzen",
+      "rezente Romane, Filme, Studien",
+      "es liegen keine rezenten Daten vor",
+      "rezenter Käse"
+    ],
+    "synonyms": [
+      "aktuell",
+      "gewürzt",
+      "jüngst",
+      "pikant"
+    ]
+  },
+  "rezipieren": {
+    "lemma": "rezipieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "fremdes Gedanken-, Kulturgut aufnehmen, übernehmen",
+      "einen Text, ein Kunstwerk o. Ä. als Leser[in], Hörer[in] oder Betrachter[in] sinnlich erfassen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "annehmen",
+      "aufnehmen",
+      "übernehmen"
+    ]
+  },
+  "rezeptiv": {
+    "lemma": "rezeptiv",
+    "wordClass": "Adjektiv",
+    "usage": "Fachsprache",
+    "meanings": [
+      "[nur] aufnehmend, empfangend; empfänglich"
+    ],
+    "examples": [
+      "rezeptives Verhalten",
+      "eine rezeptive Stimmung"
+    ],
+    "synonyms": []
+  },
+  "reüssieren": {
+    "lemma": "reüssieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Anerkennung finden, Erfolg haben"
+    ],
+    "examples": [
+      "[als Autor, bei jemandem, mit etwas] reüssieren"
+    ],
+    "synonyms": [
+      "gelingen"
+    ]
+  },
+  "satisfaktionsfähig": {
+    "lemma": "satisfaktionsfähig",
+    "wordClass": "Adjektiv",
+    "usage": "früher",
+    "meanings": [
+      "(nach einem bestimmten Ehrenkodex) berechtigt, Satisfaktion (b) zu fordern bzw. zu leisten"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "sekundieren": {
+    "lemma": "sekundieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "jemanden, etwas [mit Worten] unterstützen (Gebrauch: bildungssprachlich)",
+      "jemandem bei einem Duell oder einer Mensur (2) als Berater und Zeuge persönlich beistehen",
+      "einen Teilnehmer während des Wettkampfes persönlich betreuen und beraten (Gebrauch: besonders Boxen, Schach)"
+    ],
+    "examples": [
+      "jemandem/jemanden sekundieren",
+      "jemandem auf der Flöte sekundieren",
+      "seinem Freund sekundieren"
+    ],
+    "synonyms": [
+      "beipflichten",
+      "beistimmen",
+      "recht geben",
+      "unterstützen"
+    ]
+  },
+  "semantisch": {
+    "lemma": "semantisch",
+    "wordClass": "Adjektiv",
+    "usage": "Sprachwissenschaft",
+    "meanings": [
+      "die Semantik (1) betreffend",
+      "die Semantik (2) betreffend"
+    ],
+    "examples": [
+      "semantische Forschungen",
+      "ein semantischer Unterschied"
+    ],
+    "synonyms": []
+  },
+  "serologisch": {
+    "lemma": "serologisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "die Serologie betreffend"
+    ],
+    "examples": [
+      "serologische Untersuchungen"
+    ],
+    "synonyms": []
+  },
+  "sintemal": {
+    "lemma": "sintemal",
+    "wordClass": "Konjunktion",
+    "usage": "scherzhaft, veraltet",
+    "meanings": [
+      "weil; zumal"
+    ],
+    "examples": [],
+    "synonyms": [
+      "zumal",
+      "besonders",
+      "hauptsächlich",
+      "im Besonderen"
+    ]
+  },
+  "skandieren": {
+    "lemma": "skandieren",
+    "wordClass": "schwaches Verb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Verse mit starker Betonung der Hebungen sprechen",
+      "rhythmisch und abgehackt, in einzelnen Silben sprechen"
+    ],
+    "examples": [
+      "ein Gedicht skandieren"
+    ],
+    "synonyms": [
+      "rezitieren",
+      "sprechen",
+      "vorsprechen",
+      "vortragen"
+    ]
+  },
+  "soigniert": {
+    "lemma": "soigniert",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich veraltend",
+    "meanings": [
+      "gepflegt, eine gewisse Vornehmheit und Reife ausstrahlend"
+    ],
+    "examples": [
+      "ein soignierter älterer Herr"
+    ],
+    "synonyms": [
+      "fein",
+      "gepflegt",
+      "kultiviert",
+      "piekfein"
+    ]
+  },
+  "somatisch": {
+    "lemma": "somatisch",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "das Soma (1) betreffend (Gebrauch: Medizin, Psychologie)",
+      "das Soma (2) betreffend (Gebrauch: Biologie, Medizin)"
+    ],
+    "examples": [
+      "die somatischen Ursachen einer Krankheit",
+      "rein somatisch bedingte Symptome",
+      "somatische Zellen, Proteine"
+    ],
+    "synonyms": [
+      "körperlich",
+      "leibhaftig",
+      "leiblich",
+      "organisch"
+    ]
+  },
+  "stringent": {
+    "lemma": "stringent",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "aufgrund der Folgerichtigkeit sehr einleuchtend, überzeugend; logisch zwingend, schlüssig"
+    ],
+    "examples": [
+      "eine stringente Beweisführung, Argumentation",
+      "ein stringenter Schluss",
+      "etwas stringent nachweisen"
+    ],
+    "synonyms": [
+      "bündig",
+      "einleuchtend",
+      "einsichtig",
+      "evident"
+    ]
+  },
+  "subkutan": {
+    "lemma": "subkutan",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "unter der Haut befindlich (Gebrauch: Anatomie)",
+      "unter die Haut [appliziert] (Gebrauch: Medizin)"
+    ],
+    "examples": [
+      "subkutanes Gewebe",
+      "eine subkutane Injektion",
+      "[ein Mittel] subkutan spritzen"
+    ],
+    "synonyms": []
+  },
+  "sublimieren": {
+    "lemma": "sublimieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "auf eine höhere Ebene erheben, ins Erhabene steigern; verfeinern, veredeln (Gebrauch: bildungssprachlich)",
+      "vom festen unmittelbar in den gasförmigen Aggregatzustand übergehen (oder umgekehrt) (Gebrauch: Chemie)"
+    ],
+    "examples": [
+      "ein Gefühl sublimieren",
+      "seine Begierden sublimieren",
+      "das Eis sublimiert",
+      "〈auch sublimieren + sich; hat:〉 das Eis sublimiert sich",
+      "einen Stoff sublimieren"
+    ],
+    "synonyms": [
+      "erhöhen",
+      "hochstilisieren",
+      "kultivieren"
+    ]
+  },
+  "subsumieren": {
+    "lemma": "subsumieren",
+    "wordClass": "schwaches Verb",
+    "usage": "",
+    "meanings": [
+      "einem Oberbegriff unterordnen, unter einer Kategorie einordnen; unter einem Thema zusammenfassen (Gebrauch: bildungssprachlich)",
+      "einen konkreten Sachverhalt dem Tatbestand (2) einer Rechtsnorm unterordnen; prüfen, ob ein konkreter Sachverhalt den Merkmalen einer bestimmten Rechtsnorm entspricht (Gebrauch: Rechtssprache)"
+    ],
+    "examples": [
+      "einen Begriff einem anderen subsumieren",
+      "etwas unter eine/unter einer Überschrift subsumieren"
+    ],
+    "synonyms": [
+      "eingliedern",
+      "einreihen",
+      "unterordnen",
+      "unterstellen"
+    ]
+  },
+  "subversiv": {
+    "lemma": "subversiv",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Subversion betreibend; umstürzlerisch"
+    ],
+    "examples": [
+      "subversive Elemente, Pläne",
+      "sich subversiv betätigen",
+      "〈in übertragener Bedeutung:〉 Theater soll subversiv sein"
+    ],
+    "synonyms": [
+      "aufrührerisch",
+      "aufsässig",
+      "aufständisch",
+      "aufwieglerisch"
+    ]
+  },
+  "taxativ": {
+    "lemma": "taxativ",
+    "wordClass": "Adjektiv",
+    "usage": "österreichisch",
+    "meanings": [
+      "vollständig, erschöpfend"
+    ],
+    "examples": [],
+    "synonyms": [
+      "vollständig",
+      "erschöpfend",
+      "ganz",
+      "gesamt"
+    ]
+  },
+  "unbotmäßig": {
+    "lemma": "unbotmäßig",
+    "wordClass": "Adjektiv",
+    "usage": "gehoben, sonst scherzhaft oder ironisch",
+    "meanings": [
+      "sich nicht so verhaltend, wie es [von der Obrigkeit] gefordert wird"
+    ],
+    "examples": [
+      "unbotmäßige Untertanen",
+      "eine unbotmäßige Kritik"
+    ],
+    "synonyms": [
+      "aufsässig",
+      "dickköpfig",
+      "kratzbürstig",
+      "unartig"
+    ]
+  },
+  "unikal": {
+    "lemma": "unikal",
+    "wordClass": "Adjektiv",
+    "usage": "Fachsprache",
+    "meanings": [
+      "nur einmal vorhanden, vorkommend"
+    ],
+    "examples": [
+      "unikale Versteigerungsobjekte"
+    ],
+    "synonyms": []
+  },
+  "unilateral": {
+    "lemma": "unilateral",
+    "wordClass": "Adjektiv",
+    "usage": "besonders Politik",
+    "meanings": [
+      "einseitig, nur eine Seite betreffend, von dieser ausgehend"
+    ],
+    "examples": [
+      "unilaterale Absichtserklärungen"
+    ],
+    "synonyms": [
+      "einseitig",
+      "unerwidert"
+    ]
+  },
+  "unisono": {
+    "lemma": "unisono",
+    "wordClass": "Adverb",
+    "usage": "Musik",
+    "meanings": [
+      "im Einklang (1) [zu spielen]"
+    ],
+    "examples": [
+      "unisono (einstimmig) singen",
+      "die Geigen spielten unisono",
+      "〈in übertragener Bedeutung:〉 sie haben unisono (einmütig) widersprochen"
+    ],
+    "synonyms": [
+      "einheitlich",
+      "einstimmig",
+      "einstimmig",
+      "einvernehmlich"
+    ]
+  },
+  "urgieren": {
+    "lemma": "urgieren",
+    "wordClass": "schwaches Verb",
+    "usage": "besonders österreichisch",
+    "meanings": [
+      "drängen, nachdrücklich betreiben"
+    ],
+    "examples": [],
+    "synonyms": [
+      "drängen",
+      "auffordern",
+      "sich ausbitten",
+      "bestehen"
+    ]
+  },
+  "vaskulär": {
+    "lemma": "vaskulär",
+    "wordClass": "Adjektiv",
+    "usage": "Biologie, Medizin",
+    "meanings": [
+      "die [Blut]gefäße betreffend"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "veritabel": {
+    "lemma": "veritabel",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "der wahren Bedeutung der angewandten Bezeichnung genau entsprechend; wahrhaft, echt, wirklich"
+    ],
+    "examples": [
+      "eine veritable Leistung"
+    ],
+    "synonyms": []
+  },
+  "viril": {
+    "lemma": "viril",
+    "wordClass": "Adjektiv",
+    "usage": "",
+    "meanings": [
+      "[in Bezug auf das Erscheinungsbild] in charakteristischer Weise männlich"
+    ],
+    "examples": [],
+    "synonyms": [
+      "männlich",
+      "maskulin"
+    ]
+  },
+  "vulgo": {
+    "lemma": "vulgo",
+    "wordClass": "Adverb",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "gemeinhin, gewöhnlich genannt"
+    ],
+    "examples": [],
+    "synonyms": [
+      "alias",
+      "also",
+      "genannt"
+    ]
+  },
+  "wohlfeil": {
+    "lemma": "wohlfeil",
+    "wordClass": "Adjektiv",
+    "usage": "veraltend",
+    "meanings": [
+      "billig, preiswert",
+      "abgedroschen; platt"
+    ],
+    "examples": [
+      "eine wohlfeile Ausgabe von Goethes Werken",
+      "etwas wohlfeil erwerben",
+      "〈in übertragener Bedeutung:〉 eine wohlfeile (sich bietende) Gelegenheit",
+      "wohlfeile Redensarten"
+    ],
+    "synonyms": [
+      "billig",
+      "erschwinglich",
+      "[preis]günstig",
+      "preiswert"
+    ]
+  },
+  "Ägide, die": {
+    "lemma": "Ägide, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [],
+    "examples": [
+      "unter jemandes Ägide (bildungssprachlich:  unter jemandes Schirmherrschaft, Leitung)"
+    ],
+    "synonyms": [
+      "Führung",
+      "Protektorat",
+      "Regentschaft",
+      "Regie"
+    ]
   }
 };
 

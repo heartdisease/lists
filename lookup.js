@@ -237,14 +237,13 @@ async function loadTermList(filePath) {
 
 async function createList() {
   try {
-    //const terms = await loadTermList('./bildungssprache.md');
-    const terms = ['Enquete, die'];
+    const terms = await loadTermList('./bildungssprache.md');
 
-    for (const term of terms.slice(0, 1)) {
+    for (const term of terms) {
       try {
         await fetchTranslation(term);
       } catch (e) {
-        console.error(e.message, e);
+        console.error(e.message);
       }
     }
 
