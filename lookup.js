@@ -170,13 +170,14 @@ async function fetchTranslation(term) {
     );
     const encodedSearchTerm = encodeURIComponent(
       searchTerm
-        .replace(/[Ä]/g, 'Ae')
-        .replace(/[ä]/g, 'ae')
-        .replace(/[Ö]/g, 'Oe')
-        .replace(/[ö]/g, 'oe')
-        .replace(/[Ü]/g, 'Ue')
-        .replace(/[ü]/g, 'ue')
-        .replace(/[ß]/g, 'sz')
+        .replace(/ /g, '_')
+        .replace(/Ä/g, 'Ae')
+        .replace(/ä/g, 'ae')
+        .replace(/Ö/g, 'Oe')
+        .replace(/ö/g, 'oe')
+        .replace(/Ü/g, 'Ue')
+        .replace(/ü/g, 'ue')
+        .replace(/ß/g, 'sz')
     );
     const lookupUrl = `https://www.duden.de/rechtschreibung/${encodedSearchTerm}`;
 

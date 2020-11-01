@@ -4871,6 +4871,102 @@ const CACHE = {
       "Artikel",
       "Aufsatz"
     ]
+  },
+  "Modus Vivendi, der": {
+    "lemma": "Modus Vivendi, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Form eines erträglichen Zusammenlebens zweier oder mehrerer Parteien [ohne Rechtsgrundlage]"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "Ultima Ratio, die": {
+    "lemma": "Ultima Ratio, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "gehoben",
+    "meanings": [
+      "letztes geeignetes Mittel, letztmöglicher Weg"
+    ],
+    "examples": [
+      "Gewalt ist die Ultima Ratio"
+    ],
+    "synonyms": []
+  },
+  "ad hominem": {
+    "lemma": "ad hominem",
+    "wordClass": "bildungssprachlich",
+    "usage": "ad ho|mi|nem",
+    "meanings": [
+      "auf die Bedürfnisse und Möglichkeiten des Menschen abgestimmt"
+    ],
+    "examples": [
+      "etwas ad hominem demonstrieren (etwas so widerlegen oder beweisen, dass die Rücksicht auf die Eigenart der Person und die Bezugnahme auf die ihr geläufigen Vorstellungen, nicht aber die Sache selbst die Methode bestimmen)"
+    ],
+    "synonyms": []
+  },
+  "cum grano salis": {
+    "lemma": "cum grano salis",
+    "wordClass": "bildungssprachlich",
+    "usage": "cum gra|no sa|lis",
+    "meanings": [
+      "mit Einschränkung, nicht ganz wörtlich zu nehmen"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "en passant": {
+    "lemma": "en passant",
+    "wordClass": "en pas|sant",
+    "meanings": [
+      "beiläufig, nebenbei",
+      "im Vorübergehen"
+    ],
+    "examples": [
+      "etwas en passant erwähnen",
+      "ich habe das noch en passant gekauft",
+      "(Schach) einen Bauern en passant schlagen (nach dessen Schritt über zwei Felder so schlagen, als sei er nur ein Feld weit gezogen)"
+    ],
+    "synonyms": [
+      "beiläufig",
+      "nebenher"
+    ]
+  },
+  "grosso modo": {
+    "lemma": "grosso modo",
+    "wordClass": "bildungssprachlich",
+    "usage": "gros|so mo|do",
+    "meanings": [
+      "im Großen und Ganzen"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "in dubio pro reo": {
+    "lemma": "in dubio pro reo",
+    "wordClass": "Rechtssprache",
+    "usage": "in du|bio pro reo",
+    "meanings": [
+      "lassen sich Zweifel an der Schuld des Angeklagten nicht beheben, so ist er freizusprechen (Grundsatz des Strafverfahrens)"
+    ],
+    "examples": [],
+    "synonyms": []
+  },
+  "nolens volens": {
+    "lemma": "nolens volens",
+    "wordClass": "bildungssprachlich",
+    "usage": "no|lens vo|lens",
+    "meanings": [
+      "wohl oder übel"
+    ],
+    "examples": [],
+    "synonyms": [
+      "gezwungenermaßen",
+      "notgedrungen",
+      "unfreiwillig",
+      "zwangsläufig"
+    ]
   }
 };
 
