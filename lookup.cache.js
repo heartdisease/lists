@@ -4686,6 +4686,191 @@ const CACHE = {
       "Regentschaft",
       "Regie"
     ]
+  },
+  "Atout, das": {
+    "lemma": "Atout, das oder der",
+    "wordClass": "Substantiv, Neutrum, oder Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Trumpf im Kartenspiel"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Couleur",
+      "Trumpf"
+    ]
+  },
+  "Credo, das": {
+    "lemma": "Credo, Kredo, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "",
+    "meanings": [
+      "Apostolisches Glaubensbekenntnis (Gebrauch: christliche, besonders katholische Religion)",
+      "Überzeugung, Glaubensbekenntnis (c) (Gebrauch: bildungssprachlich)"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Glaubensbekenntnis",
+      "Leitsatz",
+      "Parole",
+      "Satz"
+    ]
+  },
+  "Defätismus, der": {
+    "lemma": "Defätismus, schweizerisch auch Defaitismus, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "bildungssprachlich abwertend",
+    "meanings": [
+      "durch die Überzeugung, keine Aussicht auf Sieg, auf Erfolg zu haben, und durch eine daraus resultierende starke Neigung zum Aufgeben gekennzeichnete Haltung"
+    ],
+    "examples": [
+      "unter den Soldaten breitete sich Defätismus aus"
+    ],
+    "synonyms": [
+      "Pessimismus",
+      "Schwermut",
+      "Verzweiflung",
+      "Weltschmerz"
+    ]
+  },
+  "Etat, das": {
+    "lemma": "Etat, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "[Staats]haushalt",
+      "durch einen Probedruck festgehaltener Zustand der Platte während der Entstehung eines Kupferstichs (Gebrauch: Kunstwissenschaft)"
+    ],
+    "examples": [
+      "der Etat ist ausgeglichen",
+      "den Etat kürzen",
+      "das ist im Etat nicht vorgesehen",
+      "ein Etat von 500 Millionen Euro",
+      "〈in übertragener Bedeutung:〉 unser Etat für Neuanschaffungen ist erschöpft (weitere Neuanschaffungen können wir nicht mehr finanzieren)",
+      "〈in übertragener Bedeutung:〉 den Etat überschreiten (mehr ausgeben als vorgesehen)"
+    ],
+    "synonyms": [
+      "Finanzplan",
+      "Staatshaushalt",
+      "Staatshaushaltsplan",
+      "Voranschlag"
+    ]
+  },
+  "Ethos, der": {
+    "lemma": "Ethos, das",
+    "wordClass": "Substantiv, Neutrum",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "vom Bewusstsein sittlicher Werte geprägte Gesinnung, Gesamthaltung; ethisches Bewusstsein; Ethik (2)"
+    ],
+    "examples": [
+      "ein hohes Ethos bestimmte sein Handeln"
+    ],
+    "synonyms": [
+      "Moral",
+      "Pflichtbewusstsein",
+      "Pflichtgefühl",
+      "Pflichttreue"
+    ]
+  },
+  "Ikonografie, die": {
+    "lemma": "Ikonografie, Ikonographie, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "Kunstwissenschaft",
+    "meanings": [
+      "Beschreibung, Form- und Inhaltsdeutung von [alten] Bildwerken",
+      "wissenschaftliche Bestimmung von Bildnissen des griechischen und römischen Altertums"
+    ],
+    "examples": [
+      "er ist ein Meister der Ikonografie"
+    ],
+    "synonyms": []
+  },
+  "Kakofonie, die": {
+    "lemma": "Kakofonie, Kakophonie, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "schlecht klingende Folge von Lauten (Gebrauch: Sprachwissenschaft)",
+      "Missklang, Dissonanz (1) (Gebrauch: Musik)"
+    ],
+    "examples": [
+      "eine Komposition mit Kakofonien",
+      "〈in übertragener Bedeutung:〉 die Kakofonie innerhalb der Partei beenden"
+    ],
+    "synonyms": [
+      "Dissonanz",
+      "Missklang"
+    ]
+  },
+  "Klüngel, die": {
+    "lemma": "Klüngel, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Gruppe von Personen, die sich gegenseitig Vorteile verschaffen; Clique (a) (Herkunft: im 19. Jahrhundert aus dem Rheinischen)",
+      "traubiger Blütenstand, Rispe (Gebrauch: landschaftlich)"
+    ],
+    "examples": [
+      "der Diktator und sein Klüngel",
+      "einen Klüngel bilden",
+      "gegen diesen Klüngel einflussreicher Geschäftsleute ist ein Außenstehender machtlos",
+      "ein Klüngel Trauben, Johannisbeeren"
+    ],
+    "synonyms": [
+      "Seilschaft",
+      "Clique"
+    ]
+  },
+  "Kuratel, das": {
+    "lemma": "Kuratel, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "österreichische Rechtssprache, sonst veraltend",
+    "meanings": [
+      "Vormundschaft"
+    ],
+    "examples": [
+      "eine Kuratel beantragen",
+      "unter Kuratel stehen",
+      "man ließ ihn unter Kuratel stellen"
+    ],
+    "synonyms": []
+  },
+  "Popanz, die": {
+    "lemma": "Popanz, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "künstlich hergestellte [Schreck]gestalt, besonders ausgestopfte Gestalt, Puppe (Gebrauch: veraltet)",
+      "jemand, der sich willenlos gebrauchen, alles mit sich machen lässt (Gebrauch: abwertend)"
+    ],
+    "examples": [
+      "einen Popanz errichten",
+      "etwas zum Popanz machen"
+    ],
+    "synonyms": [
+      "Schreckgespenst",
+      "Alb[traum]",
+      "Butzemann"
+    ]
+  },
+  "Traktat, das": {
+    "lemma": "Traktat, das oder der",
+    "wordClass": "Substantiv, Neutrum, oder Substantiv, maskulin",
+    "usage": "",
+    "meanings": [
+      "Abhandlung (Gebrauch: bildungssprachlich veraltend)",
+      "(Staats)vertrag (Gebrauch: veraltet)"
+    ],
+    "examples": [
+      "theologische, wissenschaftliche, politische Traktate"
+    ],
+    "synonyms": [
+      "Abhandlung",
+      "Arbeit",
+      "Artikel",
+      "Aufsatz"
+    ]
   }
 };
 

@@ -18,8 +18,8 @@ const Cache = (() => {
 
       return null;
     },
-    update: (translation) => {
-      CACHE[translation.lemma] = Object.freeze({ ...translation }); // Caution: causes side effects!
+    update: (term, translation) => {
+      CACHE[term] = Object.freeze({ ...translation }); // Caution: causes side effects!
       dirtyFlag = true;
     },
     isDirty: () => dirtyFlag,
@@ -163,20 +163,8 @@ function parseTranslationFromArticle(article) {
 }
 
 async function fetchTranslation(term) {
-  // strips undesireable sillable separators and excess spaces
-  const normalizedTerm = stripSoftHyphens(term.trim());
-
-  //console.log(`Look up term "${normalizedTerm}"...`);
-
-  const cachedTranslation = Cache.lookup(normalizedTerm);
-
-  if (cachedTranslation !== null) {
-    //console.log(`Cached translation found for "${normalizedTerm}".`);
-    return cachedTranslation;
-  }
-
   try {
-    const searchTerm = normalizedTerm.replace(
+    const searchTerm = term.replace(
       /^([\wÄÖÜäöüß -]+)(?:, (?:der|die|das))?$/u,
       '$1'
     );
@@ -198,12 +186,9 @@ async function fetchTranslation(term) {
     const articleElement = dom.window.document.querySelector('main > article');
     const translation = parseTranslationFromArticle(articleElement);
 
-    console.log(`Add new entry to cache: ${translation.lemma}`);
-    Cache.update(translation);
-
     return translation;
   } catch (e) {
-    throw new Error(`${e.message}: ${normalizedTerm}`);
+    throw new Error(`${e.message}: ${term}`);
   }
 }
 
@@ -241,7 +226,17 @@ async function createList() {
 
     for (const term of terms) {
       try {
-        await fetchTranslation(term);
+        // strips undesireable sillable separators and excess spaces
+        const normalizedTerm = stripSoftHyphens(term.trim());
+
+        if (Cache.lookup(normalizedTerm) === null) {
+          const translation = await fetchTranslation(normalizedTerm);
+
+          console.log(`Add new entry to cache: ${normalizedTerm}`);
+          Cache.update(normalizedTerm, translation);
+        } else {
+          //console.log(`Cached translation found for "${normalizedTerm}".`);
+        }
       } catch (e) {
         console.error(e.message);
       }
