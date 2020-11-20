@@ -526,8 +526,8 @@ const CACHE = {
     "examples": [],
     "synonyms": []
   },
-  "Atout, das oder der": {
-    "lemma": "Atout, das oder der",
+  "Atout, das": {
+    "lemma": "Atout, das",
     "wordClass": "Substantiv, Neutrum, oder Substantiv, maskulin",
     "usage": "",
     "meanings": [
@@ -708,8 +708,8 @@ const CACHE = {
       "Haltung"
     ]
   },
-  "Credo, Kredo, das": {
-    "lemma": "Credo, Kredo, das",
+  "Credo, das": {
+    "lemma": "Credo, das",
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
     "meanings": [
@@ -767,8 +767,8 @@ const CACHE = {
       "konstruieren"
     ]
   },
-  "Defätismus, schweizerisch auch Defaitismus, der": {
-    "lemma": "Defätismus, schweizerisch auch Defaitismus, der",
+  "Defätismus, der": {
+    "lemma": "Defätismus, der",
     "wordClass": "Substantiv, maskulin",
     "usage": "bildungssprachlich abwertend",
     "meanings": [
@@ -1843,8 +1843,8 @@ const CACHE = {
     "examples": [],
     "synonyms": []
   },
-  "Ikonografie, Ikonographie, die": {
-    "lemma": "Ikonografie, Ikonographie, die",
+  "Ikonografie, die": {
+    "lemma": "Ikonografie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "Kunstwissenschaft",
     "meanings": [
@@ -2090,8 +2090,8 @@ const CACHE = {
     "examples": [],
     "synonyms": []
   },
-  "Kakofonie, Kakophonie, die": {
-    "lemma": "Kakofonie, Kakophonie, die",
+  "Kakofonie, die": {
+    "lemma": "Kakofonie, die",
     "wordClass": "Substantiv, feminin",
     "usage": "",
     "meanings": [
@@ -4478,8 +4478,8 @@ const CACHE = {
     "examples": [],
     "synonyms": []
   },
-  "Traktat, das oder der": {
-    "lemma": "Traktat, das oder der",
+  "Traktat, das": {
+    "lemma": "Traktat, das",
     "wordClass": "Substantiv, Neutrum, oder Substantiv, maskulin",
     "usage": "",
     "meanings": [

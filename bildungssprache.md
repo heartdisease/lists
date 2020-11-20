@@ -114,8 +114,8 @@ als man ist.
 | Erkenntnistheorie, die     | ???       |
 | erratisch                  | ???       |
 | Es­sen­ti­a­lis­mus, der   | ???       |
-| Etat, das                  | ???       |
-| Ethos, der                 | ???       |
+| Etat, der                  | ???       |
+| Ethos, das                 | ???       |
 | Evo­ka­ti­on, die          | ???       |
 | evokativ                   | ???       |
 | evozieren                  | ???       |
@@ -178,7 +178,7 @@ als man ist.
 | Kaustik, die               | ???       |
 | kaustisch                  | ???       |
 | Kautelen, die              | ???       |
-| Klüngel, die               | ???       |
+| Klüngel, der               | ???       |
 | kohärent                   | ???       |
 | Kohäsion, die              | ???       |
 | kokettieren                | ???       |
@@ -206,7 +206,7 @@ als man ist.
 | Konvergenz, die            | ???       |
 | Konvolut, das              | ???       |
 | konzentrisch               | ???       |
-| Kuratel, das               | ???       |
+| Kuratel, die               | ???       |
 | Kurator, der               | ???       |
 | kursorisch                 | ???       |
 | Kybernetik, die            | ???       |
@@ -276,7 +276,7 @@ als man ist.
 | Plenarsitzung, die         | ???       |
 | Plenum, das                | ???       |
 | pontifizieren              | ???       |
-| Popanz, die                | ???       |
+| Popanz, der                | ???       |
 | positivistisch             | ???       |
 | postulieren                | ???       |
 | Prämisse, die              | ???       |
