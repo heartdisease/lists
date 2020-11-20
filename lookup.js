@@ -6,6 +6,49 @@ const Cache = (() => {
   const { CACHE } = require('./lookup.cache');
   let dirtyFlag = false;
 
+  function removeAmbiguitiesFromCache(cache) {
+    const newCache = {};
+
+    for (const property in cache) {
+      const value = cache[property];
+
+      if (value.lemma) {
+        if (property === value.lemma) {
+          newCache[property] = value;
+        } else {
+          console.log(
+            `Strip ambiguous cache entry ${property} (${value.lemma})`
+          );
+        }
+      }
+    }
+
+    return newCache;
+  }
+
+  function sortCacheEntries(cache) {
+    const sortedCache = {};
+    const properties = [];
+
+    for (const property in cache) {
+      const value = cache[property];
+
+      if (value.lemma) {
+        properties.push(property);
+      }
+    }
+
+    properties.sort((a, b) =>
+      a.localeCompare(b, 'de', { sensitivity: 'base' })
+    );
+
+    for (const p of properties) {
+      sortedCache[p] = cache[p];
+    }
+
+    return sortedCache;
+  }
+
   return Object.freeze({
     lookup: (term) => {
       const cacheEntry = CACHE[term];
@@ -23,8 +66,14 @@ const Cache = (() => {
       dirtyFlag = true;
     },
     isDirty: () => dirtyFlag,
-    persist: async () => {
-      const source = `const CACHE = ${JSON.stringify(CACHE, undefined, 2)};
+    persist: async (removeAmbiguities = false) => {
+      const source = `const CACHE = ${JSON.stringify(
+        sortCacheEntries(
+          removeAmbiguities ? removeAmbiguitiesFromCache(CACHE) : CACHE
+        ),
+        undefined,
+        2
+      )};
 
 module.exports = { CACHE };
 `;
@@ -253,3 +302,4 @@ async function createList() {
 }
 
 createList().catch((e) => console.error(e));
+//Cache.persist(true).catch((e) => console.error(e));
