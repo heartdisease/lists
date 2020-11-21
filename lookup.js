@@ -66,6 +66,32 @@ const Cache = (() => {
       dirtyFlag = true;
     },
     isDirty: () => dirtyFlag,
+    createCsv: async () => {
+      let source =
+        '"lemma";"wordClass";"usage";"meanings";"examples";"synonyms"';
+
+      for (const property in CACHE) {
+        const entry = CACHE[property];
+
+        if (entry.lemma) {
+          source += `\n"${entry.lemma}";"${entry.wordClass}";"${
+            entry.usage
+          }";"${entry.meanings.join(', ')}";"${entry.examples.join(
+            ', '
+          )}";"${entry.synonyms.join(', ')}"`;
+        }
+      }
+
+      return new Promise((resolve, reject) => {
+        fs.writeFile('./output.csv', source, 'utf8', (error) => {
+          if (error) {
+            reject(error);
+          }
+
+          resolve();
+        });
+      });
+    },
     persist: async (removeAmbiguities = false) => {
       const source = `const CACHE = ${JSON.stringify(
         sortCacheEntries(
@@ -303,3 +329,4 @@ async function createList() {
 
 createList().catch((e) => console.error(e));
 //Cache.persist(true).catch((e) => console.error(e));
+//Cache.createCsv().catch((e) => console.error(e));
