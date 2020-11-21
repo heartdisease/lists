@@ -43,7 +43,7 @@ const Cache = (() => {
     );
 
     for (const p of properties) {
-      sortedCache[p] = cache[p];
+      sortedCache[p] = { ...cache[p] };
     }
 
     return sortedCache;
@@ -121,6 +121,13 @@ function stripSoftHyphens(str) {
   return str.replace(/\u00ad+/gu, '');
 }
 
+function normalizeExplanationText(str) {
+  return str
+    .replace(/ \(\d\w?\)([;,])/gu, '$1')
+    .replace(/ \(\d\w?\) ?/gu, ' ')
+    .trim();
+}
+
 async function loadDomFromUrl(url) {
   const response = await fetch(url);
   const responseText = await response.text();
@@ -131,11 +138,11 @@ async function loadDomFromUrl(url) {
 function extractSingleMeaning(meaningContainer) {
   const meanings = Array.prototype.map.call(
     meaningContainer.querySelectorAll('p'),
-    (pNode) => pNode.textContent.trim()
+    (pNode) => normalizeExplanationText(pNode.textContent)
   );
   const examples = Array.prototype.map.call(
     meaningContainer.querySelectorAll('dl.note ul.note__list > li'),
-    (liNode) => liNode.textContent.trim()
+    (liNode) => normalizeExplanationText(liNode.textContent)
   );
 
   return { meanings, examples };
@@ -149,7 +156,7 @@ function extractMultipleMeanings(meaningsContainer) {
         'div.enumeration__text'
       );
       const meaning = enumerationTextContainer
-        ? enumerationTextContainer.textContent.trim()
+        ? normalizeExplanationText(enumerationTextContainer.textContent)
         : null;
       const contextContainer = liNode.querySelector('dl.tuple');
 
@@ -158,12 +165,12 @@ function extractMultipleMeanings(meaningsContainer) {
           return Array.prototype.reduce.call(
             liNode.querySelectorAll('dl.tuple'),
             (acc, tuple) => {
-              const key = tuple
-                .querySelector('dt.tuple__key')
-                .textContent.trim();
-              const value = tuple
-                .querySelector('dd.tuple__val')
-                .textContent.trim();
+              const key = normalizeExplanationText(
+                tuple.querySelector('dt.tuple__key').textContent
+              );
+              const value = normalizeExplanationText(
+                tuple.querySelector('dd.tuple__val').textContent
+              );
 
               return acc ? `${acc}; ${key}: ${value}` : `${key}: ${value}`;
             },
@@ -171,12 +178,12 @@ function extractMultipleMeanings(meaningsContainer) {
           );
         }
 
-        const tupleKey = contextContainer
-          .querySelector('dt.tuple__key')
-          .textContent.trim();
-        const tupleValue = contextContainer
-          .querySelector('dd.tuple__val')
-          .textContent.trim();
+        const tupleKey = normalizeExplanationText(
+          contextContainer.querySelector('dt.tuple__key').textContent
+        );
+        const tupleValue = normalizeExplanationText(
+          contextContainer.querySelector('dd.tuple__val').textContent
+        );
 
         return `${meaning} (${tupleKey}: ${tupleValue})`;
       }
@@ -186,7 +193,7 @@ function extractMultipleMeanings(meaningsContainer) {
   );
   const examples = Array.prototype.map.call(
     meaningsContainer.querySelectorAll('dl.note ul.note__list > li'),
-    (liNode) => liNode.textContent.trim()
+    (liNode) => normalizeExplanationText(liNode.textContent)
   );
 
   return { meanings, examples };
@@ -328,5 +335,5 @@ async function createList() {
 }
 
 createList().catch((e) => console.error(e));
-//Cache.persist(true).catch((e) => console.error(e));
+//Cache.persist().catch((e) => console.error(e));
 //Cache.createCsv().catch((e) => console.error(e));

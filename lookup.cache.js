@@ -218,7 +218,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "sich aufregen, sich erregen, sich ärgern (Gebrauch: landschaftlich, sonst veraltend)",
-      "einen oder mehrere Töne eines Akkords (1) chromatisch verändern (Gebrauch: Musik)"
+      "einen oder mehrere Töne eines Akkords chromatisch verändern (Gebrauch: Musik)"
     ],
     "examples": [
       "alterierte Akkorde"
@@ -361,7 +361,7 @@ const CACHE = {
     "wordClass": "schwaches Verb",
     "usage": "gehoben",
     "meanings": [
-      "jemandem etwas überlassen (3); etwas in jemandes Ermessen stellen"
+      "jemandem etwas überlassen; etwas in jemandes Ermessen stellen"
     ],
     "examples": [
       "ich stelle das Ihnen, Ihrem Belieben anheim"
@@ -642,7 +642,7 @@ const CACHE = {
     "wordClass": "Substantiv, Neutrum",
     "usage": "besonders Militär, Bergsteigen",
     "meanings": [
-      "behelfsmäßiges Nachtlager (1) im Freien"
+      "behelfsmäßiges Nachtlager im Freien"
     ],
     "examples": [],
     "synonyms": [
@@ -1133,7 +1133,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "umfänglichere Akte, in der alle zu einer Sache, einem Vorgang gehörenden Schriftstücke gesammelt sind",
-      "(besonders in der Presse in Form einer [Sonder]beilage o. Ä.) Dokumentation (1b) zu einem bestimmten Thema"
+      "(besonders in der Presse in Form einer [Sonder]beilage o. Ä.) Dokumentation zu einem bestimmten Thema"
     ],
     "examples": [
       "ein Dossier [über jemanden] anlegen",
@@ -1220,8 +1220,8 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "",
     "meanings": [
-      "den Eklektizismus (1) betreffend, zum Eklektizismus gehörend",
-      "durch Eklektizismus (2a) gekennzeichnet (Gebrauch: bildungssprachlich abwertend)"
+      "den Eklektizismus betreffend, zum Eklektizismus gehörend",
+      "durch Eklektizismus gekennzeichnet (Gebrauch: bildungssprachlich abwertend)"
     ],
     "examples": [],
     "synonyms": [
@@ -1389,7 +1389,7 @@ const CACHE = {
     "usage": "Philosophie",
     "meanings": [
       "Teilgebiet der Philosophie, das sich mit der Frage nach den Bedingungen eines begründeten Wissens befasst (Grammatik: ohne Plural)",
-      "Theorie (1a) der Erkenntnis"
+      "Theorie der Erkenntnis"
     ],
     "examples": [],
     "synonyms": []
@@ -1438,7 +1438,7 @@ const CACHE = {
     "wordClass": "Substantiv, Neutrum",
     "usage": "bildungssprachlich",
     "meanings": [
-      "vom Bewusstsein sittlicher Werte geprägte Gesinnung, Gesamthaltung; ethisches Bewusstsein; Ethik (2)"
+      "vom Bewusstsein sittlicher Werte geprägte Gesinnung, Gesamthaltung; ethisches Bewusstsein; Ethik"
     ],
     "examples": [
       "ein hohes Ethos bestimmte sein Handeln"
@@ -1466,7 +1466,7 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "bildungssprachlich",
     "meanings": [
-      "Evokation (1) betreffend, bewirkend"
+      "Evokation betreffend, bewirkend"
     ],
     "examples": [
       "eine evokative Wirkung",
@@ -1479,8 +1479,8 @@ const CACHE = {
     "wordClass": "schwaches Verb",
     "usage": "",
     "meanings": [
-      "durch Evokation (1) hervorrufen, bewirken (Gebrauch: bildungssprachlich)",
-      "durch Evokation (2) vorladen (Gebrauch: Rechtssprache)"
+      "durch Evokation hervorrufen, bewirken (Gebrauch: bildungssprachlich)",
+      "durch Evokation vorladen (Gebrauch: Rechtssprache)"
     ],
     "examples": [
       "Vorstellungen, Erinnerungen evozieren"
@@ -1793,7 +1793,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "einen Text o. Ä. erklärend, auslegend",
-      "die Hermeneutik (2) betreffend"
+      "die Hermeneutik betreffend"
     ],
     "examples": [
       "hermeneutische Vorgehensweise",
@@ -1840,7 +1840,7 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "Sprachwissenschaft",
     "meanings": [
-      "zu einem Idiom (1) gehörend",
+      "zu einem Idiom gehörend",
       "die Idiomatik betreffend, in ihren Bereich gehörend"
     ],
     "examples": [
@@ -2113,7 +2113,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "schlecht klingende Folge von Lauten (Gebrauch: Sprachwissenschaft)",
-      "Missklang, Dissonanz (1) (Gebrauch: Musik)"
+      "Missklang, Dissonanz (Gebrauch: Musik)"
     ],
     "examples": [
       "eine Komposition mit Kakofonien",
@@ -2207,7 +2207,7 @@ const CACHE = {
     "wordClass": "Substantiv, feminin",
     "usage": "",
     "meanings": [
-      "Fläche einer Linse (2a) oder eines Hohlspiegels, auf der sich die Schnittpunkte benachbarter Parallelstrahlen nach der Brechung (1) bzw. nach der Reflexion (1) befinden (Gebrauch: Optik)",
+      "Fläche einer Linse oder eines Hohlspiegels, auf der sich die Schnittpunkte benachbarter Parallelstrahlen nach der Brechung bzw. nach der Reflexion befinden (Gebrauch: Optik)",
       "Kauterisation (Gebrauch: Medizin)"
     ],
     "examples": [],
@@ -2382,8 +2382,8 @@ const CACHE = {
     "wordClass": "Substantiv, feminin",
     "usage": "",
     "meanings": [
-      "das Kongruentsein (1) (Gebrauch: bildungssprachlich)",
-      "das Kongruentsein (2) (Gebrauch: Mathematik)",
+      "das Kongruentsein (Gebrauch: bildungssprachlich)",
+      "das Kongruentsein (Gebrauch: Mathematik)",
       "formale Übereinstimmung zusammengehörender Teile im Satz (in Kasus, Numerus, Genus und Person) (Gebrauch: Sprachwissenschaft)"
     ],
     "examples": [],
@@ -2439,10 +2439,7 @@ const CACHE = {
     "lemma": "konstatieren",
     "wordClass": "schwaches Verb",
     "usage": "bildungssprachlich",
-    "meanings": [
-      "feststellen (1b)",
-      "feststellen (1c)"
-    ],
+    "meanings": [ "feststellen" ],
     "examples": [
       "der Arzt konstatiert den Tod des alten Mannes",
       "ich muss leider konstatieren, dass an meinem Angebot kein Interesse zu bestehen scheint"
@@ -2527,7 +2524,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "eine sprachliche Äußerung unter Berücksichtigung ihres [sprachlichen] Kontexts (1 a,  c) interpretieren (Gebrauch: Sprachwissenschaft)",
-      "etwas, jemanden durch Einbindung in einen [zeitlichen, politischen, ökonomischen, soziokulturellen usw.] Kontext (2) interpretieren (Gebrauch: bildungssprachlich)"
+      "etwas, jemanden durch Einbindung in einen [zeitlichen, politischen, ökonomischen, soziokulturellen usw.] Kontext interpretieren (Gebrauch: bildungssprachlich)"
     ],
     "examples": [],
     "synonyms": [
@@ -2540,7 +2537,7 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "Philosophie",
     "meanings": [
-      "zufällig; wirklich oder möglich, aber nicht [wesens]notwendig; Kontingenz (1) aufweisend, beinhaltend"
+      "zufällig; wirklich oder möglich, aber nicht [wesens]notwendig; Kontingenz aufweisend, beinhaltend"
     ],
     "examples": [],
     "synonyms": []
@@ -2592,7 +2589,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "Annäherung, Übereinstimmung von Meinungen, Zielen u. Ä. (Gebrauch: bildungssprachlich)",
-      "konvergentes (2) Verhalten, Verlaufen (Gebrauch: Mathematik)",
+      "konvergentes Verhalten, Verlaufen (Gebrauch: Mathematik)",
       "das Sichschneiden von Lichtstrahlen (Gebrauch: Physik)",
       "Ausbildung ähnlicher Merkmale hinsichtlich Gestalt und Organen bei genetisch verschiedenen Lebewesen meist durch Anpassung an gleiche Umweltbedingungen (z. B. die fischförmige Gestalt von Säugetieren, die im Wasser leben) (Gebrauch: Biologie)",
       "gegensinnige Bewegung der Augen nach innen beim Sehen in unmittelbarer Nähe (Gebrauch: Medizin)",
@@ -2824,7 +2821,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "[bei einer Versteigerung] mitbieten (Gebrauch: österreichisch, sonst veraltend)",
-      "reizen (4) (Gebrauch: Kartenspiele)"
+      "reizen (Gebrauch: Kartenspiele)"
     ],
     "examples": [],
     "synonyms": [
@@ -2839,7 +2836,7 @@ const CACHE = {
     "wordClass": "schwaches Verb",
     "usage": "Geografie",
     "meanings": [
-      "(von Wasserläufen) in Mäandern (1) verlaufen"
+      "(von Wasserläufen) in Mäandern verlaufen"
     ],
     "examples": [
       "ein mäanderndes Bachbett",
@@ -2963,8 +2960,8 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "",
     "meanings": [
-      "die Metaphysik (1a) betreffend; jede mögliche Erfahrung überschreitend",
-      "die Metaphysik (2) betreffend"
+      "die Metaphysik betreffend; jede mögliche Erfahrung überschreitend",
+      "die Metaphysik betreffend"
     ],
     "examples": [
       "metaphysische Probleme, Deduktionen",
@@ -3106,7 +3103,7 @@ const CACHE = {
     "wordClass": "Substantiv, maskulin",
     "usage": "",
     "meanings": [
-      "in den allgemeinen Gebrauch übergegangene sprachliche Neuprägung (2) (Neuwort oder Neubedeutung) (Gebrauch: Sprachwissenschaft)",
+      "in den allgemeinen Gebrauch übergegangene sprachliche Neuprägung (Neuwort oder Neubedeutung) (Gebrauch: Sprachwissenschaft)",
       "Neuerungssucht (besonders auf religiösem oder sprachlichem Gebiet) (Grammatik: ohne Plural)"
     ],
     "examples": [],
@@ -3227,7 +3224,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "Lehre vom Sein, vom Seienden (Gebrauch: Philosophie)",
-      "System (6a) von Informationen mit logischen Relationen (Gebrauch: Informatik)"
+      "System von Informationen mit logischen Relationen (Gebrauch: Informatik)"
     ],
     "examples": [],
     "synonyms": []
@@ -3256,7 +3253,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "jemandes Fähigkeiten als Redner zum Ausdruck bringend [ohne eine andere Funktion oder Bedeutung zu haben] (Gebrauch: bildungssprachlich)",
-      "in der Art eines Oratoriums (1)"
+      "in der Art eines Oratoriums"
     ],
     "examples": [
       "eine rein oratorische Leistung"
@@ -3286,7 +3283,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "langer, oben zugespitzter Pfahl, der mit anderen zusammen zur Befestigung in dichter Reihe in den Boden gerammt wird",
-      "Befestigungsanlage, Wand aus Palisaden (1)"
+      "Befestigungsanlage, Wand aus Palisaden"
     ],
     "examples": [
       "die Palisaden niederreißen"
@@ -3498,7 +3495,7 @@ const CACHE = {
     "wordClass": "Substantiv, Neutrum",
     "usage": "gehoben abwertend",
     "meanings": [
-      "geistige Haltung eines Pharisäers (2)"
+      "geistige Haltung eines Pharisäers"
     ],
     "examples": [],
     "synonyms": [
@@ -3598,7 +3595,7 @@ const CACHE = {
     "meanings": [
       "fordern, unbedingt verlangen, für notwendig, unabdingbar erklären (Gebrauch: bildungssprachlich)",
       "etwas (mit dem Anspruch, es sei richtig, wahr) feststellen, behaupten; als wahr, gegeben hinstellen (Gebrauch: bildungssprachlich)",
-      "etwas zum Postulat (3) machen; etwas, ohne es beweisen zu können, vorläufig als wahr, gegeben annehmen (Gebrauch: Philosophie)"
+      "etwas zum Postulat machen; etwas, ohne es beweisen zu können, vorläufig als wahr, gegeben annehmen (Gebrauch: Philosophie)"
     ],
     "examples": [
       "die in der Verfassung postulierte Gleichberechtigung der Frau",
@@ -3655,7 +3652,7 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "bildungssprachlich; Fachsprache",
     "meanings": [
-      "bestimmte Normen (1a) festlegend"
+      "bestimmte Normen festlegend"
     ],
     "examples": [
       "(Sprachwissenschaft) präskriptive Grammatik (Grammatik, die Normen setzt, indem sie Regeln zur Unterscheidung richtiger und falscher Formen vorschreibt)"
@@ -3822,7 +3819,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "auf Früheres zurückgehen, zurückgreifen (Gebrauch: Psychologie)",
-      "Regress (1) nehmen (Gebrauch: Rechtswissenschaft)"
+      "Regress nehmen (Gebrauch: Rechtswissenschaft)"
     ],
     "examples": [],
     "synonyms": []
@@ -3912,8 +3909,8 @@ const CACHE = {
     "wordClass": "schwaches Verb",
     "usage": "",
     "meanings": [
-      "eine Replik (1a) schreiben, vortragen (Gebrauch: bildungssprachlich)",
-      "eine Replik (2) anfertigen (Gebrauch: Kunstwissenschaft)"
+      "eine Replik schreiben, vortragen (Gebrauch: bildungssprachlich)",
+      "eine Replik anfertigen (Gebrauch: Kunstwissenschaft)"
     ],
     "examples": [],
     "synonyms": [
@@ -4114,7 +4111,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "jemanden, etwas [mit Worten] unterstützen (Gebrauch: bildungssprachlich)",
-      "jemandem bei einem Duell oder einer Mensur (2) als Berater und Zeuge persönlich beistehen",
+      "jemandem bei einem Duell oder einer Mensur als Berater und Zeuge persönlich beistehen",
       "einen Teilnehmer während des Wettkampfes persönlich betreuen und beraten (Gebrauch: besonders Boxen, Schach)"
     ],
     "examples": [
@@ -4134,8 +4131,8 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "Sprachwissenschaft",
     "meanings": [
-      "die Semantik (1) betreffend",
-      "die Semantik (2) betreffend"
+      "die Semantik betreffend",
+      "die Semantik betreffend"
     ],
     "examples": [
       "semantische Forschungen",
@@ -4148,7 +4145,7 @@ const CACHE = {
     "wordClass": "Substantiv, feminin",
     "usage": "",
     "meanings": [
-      "Semiologie (1) (Gebrauch: Philosophie, Sprachwissenschaft)",
+      "Semiologie (Gebrauch: Philosophie, Sprachwissenschaft)",
       "Symptomatologie (Gebrauch: Medizin)"
     ],
     "examples": [],
@@ -4236,7 +4233,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "solide (1,  2) Beschaffenheit",
-      "solide (3) Lebensweise"
+      "solide Lebensweise"
     ],
     "examples": [],
     "synonyms": []
@@ -4246,8 +4243,8 @@ const CACHE = {
     "wordClass": "Adjektiv",
     "usage": "",
     "meanings": [
-      "das Soma (1) betreffend (Gebrauch: Medizin, Psychologie)",
-      "das Soma (2) betreffend (Gebrauch: Biologie, Medizin)"
+      "das Soma betreffend (Gebrauch: Medizin, Psychologie)",
+      "das Soma betreffend (Gebrauch: Biologie, Medizin)"
     ],
     "examples": [
       "die somatischen Ursachen einer Krankheit",
@@ -4325,7 +4322,7 @@ const CACHE = {
     "wordClass": "Substantiv, feminin",
     "usage": "Mathematik",
     "meanings": [
-      "Teilgebiet der Mathematik, das die Wahrscheinlichkeitstheorie und die Statistik (1) umfasst"
+      "Teilgebiet der Mathematik, das die Wahrscheinlichkeitstheorie und die Statistik umfasst"
     ],
     "examples": [],
     "synonyms": []
@@ -4412,7 +4409,7 @@ const CACHE = {
     "usage": "",
     "meanings": [
       "einem Oberbegriff unterordnen, unter einer Kategorie einordnen; unter einem Thema zusammenfassen (Gebrauch: bildungssprachlich)",
-      "einen konkreten Sachverhalt dem Tatbestand (2) einer Rechtsnorm unterordnen; prüfen, ob ein konkreter Sachverhalt den Merkmalen einer bestimmten Rechtsnorm entspricht (Gebrauch: Rechtssprache)"
+      "einen konkreten Sachverhalt dem Tatbestand einer Rechtsnorm unterordnen; prüfen, ob ein konkreter Sachverhalt den Merkmalen einer bestimmten Rechtsnorm entspricht (Gebrauch: Rechtssprache)"
     ],
     "examples": [
       "einen Begriff einem anderen subsumieren",
@@ -4574,7 +4571,7 @@ const CACHE = {
     "wordClass": "Substantiv, Neutrum",
     "usage": "",
     "meanings": [
-      "(in der römischen Antike) Bund (1a) dreier Männer (als eine Art Kommission zur Erledigung bestimmter Staatsgeschäfte)"
+      "(in der römischen Antike) Bund dreier Männer (als eine Art Kommission zur Erledigung bestimmter Staatsgeschäfte)"
     ],
     "examples": [
       "ein Triumvirat schließen, einsetzen"
@@ -4643,7 +4640,7 @@ const CACHE = {
     "wordClass": "Adverb",
     "usage": "Musik",
     "meanings": [
-      "im Einklang (1) [zu spielen]"
+      "im Einklang [zu spielen]"
     ],
     "examples": [
       "unisono (einstimmig) singen",
