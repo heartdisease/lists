@@ -43,7 +43,11 @@ const Cache = (() => {
     );
 
     for (const p of properties) {
-      sortedCache[p] = { ...cache[p] };
+      sortedCache[p] = {
+        ...cache[p],
+        meanings: cache[p].meanings.map((m) => normalizeExplanationText(m)),
+        examples: cache[p].examples.map((e) => normalizeExplanationText(e)),
+      };
     }
 
     return sortedCache;
@@ -123,7 +127,7 @@ function stripSoftHyphens(str) {
 
 function normalizeExplanationText(str) {
   return str
-    .replace(/ \(\d\w?\)([;,])/gu, '$1')
+    .replace(/ \((?:(?:\d\w?)|(?:\w))\)([;,])/gu, '$1')
     .replace(/ \(\d\w?\) ?/gu, ' ')
     .trim();
 }
