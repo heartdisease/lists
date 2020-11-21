@@ -387,6 +387,23 @@ const CACHE = {
       "Feindschaft"
     ]
   },
+  "Antagonismus, der": {
+    "lemma": "Antagonismus, der",
+    "wordClass": "Substantiv, maskulin",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "Gegensatz, Widerstreit"
+    ],
+    "examples": [
+      "der Antagonismus der Geschlechter, Klassen",
+      "Antagonismen innerhalb einer Gesellschaft"
+    ],
+    "synonyms": [
+      "Gegensatz",
+      "Kluft",
+      "Konflikt"
+    ]
+  },
   "Anthropozän, das": {
     "lemma": "Anthropozän, das",
     "wordClass": "Substantiv, Neutrum",
@@ -2919,6 +2936,28 @@ const CACHE = {
       "Warnzeichen"
     ]
   },
+  "Metamorphose, die": {
+    "lemma": "Metamorphose, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Umgestaltung, Verwandlung (Gebrauch: bildungssprachlich)",
+      "Entwicklung vom Ei zum geschlechtsreifen Tier über selbstständige Larvenstadien (besonders bei Insekten) (Gebrauch: Zoologie)",
+      "Umbildung der Grundform eines pflanzlichen Organs zu einem Organ mit besonderer Funktion im Verlauf der Stammesgeschichte (Gebrauch: Botanik)",
+      "Umwandlung und Umformung eines Gesteins in ein anderes als Folge einer Veränderung von Druck und Temperatur, denen das Gestein ausgesetzt ist (Gebrauch: Geologie)",
+      "Verwandlung eines Menschen in Tier, Pflanze, Quelle, Stein o. Ä. (Gebrauch: Mythologie, Dichtung)",
+      "Veränderungen eines Themas in seiner Grundform (im Unterschied zur Variation eines vorgegebenen Themas) (Gebrauch: Musik)"
+    ],
+    "examples": [
+      "eine Metamorphose durchmachen"
+    ],
+    "synonyms": [
+      "Formveränderung",
+      "Gestaltwechsel",
+      "Umbildung",
+      "Umformung"
+    ]
+  },
   "metaphysisch": {
     "lemma": "metaphysisch",
     "wordClass": "Adjektiv",
@@ -3258,6 +3297,23 @@ const CACHE = {
       "Pfahl"
     ]
   },
+  "Parität, die": {
+    "lemma": "Parität, die",
+    "wordClass": "Substantiv, feminin",
+    "usage": "",
+    "meanings": [
+      "Gleichsetzung, -stellung, [zahlenmäßige] Gleichheit (Gebrauch: bildungssprachlich)",
+      "(im Wechselkurs zum Ausdruck kommendes) Verhältnis einer Währung zu einer anderen oder zum Gold (Gebrauch: Wirtschaft)"
+    ],
+    "examples": [
+      "die Parität wahren"
+    ],
+    "synonyms": [
+      "Gleichheit",
+      "Gleichsetzung",
+      "Gleichstellung"
+    ]
+  },
   "paritätisch": {
     "lemma": "paritätisch",
     "wordClass": "Adjektiv",
@@ -3452,15 +3508,22 @@ const CACHE = {
       "Verstellung"
     ]
   },
-  "Platitüde, die": {
-    "lemma": "Platitüde, die",
+  "Plattitüde, die": {
+    "lemma": "Plattitüde, die",
     "wordClass": "Substantiv, feminin",
-    "usage": "Pla|ti|tü|de",
+    "usage": "gehoben",
     "meanings": [
-      "frühere Schreibung für Plattitüde"
+      "nichtssagende, abgedroschene Redewendung; Plattheit"
     ],
-    "examples": [],
-    "synonyms": []
+    "examples": [
+      "sich in Plattitüden ergehen"
+    ],
+    "synonyms": [
+      "Allgemeinheiten",
+      "Allgemeinplatz",
+      "Floskel",
+      "Formel"
+    ]
   },
   "Plebiszit, das": {
     "lemma": "Plebiszit, das",
@@ -3675,6 +3738,16 @@ const CACHE = {
       "Bekanntmachung",
       "Erklärung"
     ]
+  },
+  "propädeutisch": {
+    "lemma": "propädeutisch",
+    "wordClass": "Adjektiv",
+    "usage": "bildungssprachlich",
+    "meanings": [
+      "in ein Studienfach einführend"
+    ],
+    "examples": [],
+    "synonyms": []
   },
   "Provenienz, die": {
     "lemma": "Provenienz, die",
