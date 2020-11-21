@@ -2439,7 +2439,9 @@ const CACHE = {
     "lemma": "konstatieren",
     "wordClass": "schwaches Verb",
     "usage": "bildungssprachlich",
-    "meanings": [ "feststellen" ],
+    "meanings": [
+      "feststellen"
+    ],
     "examples": [
       "der Arzt konstatiert den Tod des alten Mannes",
       "ich muss leider konstatieren, dass an meinem Angebot kein Interesse zu bestehen scheint"
@@ -3829,7 +3831,7 @@ const CACHE = {
     "wordClass": "Substantiv, maskulin",
     "usage": "",
     "meanings": [
-      "Inanspruchnahme des Hauptschuldners (b), Rückgriff auf den Hauptschuldner durch einen ersatzweise haftenden Schuldner (Gebrauch: Rechtssprache)",
+      "Inanspruchnahme des Hauptschuldners, Rückgriff auf den Hauptschuldner durch einen ersatzweise haftenden Schuldner (Gebrauch: Rechtssprache)",
       "das Zurückgehen von der Wirkung zur Ursache, vom Bedingten zur Bedingung (Gebrauch: Philosophie)"
     ],
     "examples": [],
