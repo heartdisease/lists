@@ -33,6 +33,7 @@ als man ist.
 | anheimfallen               | ???       |
 | anheimstellen              | ???       |
 | Animosität, die            | ???       |
+| Antagonismus, der          | ???       |
 | Anthropozän, das           | ???       |
 | antiklimaktisch            | ???       |
 | Antipode, die              | ???       |
@@ -114,8 +115,8 @@ als man ist.
 | Erkenntnistheorie, die     | ???       |
 | erratisch                  | ???       |
 | Es­sen­ti­a­lis­mus, der   | ???       |
-| Etat, der                  | ???       |
-| Ethos, das                 | ???       |
+| Etat, das                  | ???       |
+| Ethos, der                 | ???       |
 | Evo­ka­ti­on, die          | ???       |
 | evokativ                   | ???       |
 | evozieren                  | ???       |
@@ -178,7 +179,7 @@ als man ist.
 | Kaustik, die               | ???       |
 | kaustisch                  | ???       |
 | Kautelen, die              | ???       |
-| Klüngel, der               | ???       |
+| Klüngel, die               | ???       |
 | kohärent                   | ???       |
 | Kohäsion, die              | ???       |
 | kokettieren                | ???       |
@@ -206,7 +207,7 @@ als man ist.
 | Konvergenz, die            | ???       |
 | Konvolut, das              | ???       |
 | konzentrisch               | ???       |
-| Kuratel, die               | ???       |
+| Kuratel, das               | ???       |
 | Kurator, der               | ???       |
 | kursorisch                 | ???       |
 | Kybernetik, die            | ???       |
@@ -231,6 +232,7 @@ als man ist.
 | Maxime, die                | ???       |
 | Menetekel, das             | ???       |
 | metaphysisch               | ???       |
+| Metamorphose, die          | ???       |
 | Mikrobiom, das             | ???       |
 | Modalität, die             | ???       |
 | Modus Vivendi, der         | ???       |
@@ -246,6 +248,7 @@ als man ist.
 | nosokomial                 | ???       |
 | notabene                   | ???       |
 | Novum, das                 | ???       |
+| Nullaussage, die           | ???       |
 | Nullhypothese, die         | ???       |
 | oktroyieren                | ???       |
 | Ombudsmann, der            | ???       |
@@ -257,6 +260,7 @@ als man ist.
 | Orthographie, die          | ???       |
 | ostentativ                 | ???       |
 | Pa­li­sa­de, die           | ???       |
+| Parität, die               | ???       |
 | paritätisch                | ???       |
 | parlieren                  | ???       |
 | pars pro toto              | ???       |
@@ -271,12 +275,12 @@ als man ist.
 | Phänotyp, der              | ???       |
 | Phan­tas­ma, das           | ???       |
 | Pharisäertum, das          | ???       |
-| Platitüde, die             | ???       |
+| Plattitüde, die            | ???       |
 | Plebiszit, das             | ???       |
 | Plenarsitzung, die         | ???       |
 | Plenum, das                | ???       |
 | pontifizieren              | ???       |
-| Popanz, der                | ???       |
+| Popanz, die                | ???       |
 | positivistisch             | ???       |
 | postulieren                | ???       |
 | Prämisse, die              | ???       |
@@ -287,6 +291,7 @@ als man ist.
 | Priapismus, der            | ???       |
 | Primat, der                | ???       |
 | pro bono                   | ???       |
+| propädeutisch              | ???       |
 | probat                     | ???       |
 | Proklamation, die          | ???       |
 | Provenienz, die            | ???       |
@@ -351,6 +356,7 @@ als man ist.
 | Synkope, die               | ???       |
 | Synopse, die               | ???       |
 | Talaren, die               | ???       |
+| Talionsprinzip, das        | ???       |
 | Tautologie, die            | ???       |
 | taxativ                    | ???       |
 | Taxonomie, die             | ???       |
