@@ -43,11 +43,7 @@ const Cache = (() => {
     );
 
     for (const p of properties) {
-      sortedCache[p] = {
-        ...cache[p],
-        meanings: cache[p].meanings.map((m) => normalizeExplanationText(m)),
-        examples: cache[p].examples.map((e) => normalizeExplanationText(e)),
-      };
+      sortedCache[p] = cache[p];
     }
 
     return sortedCache;
