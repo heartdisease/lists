@@ -82,6 +82,8 @@ async function fetchAudioForWord(word, coolDownTimeInSeconds, maxRetries) {
     return cacheEntry.audio;
   }
 
+  await sleep(1000); // avoid sending too many requests at once to not get blocked by the server
+
   let audioResource = await parseAudioResource(word);
 
   if (audioResource === null) {
@@ -119,6 +121,24 @@ async function fetchAudioForWord(word, coolDownTimeInSeconds, maxRetries) {
   return audioResource;
 }
 
+async function downloadAudioFile(audioUrl) {
+  const fileName = audioUrl.replace(/^.*\/([^\/]+)\/?$/u, '$1');
+  const outputPath = `./cache/wiktionary-en/${fileName}`;
+
+  try {
+    if (!fs.existsSync(outputPath)) {
+      console.log(`Downloading file '${fileName}' from ${audioUrl}...`);
+
+      await sleep(1000);
+      await downloadFile(audioUrl, outputPath);
+    } else {
+      console.log(`File '${fileName}' already exists. Skip.`);
+    }
+  } catch (e) {
+    throw e;
+  }
+}
+
 class WiktionaryLookup {
   #words;
 
@@ -127,8 +147,8 @@ class WiktionaryLookup {
   }
 
   async loadAudioFiles() {
-    const coolDownTimeInSeconds = 1;
-    const maxRetries = 0;
+    const coolDownTimeInSeconds = 3;
+    const maxRetries = 2;
 
     for (const word of this.#words) {
       const audioUrl = await fetchAudioForWord(
@@ -138,21 +158,7 @@ class WiktionaryLookup {
       );
 
       if (audioUrl !== null) {
-        const fileName = audioUrl.replace(/^.*\/([^\/]+)\/?$/u, '$1');
-        const outputPath = `./cache/wiktionary-en/${fileName}`;
-
-        try {
-          if (!fs.existsSync(outputPath)) {
-            console.log(`Downloading file '${fileName}' from ${audioUrl}...`);
-
-            await sleep(1000);
-            await downloadFile(audioUrl, outputPath);
-          } else {
-            console.log(`File '${fileName}' already exists. Skip.`);
-          }
-        } catch (e) {
-          throw e;
-        }
+        await downloadAudioFile(audioUrl);
       }
     }
 
