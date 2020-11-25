@@ -1,22 +1,25 @@
-const { readFileLines, writeFile, loadDomFromUrl } = require('./lookup-utils');
+const {
+  readFileLines,
+  writeFile,
+  loadDomFromUrl,
+  stripSoftHyphens,
+  Cache: CacheImpl,
+} = require('./lookup-utils');
 
 const Cache = (() => {
-  const { CACHE } = require('./duden.cache');
-  let dirtyFlag = false;
+  const dudenCache = new CacheImpl('./duden.cache');
 
-  function removeAmbiguitiesFromCache(cache) {
+  function removeAmbiguitiesFromCache() {
     const newCache = {};
 
-    for (const property in cache) {
-      const value = cache[property];
+    for (const key of dudenCache.keys()) {
+      const entry = dudenCache.lookup(key);
 
-      if (value.lemma) {
-        if (property === value.lemma) {
-          newCache[property] = value;
+      if (entry.lemma) {
+        if (key === entry.lemma) {
+          newCache[key] = entry;
         } else {
-          console.log(
-            `Strip ambiguous cache entry ${property} (${value.lemma})`
-          );
+          console.log(`Strip ambiguous cache entry ${key} (${entry.lemma})`);
         }
       }
     }
@@ -24,15 +27,15 @@ const Cache = (() => {
     return newCache;
   }
 
-  function sortCacheEntries(cache) {
+  function sortCacheEntries() {
     const sortedCache = {};
     const properties = [];
 
-    for (const property in cache) {
-      const value = cache[property];
+    for (const key of dudenCache.keys()) {
+      const entry = dudenCache.lookup(key);
 
-      if (value.lemma) {
-        properties.push(property);
+      if (entry.lemma) {
+        properties.push(key);
       }
     }
 
@@ -40,36 +43,23 @@ const Cache = (() => {
       a.localeCompare(b, 'de', { sensitivity: 'base' })
     );
 
-    for (const p of properties) {
-      sortedCache[p] = cache[p];
+    for (const property of properties) {
+      sortedCache[property] = dudenCache.lookup(property);
     }
 
     return sortedCache;
   }
 
   return Object.freeze({
-    lookup: (term) => {
-      const cacheEntry = CACHE[term];
-
-      if (cacheEntry) {
-        return Object.isFrozen(cacheEntry)
-          ? cacheEntry
-          : Object.freeze(cacheEntry);
-      }
-
-      return null;
-    },
-    update: (term, translation) => {
-      CACHE[term] = Object.freeze({ ...translation }); // Caution: causes side effects!
-      dirtyFlag = true;
-    },
-    isDirty: () => dirtyFlag,
+    lookup: (term) => dudenCache.lookup(term),
+    update: (term, translation) => dudenCache.update(term, translation),
+    isDirty: () => dudenCache.isDirty(),
     createCsv: async (outputFilePath) => {
       let source =
         '"lemma";"wordClass";"usage";"meanings";"examples";"synonyms"';
 
-      for (const property in CACHE) {
-        const entry = CACHE[property];
+      for (const key of dudenCache.keys()) {
+        const entry = dudenCache.lookup(key);
 
         if (entry.lemma) {
           source += `\n"${entry.lemma}";"${entry.wordClass}";"${
@@ -80,28 +70,22 @@ const Cache = (() => {
         }
       }
 
-      return writeFile(outputFilePath, source);
+      try {
+        return await writeFile(outputFilePath, source);
+      } catch (e) {
+        throw e;
+      }
     },
     persist: async (removeAmbiguities = false) => {
-      const source = `const CACHE = ${JSON.stringify(
-        sortCacheEntries(
-          removeAmbiguities ? removeAmbiguitiesFromCache(CACHE) : CACHE
-        ),
-        undefined,
-        2
-      )};
+      if (removeAmbiguities) {
+        dudenCache.transform(removeAmbiguitiesFromCache);
+      }
+      dudenCache.transform(sortCacheEntries);
 
-module.exports = { CACHE };
-`;
-
-      return writeFile('./duden.cache.js', source);
+      await dudenCache.persist();
     },
   });
 })();
-
-function stripSoftHyphens(str) {
-  return str.replace(/\u00ad+/gu, '');
-}
 
 function normalizeExplanationText(str) {
   return str

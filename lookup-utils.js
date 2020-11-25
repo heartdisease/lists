@@ -40,4 +40,82 @@ async function loadDomFromUrl(url) {
   return new JSDOM(responseText); // see https://openbase.io/js/jsdom
 }
 
-module.exports = { readFile, readFileLines, writeFile, loadDomFromUrl };
+async function sleep(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+function stripSoftHyphens(str) {
+  return str.replace(/\u00ad+/gu, '');
+}
+
+class Cache {
+  #cache;
+  #cacheImport;
+  #dirtyFlag = false;
+
+  constructor(cacheImport) {
+    this.#cacheImport = cacheImport;
+    this.#cache = require(cacheImport).CACHE;
+  }
+
+  *[Symbol.iterator]() {
+    for (const key of Object.getOwnPropertyNames(this.#cache)) {
+      yield this.#cache[key];
+    }
+  }
+
+  keys() {
+    return Object.getOwnPropertyNames(this.#cache);
+  }
+
+  transform(cacheTransformer) {
+    this.#cache = cacheTransformer(this.#cache);
+  }
+
+  lookup(key) {
+    const cacheEntry = this.#cache[key];
+
+    if (cacheEntry) {
+      return Object.isFrozen(cacheEntry)
+        ? cacheEntry
+        : Object.freeze(cacheEntry);
+    }
+
+    return null;
+  }
+
+  update(key, entry) {
+    this.#cache[key] = Object.freeze({ ...entry }); // Caution: causes side effects!
+    this.#dirtyFlag = true;
+  }
+
+  isDirty() {
+    return this.#dirtyFlag;
+  }
+
+  async persist() {
+    try {
+      await writeFile(
+        `${this.#cacheImport}.js`,
+        `const CACHE = ${JSON.stringify(this.#cache, undefined, 2)};
+
+module.exports = { CACHE };
+`
+      );
+
+      this.#dirtyFlag = false;
+    } catch (e) {
+      throw e;
+    }
+  }
+}
+
+module.exports = {
+  readFile,
+  readFileLines,
+  writeFile,
+  loadDomFromUrl,
+  sleep,
+  stripSoftHyphens,
+  Cache,
+};
