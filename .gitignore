@@ -4,3 +4,4 @@ output.csv
 
 !/.vscode
 /node_modules
+/cache

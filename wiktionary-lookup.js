@@ -1,4 +1,10 @@
-const { sleep, loadDomFromUrl, Cache: CacheImpl } = require('./lookup-utils');
+const fs = require('fs');
+const {
+  sleep,
+  loadDomFromUrl,
+  downloadFile,
+  Cache: CacheImpl,
+} = require('./lookup-utils');
 
 const Cache = (() => {
   const wiktionaryCache = new CacheImpl('./wiktionary-en.cache');
@@ -121,11 +127,33 @@ class WiktionaryLookup {
   }
 
   async loadAudioFiles() {
-    const coolDownTimeInSeconds = 7;
-    const maxRetries = 2;
+    const coolDownTimeInSeconds = 1;
+    const maxRetries = 0;
 
     for (const word of this.#words) {
-      await fetchAudioForWord(word, coolDownTimeInSeconds, maxRetries);
+      const audioUrl = await fetchAudioForWord(
+        word,
+        coolDownTimeInSeconds,
+        maxRetries
+      );
+
+      if (audioUrl !== null) {
+        const fileName = audioUrl.replace(/^.*\/([^\/]+)\/?$/u, '$1');
+        const outputPath = `./cache/wiktionary-en/${fileName}`;
+
+        try {
+          if (!fs.existsSync(outputPath)) {
+            console.log(`Downloading file '${fileName}' from ${audioUrl}...`);
+
+            await sleep(1000);
+            await downloadFile(audioUrl, outputPath);
+          } else {
+            console.log(`File '${fileName}' already exists. Skip.`);
+          }
+        } catch (e) {
+          throw e;
+        }
+      }
     }
 
     if (Cache.isDirty()) {

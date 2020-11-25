@@ -2,6 +2,14 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const { JSDOM } = require('jsdom');
 
+async function sleep(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+function stripSoftHyphens(str) {
+  return str.replace(/\u00ad+/gu, '');
+}
+
 async function readFile(filePath) {
   return new Promise((resolve, reject) => {
     fs.readFile(filePath, 'utf8', (err, data) => {
@@ -40,12 +48,27 @@ async function loadDomFromUrl(url) {
   return new JSDOM(responseText); // see https://openbase.io/js/jsdom
 }
 
-async function sleep(milliseconds) {
-  return new Promise((resolve) => setTimeout(resolve, milliseconds));
-}
+async function downloadFile(url, targetPath) {
+  const outputFile = fs.createWriteStream(targetPath);
+  const fileClosedPromise = new Promise((resolve) => {
+    outputFile.on('finish', () => outputFile.close(resolve));
+  });
 
-function stripSoftHyphens(str) {
-  return str.replace(/\u00ad+/gu, '');
+  try {
+    const response = await fetch(url);
+
+    response.body.pipe(outputFile);
+  } catch (e) {
+    try {
+      fs.unlinkSync(targetPath);
+    } catch (e2) {
+      throw new Error(e2.message + ' (lead to =>) ' + e.message);
+    }
+
+    throw e;
+  }
+
+  return fileClosedPromise;
 }
 
 class Cache {
@@ -111,11 +134,12 @@ module.exports = { CACHE };
 }
 
 module.exports = {
+  sleep,
+  stripSoftHyphens,
   readFile,
   readFileLines,
   writeFile,
   loadDomFromUrl,
-  sleep,
-  stripSoftHyphens,
+  downloadFile,
   Cache,
 };
