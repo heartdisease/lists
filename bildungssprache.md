@@ -32,16 +32,23 @@ als man ist.
 | Anamnese, die              |
 | anheimfallen               |
 | anheimstellen              |
+| an­heim­ge­ben             |
 | Animosität, die            |
 | Antagonismus, der          |
+| Anthologie, die            |
 | Anthropozän, das           |
+| An­th­ro­po­so­phie, die   |
 | antiklimaktisch            |
 | Antipode, die              |
 | antipodisch                |
 | aphoristisch               |
+| Aphorie, die               |
+| Aphorismus, der            |
 | apodiktisch                |
+| Apo­dik­tik, die           |
 | Apo­kryph, das             |
 | Apotheose, die             |
+| approbieren                |
 | Archetyp, der              |
 | arkan                      |
 | arriviert                  |
@@ -56,6 +63,8 @@ als man ist.
 | bass erstaunt              |
 | Bellizismus, der           |
 | bellizistisch              |
+| be­tu­lich                 |
+| Bi­om, das                 |
 | Biwak, das                 |
 | Bonmot, das                |
 | Bonvivant, der             |
@@ -86,6 +95,7 @@ als man ist.
 | Dialektik, die             |
 | dialektisch                |
 | Dichotomie, die            |
+| dif­fi­zil                 |
 | Diktion, die               |
 | dirimieren                 |
 | disjunkt                   |
@@ -101,10 +111,16 @@ als man ist.
 | ehrenrührig                |
 | eingedenk                  |
 | eklektizistisch            |
+| Ek­lek­ti­zis­mus, der     |
 | emergent                   |
+| eminent                    |
+| ex­pri­mie­ren             |
+| exklamieren                |
 | emotiv                     |
 | emphatisch                 |
 | Empirie, die               |
+| enigmatisch                |
+| Enigma, das                |
 | en passant                 |
 | Enquete, die               |
 | Entität, die               |
@@ -133,6 +149,7 @@ als man ist.
 | Gemengelage, die           |
 | Ge­nea­lo­gie, die         |
 | Genese, die                |
+| ge­mein­ma­chen            |
 | gerieren, sich             |
 | Gestus, der                |
 | Glo­ri­o­le, die           |
@@ -156,6 +173,7 @@ als man ist.
 | Inferenz, die              |
 | inkoherent                 |
 | inkommensurabel            |
+| Inkommensurabilität, die   |
 | insinuieren                |
 | in­s­tan­tan               |
 | instruktiv                 |
@@ -199,14 +217,18 @@ als man ist.
 | konstituieren              |
 | konstitutiv                |
 | konstruktivistisch         |
+| konterkarieren             |
+| kon­ter­mi­nie­ren         |
 | kontextualisieren          |
 | kontingent                 |
 | Kontingenz, die            |
 | Konvektion, die            |
 | Konvent, der               |
+| konvergent                 |
 | Konvergenz, die            |
 | Konvolut, das              |
 | konzentrisch               |
+| kuperieren                 |
 | Kuratel, die               |
 | Kurator, der               |
 | kursorisch                 |
@@ -222,6 +244,7 @@ als man ist.
 | Lex, die                   |
 | Liaision, die              |
 | Libertinage, die           |
+| Litigation, die            |
 | li­zi­tie­ren              |
 | mäandern                   |
 | Machination, die           |
@@ -229,6 +252,8 @@ als man ist.
 | magnum opus                |
 | Makulatur, die             |
 | manichäisch                |
+| Ma­ni­chä­is­mus, der      |
+| Matinee, das               |
 | Maxime, die                |
 | Menetekel, das             |
 | metaphysisch               |
@@ -238,6 +263,8 @@ als man ist.
 | Modus Vivendi, der         |
 | Monade, die                |
 | mondän                     |
+| mo­ra­lin­sau­er           |
+| Mo­ra­lin, das             |
 | Moratorium, das            |
 | multilateral               |
 | mü­ßig                     |
@@ -260,6 +287,7 @@ als man ist.
 | Orthographie, die          |
 | ostentativ                 |
 | Pa­li­sa­de, die           |
+| Pa­ra­dig­ma, das          |
 | Parität, die               |
 | paritätisch                |
 | parlieren                  |
@@ -275,6 +303,7 @@ als man ist.
 | Phänotyp, der              |
 | Phan­tas­ma, das           |
 | Pharisäertum, das          |
+| Philister, der             |
 | Plattitüde, die            |
 | Plebiszit, das             |
 | Plenarsitzung, die         |
@@ -306,6 +335,8 @@ als man ist.
 | Regress, der               |
 | Reigen, der                |
 | Rekonvaleszenz, die        |
+| Rekuperation, die          |
+| Rekurs, der                |
 | renitent                   |
 | Replik, die                |
 | replizieren                |
@@ -320,12 +351,16 @@ als man ist.
 | rezipieren                 |
 | Re­zi­p­ro­zi­tät, die     |
 | Riposte, die               |
+| sa­li­ent                  |
+| Schisma, das               |
+| sakrosankt                 |
 | satisfaktionsfähig         |
 | Scharade, die              |
 | Scholastik, die            |
 | sekundieren                |
 | semantisch                 |
 | Semiotik, die              |
+| Sentenz, die               |
 | serologisch                |
 | Sezession, die             |
 | sich Bahn brechen          |
@@ -336,6 +371,7 @@ als man ist.
 | Solidität, die             |
 | Soma, das                  |
 | somatisch                  |
+| sonor                      |
 | Sophisma, das              |
 | Sophisterei, die           |
 | Souverän, der              |
@@ -349,6 +385,7 @@ als man ist.
 | Sub­s­ti­tu­ie­rung, die   |
 | subsumieren                |
 | subversiv                  |
+| Syllogismus, der           |
 | sykophant                  |
 | Sykophantentum, das        |
 | Symposium, das             |
@@ -362,6 +399,7 @@ als man ist.
 | Taxonomie, die             |
 | Topos, der                 |
 | Traktat, das               |
+| Trias, die                 |
 | Triumvirat, das            |
 | Ultima Ratio, die          |
 | unbotmäßig                 |
