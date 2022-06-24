@@ -28,7 +28,7 @@
     "prettier": "^2.0.5"
   },
   "dependencies": {
-    "jsdom": "^16.4.0",
+    "jsdom": "^16.5.0",
     "node-fetch": "^2.6.1"
   }
 }
